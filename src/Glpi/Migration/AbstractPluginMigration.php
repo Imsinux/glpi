@@ -282,7 +282,7 @@ abstract class AbstractPluginMigration
                 $this->result->addMessage(
                     MessageType::Debug,
                     sprintf(
-                        __('%s "%s" (%d) is most recent on GLPI side, its update has been skipped.'),
+                        __('%s "%s" (%d) is most recent on Parto side, its update has been skipped.'),
                         $itemtype::getTypeName(1),
                         $item->getFriendlyName() ?: NOT_AVAILABLE,
                         $item->getID(),

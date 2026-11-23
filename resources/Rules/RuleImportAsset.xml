@@ -433,7 +433,7 @@
         <entities_id>Root entity</entities_id>
         <sub_type>RuleImportAsset</sub_type>
         <ranking>12</ranking>
-        <name>Computer update (by serial + uuid is empty in GLPI)</name>
+        <name>Computer update (by serial + uuid is empty in Parto)</name>
         <description></description>
         <match>AND</match>
         <is_active>1</is_active>
@@ -1387,7 +1387,7 @@
         <entities_id>Root entity</entities_id>
         <sub_type>RuleImportAsset</sub_type>
         <ranking>43</ranking>
-        <name>Phone update (by serial + uuid is empty in GLPI)</name>
+        <name>Phone update (by serial + uuid is empty in Parto)</name>
         <description></description>
         <match>AND</match>
         <is_active>1</is_active>

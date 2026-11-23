@@ -132,7 +132,7 @@
                </div>
                <div class="modal-body text-center">
                   <p>
-                     <img src="{{ path('pics/logos/logo-GLPI-100-grey.png') }}" alt="" style="max-width:100px; height:auto;" />
+                     <img src="{{ path('pics/logos/parto.png') }}" alt="" style="max-width:100px; height:auto;" />
                   </p>
                   {% if not call('\\Glpi\\Toolbox\\VersionParser::isStableRelease', [constant('GLPI_VERSION')]) %}
                       <div class='alert alert-important alert-warning d-flex'>
@@ -140,7 +140,7 @@
                       </div>
                   {% endif %}
                   <p><a href="https://glpi-project.org/" title="Powered by Teclib and contributors" class="copyright">
-                     <span class="d-block">GLPI {{ constant('GLPI_VERSION') }}</span>
+                     <span class="d-block">{{ __(config('app_name')) }} {{ constant('GLPI_VERSION') }}</span>
                      Copyright (C) 2015-{{ constant('GLPI_YEAR') }} Teclib' and contributors
                   </a></p>
                   {% if found_new_version is not null %}

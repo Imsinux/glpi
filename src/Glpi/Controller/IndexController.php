@@ -41,7 +41,7 @@ use Glpi\Http\Firewall;
 use Glpi\Locale\LanguageRegistry;
 use Glpi\Plugin\Hooks;
 use Glpi\Security\Attribute\SecurityStrategy;
-use Html;
+use Session;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
@@ -77,6 +77,12 @@ final class IndexController extends AbstractController
 
         Auth::checkAlternateAuthSystems(true, $redirect);
 
+        if (!Session::getLoginUserID()) {
+            $_SESSION['glpilanguage'] = 'fa_IR';
+        }
+        $login_language = Session::loadLanguage('fa_IR');
+        $page_lang = LanguageRegistry::get($login_language)->getPageLang();
+
         $errors = [];
         if (isset($_GET['error']) && $redirect !== '') {
             switch ($_GET['error']) {
@@ -99,7 +105,7 @@ final class IndexController extends AbstractController
                 'errors'    => $errors,
                 'title'     => __('Access denied'),
                 'login_url' => $CFG_GLPI["root_doc"] . '/front/logout.php?noAUTO=1&redirect=' . \rawurlencode($redirect),
-                'lang'      => LanguageRegistry::get($_SESSION['glpilanguage'])->getPageLang(),
+                'lang'      => $page_lang,
             ]);
         }
 
@@ -114,8 +120,8 @@ final class IndexController extends AbstractController
         return $this->render('pages/login.html.twig', [
             'rand'                => $rand,
             'card_bg_width'       => true,
-            'lang'                => LanguageRegistry::get($_SESSION['glpilanguage'])->getPageLang(),
-            'title'               => __('Authentication'),
+            'lang'                => $page_lang,
+            'title'               => __('Sign in'),
             'noAuto'              => $_GET["noAUTO"] ?? 0,
             'redirect'            => $redirect,
             'text_login'          => $CFG_GLPI['text_login'],
@@ -136,7 +142,6 @@ final class IndexController extends AbstractController
                 || count($PLUGIN_HOOKS[Hooks::DISPLAY_LOGIN] ?? []) > 0
                 || $CFG_GLPI["use_public_faq"],
             'auth_dropdown_login' => Auth::dropdownLogin(false, $rand),
-            'copyright_message'   => Html::getCopyrightMessage(false),
             'must_call_cron'      => CronTask::mustRunWebTasks(),
         ]);
     }

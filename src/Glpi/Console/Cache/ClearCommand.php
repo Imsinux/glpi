@@ -58,7 +58,7 @@ class ClearCommand extends Command
         parent::configure();
 
         $this->setName('cache:clear');
-        $this->setDescription('Clear GLPI cache.');
+        $this->setDescription('Clear Parto cache.');
 
         $this->addOption(
             'context',

@@ -83,7 +83,7 @@ abstract class Spreadsheet extends ExportSearchOutput
 
         //write metadata
         $spread->getProperties()
-            ->setCreator("GLPI " . GLPI_VERSION)
+            ->setCreator(__('Parto') . ' ' . GLPI_VERSION)
             ->setTitle($this->getTitle($data))
             ->setCustomProperty('items count', $data['data']['totalcount'])
         ;

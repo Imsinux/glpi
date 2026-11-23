@@ -1,3 +1,7 @@
+# Development reference
+
+Use the [GLPI Developer Documentation](https://glpi-developer-documentation.readthedocs.io/en/master/) as a reference for development and localization.
+
 # Security reports
 
 - **Reporters:** follow the format in [SECURITY.md](SECURITY.md) and assess applicability using [THREAT_MODEL.md](THREAT_MODEL.md). Write concise, factual reports; distinguish verified behavior from assumptions. Do not attach a patch; the GLPI team will offer you the opportunity to review its patch before publication.

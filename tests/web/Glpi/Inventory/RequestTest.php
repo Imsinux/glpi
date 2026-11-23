@@ -355,7 +355,7 @@ class RequestTest extends TestCase
             $this->assertInstanceOf(ResponseInterface::class, $response);
             $this->checkJsonResponse(
                 $response,
-                '{"status":"error","message":"Server configuration error: invalid inventory authentication setting. Please configure the Inventory \u2192 Authorization header in GLPI.","expiration":24}',
+                '{"status":"error","message":"Server configuration error: invalid inventory authentication setting. Please configure the Inventory \u2192 Authorization header in Parto.","expiration":24}',
                 503
             );
         } finally {

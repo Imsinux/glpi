@@ -43,6 +43,8 @@ use Glpi\Plugin\Hooks;
  */
 class NotificationTarget extends CommonDBChild
 {
+    public const DEFAULT_SUBJECT_TAG = 'Parto';
+
     /** @var string unused variable */
     public string $prefix                      = '';
     // From CommonDBChild
@@ -307,7 +309,7 @@ class NotificationTarget extends CommonDBChild
             ''
         ));
         if (empty($perso_tag)) {
-            $perso_tag = "GLPI";
+            $perso_tag = self::DEFAULT_SUBJECT_TAG;
         }
         return "[$perso_tag] ";
     }

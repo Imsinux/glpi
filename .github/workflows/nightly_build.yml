@@ -1,4 +1,4 @@
-name: "GLPI nightly build"
+name: "Parto nightly build"
 
 permissions:
   contents: "read"

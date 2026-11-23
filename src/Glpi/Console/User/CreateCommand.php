@@ -46,7 +46,7 @@ class CreateCommand extends AbstractUserCommand
         parent::configure();
 
         $this->setName('user:create');
-        $this->setDescription(__('Create a new local GLPI user'));
+        $this->setDescription(__('Create a new local Parto user'));
 
         $this->addOption('password', 'p', InputOption::VALUE_OPTIONAL, __('Password'));
     }

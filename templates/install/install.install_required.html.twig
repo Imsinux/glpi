@@ -30,7 +30,7 @@
  # ---------------------------------------------------------------------
  #}
 
-{% set title = __('GLPI setup') %}
+{% set title = __('Parto setup') %}
 
 {% extends 'layout/page_card_notlogged.html.twig' %}
 
@@ -39,17 +39,17 @@
     <div class="empty p-0">
         <i class="fas fa-tools fa-3x mb-3" aria-hidden="true"></i>
 
-        <p class="empty-title">{{ __('GLPI setup') }}</p>
+        <p class="empty-title">{{ __('Parto setup') }}</p>
 
         <p class="empty-subtitle">
-            {{ __('The GLPI database must be configured and installed.') }}
+            {{ __('The Parto database must be configured and installed.') }}
         </p>
         <div class="empty-action">
             <a href="{{ path('/install/install.php') }}" class="btn btn-primary">{{ __('Go to install page') }}</a>
         </div>
 
         <div class="alert alert-warning mt-4">
-            {{ __('If you see this page when the installation has already been done, it means that the GLPI database configuration file has been removed or corrupted.') }}
+            {{ __('If you see this page when the installation has already been done, it means that the Parto database configuration file has been removed or corrupted.') }}
         </div>
     </div>
 </div>

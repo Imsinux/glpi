@@ -592,7 +592,7 @@ TWIG;
     #[Override]
     public function getName(): string
     {
-        return _n('GLPI Object', 'GLPI Objects', Session::getPluralNumber());
+        return _n('Parto Object', 'Parto Objects', Session::getPluralNumber());
     }
 
     #[Override]

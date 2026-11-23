@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/php-mariadb
 {
-    "name": "GLPI docker devcontainer",
+    "name": "Parto docker devcontainer",
     "dockerComposeFile": "../docker-compose.yaml",
     "service": "app",
     "workspaceFolder": "/var/www/glpi",
@@ -9,7 +9,7 @@
     "forwardPorts": [8080, 8090, 8025],
     "portsAttributes": {
         "8080": {
-            "label": "GLPI"
+            "label": "Parto"
         },
         "8090": {
             "label": "DBGate"

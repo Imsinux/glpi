@@ -58,7 +58,7 @@ class DownloadCommand extends AbstractMarketplaceCommand
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         if (!Controller::isCLIAllowed()) {
-            $output->writeln("<error>" . __('Access to the marketplace CLI commands is disallowed by the GLPI configuration') . "</error>");
+            $output->writeln("<error>" . __('Access to the marketplace CLI commands is disallowed by the Parto configuration') . "</error>");
             return 1;
         }
 

@@ -103,7 +103,7 @@ abstract class AbstractPluginToCoreCommand extends AbstractCommand
             // Ask for confirmation (unless --no-interaction)
             $output->writeln(
                 [
-                    sprintf(__('You are about to launch migration of "%s" plugin data into GLPI core tables.'), $this->getPluginKey()),
+                    sprintf(__('You are about to launch migration of "%s" plugin data into Parto core tables.'), $this->getPluginKey()),
                     __('It is better to make a backup of your existing data before continuing.'),
                 ],
                 OutputInterface::VERBOSITY_QUIET

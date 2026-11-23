@@ -4,8 +4,8 @@
         <entities_id>Root entity</entities_id>
         <sub_type>RuleMailCollector</sub_type>
         <ranking>1</ranking>
-        <name>GLPI notifications</name>
-        <description>Exclude emails corresponding to a GLPI notification</description>
+        <name>Parto notifications</name>
+        <description>Exclude emails corresponding to a Parto notification</description>
         <match>AND</match>
         <is_active>1</is_active>
         <comment></comment>

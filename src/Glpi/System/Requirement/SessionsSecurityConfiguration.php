@@ -68,7 +68,7 @@ class SessionsSecurityConfiguration extends AbstractRequirement
         }
         $cookie_secure_ko = $is_https_request && !$cookie_secure;
         if ($is_cli || $cookie_secure_ko) {
-            $this->validation_messages[] = __('PHP directive "session.cookie_secure" should be set to "on" when GLPI can be accessed on HTTPS protocol.');
+            $this->validation_messages[] = __('PHP directive "session.cookie_secure" should be set to "on" when Parto can be accessed on HTTPS protocol.');
         }
 
         // 'session.cookie_samesite' can be:

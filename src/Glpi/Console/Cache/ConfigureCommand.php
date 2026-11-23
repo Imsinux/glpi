@@ -123,7 +123,7 @@ class ConfigureCommand extends AbstractCommand implements ConfigurationCommandIn
             sprintf(__('%s DSN format: %s'), $adapters[CacheManager::SCHEME_REDIS], 'redis://[pass@][ip|host|socket[:port]][/db-index]'),
             sprintf(__('%s DSN format: %s'), $adapters[CacheManager::SCHEME_REDISS], 'rediss://[pass@][ip|host|socket[:port]][/db-index]'),
             '',
-            __('Cache namespace can be use to ensure either separation or sharing of multiple GLPI instances data on same cache system.'),
+            __('Cache namespace can be use to ensure either separation or sharing of multiple Parto instances data on same cache system.'),
         ];
         $this->setHelp(implode("\n", $help_lines));
     }

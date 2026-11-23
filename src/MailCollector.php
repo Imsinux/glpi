@@ -2334,7 +2334,7 @@ class MailCollector extends CommonDBTM
 
     /**
      * Get the notification subject tags (`[<tag> #<id>]`) configured across the
-     * entities, plus the default `GLPI` tag. Computed once per collector instance.
+     * entities, plus the current and legacy default tags. Computed once per collector instance.
      *
      * @return string[]
      */
@@ -2344,7 +2344,7 @@ class MailCollector extends CommonDBTM
             /** @var DBmysql $DB */
             global $DB;
 
-            $tags = ['GLPI'];
+            $tags = [NotificationTarget::DEFAULT_SUBJECT_TAG, 'GLPI'];
             $iterator = $DB->request([
                 'SELECT'   => 'notification_subject_tag',
                 'DISTINCT' => true,

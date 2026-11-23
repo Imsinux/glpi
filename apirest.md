@@ -1,4 +1,4 @@
-# GLPI REST API:  Documentation
+# Parto REST API:  Documentation
 
 ## Glossary
 
@@ -11,8 +11,8 @@ Method
     See: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods
 
 itemtype
-:   A GLPI type, could be an asset, an ITIL or a configuration object, etc.
-    This type must be a class who inherits CommonDTBM GLPI class.
+:   A Parto type, could be an asset, an ITIL or a configuration object, etc.
+    This type must be a class who inherits CommonDTBM Parto class.
 
 searchOption
 :   A column identifier (integer) of an itemtype (ex: 1 -> id, 2 -> name, ...).
@@ -59,7 +59,7 @@ App(lication) token
   This read-only mode allow to use this API with parallel calls.
   In write mode, sessions are locked and your client must wait the end of a call before the next one can execute.
 
-* You can filter API access by enable the following parameters in GLPI General Configuration (API tab):
+* You can filter API access by enable the following parameters in Parto General Configuration (API tab):
   * IPv4 range
   * IPv6 address
   * *App-Token* parameter: if not empty, you should pass this parameter in all of your API calls
@@ -72,7 +72,7 @@ App(lication) token
 * **Description**: Request a session token to uses other API endpoints.
 * **Method**: GET
 * **Parameters**: (Headers)
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
   * a couple *login* & *password*: 2 parameters to login with user authentication.
      You should pass this 2 parameters in [http basic auth](https://en.wikipedia.org/wiki/Basic_access_authentication).
      It consists in a Base64 string with login and password separated by ":"
@@ -130,7 +130,7 @@ $ curl -X GET \
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Returns**:
   * 200 (OK).
   * 400 (Bad Request) with a message indicating an error in input parameter.
@@ -151,7 +151,7 @@ $ curl -X GET \
 
 This endpoint allows to request password recovery and password reset. This endpoint works under the following
 conditions:
-* GLPI has notifications enabled
+* Parto has notifications enabled
 * the email address of the user belongs to a user account.
 
 Reset password request:
@@ -206,7 +206,7 @@ $ curl -X PUT \
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Returns**:
   * 200 (OK) with an array of all profiles.
   * 400 (Bad Request) with a message indicating an error in input parameter.
@@ -242,7 +242,7 @@ $ curl -X GET \
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Returns**:
   * 200 (OK) with an array representing current profile.
   * 400 (Bad Request) with a message indicating an error in input parameter.
@@ -272,7 +272,7 @@ $ curl -X GET \
 * **Method**: POST
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (JSON Payload)
   * *profiles_id*: (default 'all') ID of the new active profile. Mandatory.
 * **Returns**:
@@ -300,7 +300,7 @@ $ curl -X POST \
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (query string)
   * *is_recursive* (default: false): Also display sub entities of the active entity. Optionnal
 * **Returns**:
@@ -335,7 +335,7 @@ $ curl -X GET \
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Returns**:
   * 200 (OK) with an array with 3 keys:
     * *active_entity*: current set entity.
@@ -372,7 +372,7 @@ $ curl -X GET \
 * **Method**: POST
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (JSON Payload)
   * *entities_id*: (default 'all') ID of the new active entity ("all" => load all possible entities). Optional.
   * *is_recursive*: (default false) Also display sub entities of the active entity.  Optional.
@@ -400,7 +400,7 @@ $ curl -X POST \
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Returns**:
   * 200 (OK) with an array representing the php session.
   * 400 (Bad Request) with a message indicating an error in input parameter.
@@ -424,14 +424,14 @@ $ curl -X GET \
    }
 ```
 
-## Get GLPI config
+## Get Parto config
 
 * **URL**: [apirest.php/getGlpiConfig/](getGlpiConfig/?debug)
 * **Description**: Return the current $CFG_GLPI.
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Returns**:
   * 200 (OK) with an array representing the php global variable $CFG_GLPI.
   * 400 (Bad Request) with a message indicating an error in input parameter.
@@ -463,7 +463,7 @@ $ curl -X GET \
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (query string)
   * *id*: unique identifier of the itemtype. Mandatory.
   * *expand_dropdowns* (default: false): show dropdown name instead of id. Optional.
@@ -563,7 +563,7 @@ Note: To download a document see [Download a document file](#download-a-document
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (query string)
   * *expand_dropdowns* (default: false): show dropdown name instead of id. Optional.
   * *get_hateoas* (default: true): Show relation of item in a links attribute. Optional.
@@ -671,7 +671,7 @@ $ curl -X GET \
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (query string)
   * id: unique identifier of the parent itemtype. Mandatory.
   * *expand_dropdowns* (default: false): show dropdown name instead of id. Optional.
@@ -737,7 +737,7 @@ $ curl -X GET \
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (query string)
   * *items*: items to retrieve. Mandatory.
               Each line of this array should contains two keys:
@@ -796,7 +796,7 @@ $ curl -X GET \
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (query string)
   * *raw*: return searchoption uncleaned (as provided by core)
 * **Returns**:
@@ -846,12 +846,12 @@ $ curl -X GET \
 ## Search items
 
 * **URL**: [apirest.php/search/:itemtype/](search/Computer/?debug)
-* **Description**: Expose the GLPI searchEngine and combine criteria to retrieve a list of elements of specified itemtype.
+* **Description**: Expose the Parto searchEngine and combine criteria to retrieve a list of elements of specified itemtype.
   > Note: you can use 'AllAssets' itemtype to retrieve a combination of all asset's types.
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (query string)
   * *criteria*: array of criterion objects to filter search. Optional.
     You can optionally precise `meta=true` to pass a searchoption of another itemtype (meta-criteria).
@@ -952,7 +952,7 @@ $ curl -X GET \
   * *forcedisplay*: array of columns to display (default empty = use display preferences and searched criteria).
                      Some columns will be always presents (1: id, 2: name, 80: Entity).
                      Optional.
-  * *rawdata* (default false): a boolean for displaying raws data of the Search engine of GLPI (like SQL request, full searchoptions, etc)
+  * *rawdata* (default false): a boolean for displaying raws data of the Search engine of Parto (like SQL request, full searchoptions, etc)
   * *withindexes* (default false): a boolean to retrieve rows indexed by items id.
    By default this option is set to false, because order of JSON objects (which are identified by index) cannot be garrantued  (from <http://json.org/> : An object is an unordered set of name/value pairs).
    So, we provide arrays to guarantying sorted rows.
@@ -1020,11 +1020,11 @@ criteria\[0\]\[link\]\=AND\
 ## Add item(s)
 
 * **URL**: apirest.php/:itemtype/
-* **Description**: Add an object (or multiple objects) into GLPI.
+* **Description**: Add an object (or multiple objects) into Parto.
 * **Method**: POST
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (JSON Payload)
   * *input*: an object with fields of itemtype to be inserted.
               You can add several items in one action by passing an array of objects.
@@ -1077,11 +1077,11 @@ Note: To upload a document see [Upload a document file](#upload-a-document-file)
 ## Update item(s)
 
 * **URL**: apirest.php/:itemtype/:id
-* **Description**: Update an object (or multiple objects) existing in GLPI.
+* **Description**: Update an object (or multiple objects) existing in Parto.
 * **Method**: PUT or PATCH
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (JSON Payload)
   * *id*: the unique identifier of the itemtype passed in URL. You **could skip** this parameter by passing it in the input payload.
   * *input*: Array of objects with fields of itemtype to be updated.
@@ -1132,11 +1132,11 @@ $ curl -X PUT \
 ## Delete item(s)
 
 * **URL**: apirest.php/:itemtype/:id
-* **Description**: Delete an object existing in GLPI.
+* **Description**: Delete an object existing in Parto.
 * **Method**: DELETE
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (query string)
   * *id*: unique identifier of the itemtype passed in the URL. You **could skip** this parameter by passing it in the input payload.
       OR
@@ -1196,7 +1196,7 @@ $ curl -X DELETE \
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (query string)
   * *is_deleted* (default false): Show specific actions for items in the trashbin.
 * **Returns**:
@@ -1315,7 +1315,7 @@ $ curl -X GET \
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (query string)
 * **Returns**:
   * 200 (OK).
@@ -1435,7 +1435,7 @@ $ curl -X GET \
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (query string)
 * **Returns**:
   * 200 (OK).
@@ -1481,7 +1481,7 @@ $ curl -X GET \
 * **Method**: POST
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Parameters**: (json payload)
   * *ids* items to execute the action on. Mandatory.
   * *specific action parameters* some actions require specific parameters to run. You can check them through the 'getMassiveActionParameters' endpoint.
@@ -1543,7 +1543,7 @@ $ curl -X POST \
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
   * *Accept*: must be **application/octet-stream**. This header OR the parameter *alt* is mandatory
 * **Parameters**: (query string)
   * *id*: unique identifier of the itemtype passed in the URL. You **could skip** this parameter by passing it in the input payload.
@@ -1592,7 +1592,7 @@ The body of the answer contains the raw file attached to the document.
 * **Method**: GET
 * **Parameters**: (Headers)
   * *Session-Token*: session var provided by [initSession](#init-session) endpoint. Mandatory.
-  * *App-Token*: authorization string provided by the GLPI API configuration. Optional.
+  * *App-Token*: authorization string provided by the Parto API configuration. Optional.
 * **Returns**:
   * 200 (OK) with the raw image in the request body.
   * 204 (No content) if the request is correct but the specified user doesn't have a profile picture.
@@ -1616,7 +1616,7 @@ The body of the answer contains the raw image.
 
 ### ERROR_ITEM_NOT_FOUND
 
-The desired resource (itemtype-id) was not found in the GLPI database.
+The desired resource (itemtype-id) was not found in the Parto database.
 
 ### ERROR_BAD_ARRAY
 
@@ -1629,7 +1629,7 @@ You specified an inexistent or not not allowed resource.
 ### ERROR_RIGHT_MISSING
 
 The current logged user miss rights in his profile to do the provided action.
-Alter this profile or choose a new one for the user in GLPI main interface.
+Alter this profile or choose a new one for the user in Parto main interface.
 
 ### ERROR_SESSION_TOKEN_INVALID
 
@@ -1646,7 +1646,7 @@ The current API requires an App-Token header for using its methods.
 
 ### ERROR_WRONG_APP_TOKEN_PARAMETER
 
-It seems the provided application token doesn't exists in GLPI API configuration.
+It seems the provided application token doesn't exists in Parto API configuration.
 
 ### ERROR_NOT_DELETED
 
@@ -1655,7 +1655,7 @@ You must mark the item for deletion before actually deleting it
 ### ERROR_NOT_ALLOWED_IP
 
 We can't find an active client defined in configuration for your IP.
-Go to the GLPI Configuration > Setup menu and API tab to check IP access.
+Go to the Parto Configuration > Setup menu and API tab to check IP access.
 
 ### ERROR_LOGIN_PARAMETERS_MISSING
 
@@ -1666,32 +1666,32 @@ One of theses parameter(s) is missing:
 
 ### ERROR_LOGIN_WITH_CREDENTIALS_DISABLED
 
-The GLPI setup forbid the login with credentials, you must login with your user_token instead.
-See your personal preferences page or setup API access in GLPI main interface.
+The Parto setup forbid the login with credentials, you must login with your user_token instead.
+See your personal preferences page or setup API access in Parto main interface.
 
 ### ERROR_LOGIN_WITH_TOKEN_DISABLED
 
-The GLPI setup forbid the login with user token, you must login with your login/password instead.
+The Parto setup forbid the login with user token, you must login with your login/password instead.
 
 ### ERROR_GLPI_LOGIN_USER_TOKEN
 
 The provided user_token seems invalid.
-Check your personal preferences page in GLPI main interface.
+Check your personal preferences page in Parto main interface.
 
 ### ERROR_GLPI_LOGIN
 
-We cannot login you into GLPI. This error is not relative to API but GLPI core.
-Check the user administration and the GLPI logs files (in files/_logs directory).
+We cannot login you into Parto. This error is not relative to API but Parto core.
+Check the user administration and the Parto logs files (in files/_logs directory).
 
 ### ERROR_ITEMTYPE_NOT_FOUND_NOR_COMMONDBTM
 
-You asked a inexistent resource (endpoint). It's not a predefined (initSession, getFullSession, etc) nor a GLPI CommonDBTM resources.
+You asked a inexistent resource (endpoint). It's not a predefined (initSession, getFullSession, etc) nor a Parto CommonDBTM resources.
 
 ### ERROR_SQL
 
 We suspect an SQL error.
-This error is not relative to API but to GLPI core.
-Check the GLPI logs files (in files/_logs directory).
+This error is not relative to API but to Parto core.
+Check the Parto logs files (in files/_logs directory).
 
 ### ERROR_RANGE_EXCEED_TOTAL
 
@@ -1699,8 +1699,8 @@ The range parameter you provided is superior to the total count of available dat
 
 ### ERROR_GLPI_ADD
 
-We cannot add the object to GLPI. This error is not relative to API but to GLPI core.
-Check the GLPI logs files (in files/_logs directory).
+We cannot add the object to Parto. This error is not relative to API but to Parto core.
+Check the Parto logs files (in files/_logs directory).
 
 ### ERROR_GLPI_PARTIAL_ADD
 
@@ -1710,8 +1710,8 @@ You'll find with this error a collection of results.
 
 ### ERROR_GLPI_UPDATE
 
-We cannot update the object to GLPI. This error is not relative to API but to GLPI core.
-Check the GLPI logs files (in files/_logs directory).
+We cannot update the object to Parto. This error is not relative to API but to Parto core.
+Check the Parto logs files (in files/_logs directory).
 
 ### ERROR_GLPI_PARTIAL_UPDATE
 
@@ -1721,8 +1721,8 @@ You'll find with this error a collection of results.
 
 ### ERROR_GLPI_DELETE
 
-We cannot delete the object to GLPI. This error is not relative to API but to GLPI core.
-Check the GLPI logs files (in files/_logs directory).
+We cannot delete the object to Parto. This error is not relative to API but to Parto core.
+Check the Parto logs files (in files/_logs directory).
 
 ### ERROR_GLPI_PARTIAL_DELETE
 
@@ -1757,7 +1757,7 @@ You'll find below some examples to configure your web server to redirect your <h
 
 ### Apache Httpd
 
-We provide in root .htaccess of GLPI an example to enable API URL rewriting.
+We provide in root .htaccess of Parto an example to enable API URL rewriting.
 
 You need to uncomment (removing #) theses lines:
 
@@ -1771,7 +1771,7 @@ You need to uncomment (removing #) theses lines:
 ```
 
 By enabling URL rewriting, you could use API with this URL : <http://path/to/glpi/api/>.
-You need also to enable rewrite module in apache httpd and permit GLPI's .htaccess to override server configuration (see AllowOverride directive).
+You need also to enable rewrite module in apache httpd and permit Parto's .htaccess to override server configuration (see AllowOverride directive).
 
 **Note for apache+fpm users:**
 
@@ -1790,7 +1790,7 @@ server {
    listen 80 default_server;
    listen [::]:80 default_server;
 
-   # change here to match your GLPI directory
+   # change here to match your Parto directory
    root /var/www/html/glpi/;
 
    index index.html index.htm index.nginx-debian.html index.php;

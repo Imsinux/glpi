@@ -1399,13 +1399,13 @@ msgid_plural "Errors"
 msgstr[0] "ข้อผิดพลาด"
 
 #: templates/install/step0.html.twig
-msgid "Installation or update of GLPI"
-msgstr "ติดตั้ง หรือ อัปเดต GLPI"
+msgid "Installation or update of Parto"
+msgstr "ติดตั้ง หรือ อัปเดต Parto"
 
 #: templates/install/step0.html.twig
 msgid ""
-"Choose 'Install' for a completely new installation of GLPI, or select "
-"'Upgrade' to update your version of GLPI from an earlier version."
+"Choose 'Install' for a completely new installation of Parto, or select "
+"'Upgrade' to update your version of Parto from an earlier version."
 msgstr ""
 
 #: templates/install/step0.html.twig src/Computer.php:411 src/Plugin.php:2935
@@ -1505,19 +1505,19 @@ msgstr "ลองอีกครั้ง"
 #: templates/install/update.need_update.html.twig
 #: src/Glpi/Console/Application.php:289
 msgid ""
-"The GLPI codebase has been updated. The update of the GLPI database is "
+"The Parto codebase has been updated. The update of the Parto database is "
 "necessary."
 msgstr ""
-"โค้ดเบสของ GLPI ได้รับการอัปเดต จำเป็นต้องดำเนินการอัปเดตฐานข้อมูล GLPI"
+"โค้ดเบสของ Parto ได้รับการอัปเดต จำเป็นต้องดำเนินการอัปเดตฐานข้อมูล Parto"
 
 #: templates/install/update.need_update.html.twig
 msgid ""
-"You are trying to use GLPI with outdated files compared to the version of "
-"the database. Please install the correct GLPI files corresponding to the "
+"You are trying to use Parto with outdated files compared to the version of "
+"the database. Please install the correct Parto files corresponding to the "
 "version of your database."
 msgstr ""
-"คุณกำลังพยายามใช้ GLPI ด้วยไฟล์ที่เก่ากว่ารุ่นของฐานข้อมูล โปรดติดตั้งไฟล์ "
-"GLPI ที่ถูกต้องและตรงกับรุ่นของฐานข้อมูลของคุณ"
+"คุณกำลังพยายามใช้ Parto ด้วยไฟล์ที่เก่ากว่ารุ่นของฐานข้อมูล โปรดติดตั้งไฟล์ "
+"Parto ที่ถูกต้องและตรงกับรุ่นของฐานข้อมูลของคุณ"
 
 #: templates/install/step1.html.twig
 msgid "Checking write access to configuration files"
@@ -1539,8 +1539,8 @@ msgstr "สามารถยกเลิกสิทธิ์การเขี
 
 #: templates/install/step1.html.twig
 msgid ""
-"Checking of the compatibility of your environment with the execution of GLPI"
-msgstr "ตรวจสอบความเข้ากันได้ของสภาพแวดล้อมกับการทำงานของ GLPI"
+"Checking of the compatibility of your environment with the execution of Parto"
+msgstr "ตรวจสอบความเข้ากันได้ของสภาพแวดล้อมกับการทำงานของ Parto"
 
 #: templates/install/step1.html.twig src/Glpi/Console/AbstractCommand.php:269
 msgid "Do you want to continue?"
@@ -1569,12 +1569,12 @@ msgstr "โปรดทำเครื่องหมายที่ช่อง
 
 #: templates/install/install.install_required.html.twig install/update.php:98
 #: install/update.php:118 install/install.php:66 install/install.php:88
-msgid "GLPI setup"
-msgstr "การติดตั้ง GLPI"
+msgid "Parto setup"
+msgstr "การติดตั้ง Parto"
 
 #: templates/install/install.install_required.html.twig
-msgid "The GLPI database must be configured and installed."
-msgstr "ต้องกำหนดค่าและติดตั้งฐานข้อมูล GLPI"
+msgid "The Parto database must be configured and installed."
+msgstr "ต้องกำหนดค่าและติดตั้งฐานข้อมูล Parto"
 
 #: templates/install/install.install_required.html.twig
 msgid "Go to install page"
@@ -1583,10 +1583,10 @@ msgstr "ไปยังหน้าการติดตั้ง"
 #: templates/install/install.install_required.html.twig
 msgid ""
 "If you see this page when the installation has already been done, it means "
-"that the GLPI database configuration file has been removed or corrupted."
+"that the Parto database configuration file has been removed or corrupted."
 msgstr ""
 "กรณีที่หน้านี้ปรากฏขึ้นภายหลังการติดตั้งเสร็จสมบูรณ์ "
-"มีสาเหตุมาจากไฟล์ตั้งค่าฐานข้อมูลของ GLPI ถูกลบหรือเสียหาย"
+"มีสาเหตุมาจากไฟล์ตั้งค่าฐานข้อมูลของ Parto ถูกลบหรือเสียหาย"
 
 #: templates/install/step8.html.twig
 msgid "The installation is finished"
@@ -1618,13 +1618,13 @@ msgstr "คุณสามารถลบหรือแก้ไขบัญช
 
 #: templates/install/step8.html.twig
 #: templates/install/post_update_step.html.twig
-msgid "Use GLPI"
-msgstr "เริ่มใช้งาน GLPI"
+msgid "Use Parto"
+msgstr "เริ่มใช้งาน Parto"
 
 #: templates/install/post_update_step.html.twig
 #: src/Glpi/Console/Database/UpdateCommand.php:286
-msgid "The database schema is not consistent with the current GLPI version."
-msgstr "โครงสร้างฐานข้อมูลไม่สอดคล้องกับรุ่น GLPI ปัจจุบัน"
+msgid "The database schema is not consistent with the current Parto version."
+msgstr "โครงสร้างฐานข้อมูลไม่สอดคล้องกับรุ่น Parto ปัจจุบัน"
 
 #: templates/install/post_update_step.html.twig
 #: src/Glpi/Console/Database/UpdateCommand.php:288
@@ -6167,8 +6167,8 @@ msgstr ""
 
 #: templates/pages/setup/crontask/crontask.html.twig src/Plugin.php:2220
 #: src/CronTask.php:892 src/RuleImportEntity.php:134
-msgid "GLPI"
-msgstr "GLPI"
+msgid "Parto"
+msgstr "Parto"
 
 #: templates/pages/setup/crontask/crontask.html.twig src/CronTask.php:893
 msgid "CLI"
@@ -6329,8 +6329,8 @@ msgid "Action when a user is restored in the LDAP directory"
 msgstr "การดำเนินการเมื่อผู้ใช้ได้รับการกู้คืนในไดเรกทอรี LDAP"
 
 #: templates/pages/setup/authentication/setup.html.twig
-msgid "GLPI server time zone"
-msgstr "เขตเวลาเซิร์ฟเวอร์ GLPI"
+msgid "Parto server time zone"
+msgstr "เขตเวลาเซิร์ฟเวอร์ Parto"
 
 #: templates/pages/setup/authentication/setup.html.twig
 msgid "Actions when a user is deleted from the LDAP directory"
@@ -6940,11 +6940,11 @@ msgstr "ความลับ"
 #: templates/pages/setup/webhook/webhook_security.html.twig
 msgid ""
 "The webhook secret can be shared with a target server to allow it to "
-"validate requests are actually coming from the GLPI server and that the "
-"content was not modified between GLPI and the target."
+"validate requests are actually coming from the Parto server and that the "
+"content was not modified between Parto and the target."
 msgstr ""
 "สามารถแชร์ Webhook Secret "
-"กับเซิร์ฟเวอร์ปลายทางเพื่อใช้ตรวจสอบว่าคำขอส่งมาจากเซิร์ฟเวอร์ GLPI จริง "
+"กับเซิร์ฟเวอร์ปลายทางเพื่อใช้ตรวจสอบว่าคำขอส่งมาจากเซิร์ฟเวอร์ Parto จริง "
 "และเนื้อหาไม่ถูกแก้ไขระหว่างการส่ง"
 
 #: templates/pages/setup/webhook/webhook_security.html.twig
@@ -6958,16 +6958,16 @@ msgstr "การยืนยันตัวตนฝั่งปลายทา
 #: templates/pages/setup/webhook/webhook_security.html.twig
 msgid ""
 "Challenge–response authentication can be used to validate the identity of "
-"the target server before any data is sent from GLPI. This uses the shared "
+"the target server before any data is sent from Parto. This uses the shared "
 "secret that was generated in the above section."
 msgstr ""
 "การยืนยันตัวตนแบบ challenge–response "
-"สามารถนำมาใช้ตรวจสอบตัวตนของเซิร์ฟเวอร์ปลายทางก่อนที่ GLPI จะส่งข้อมูล "
+"สามารถนำมาใช้ตรวจสอบตัวตนของเซิร์ฟเวอร์ปลายทางก่อนที่ Parto จะส่งข้อมูล "
 "โดยใช้ shared secret ที่สร้างจากส่วนก่อนหน้า"
 
 #: templates/pages/setup/webhook/webhook_security.html.twig
-msgid "CRA is mandatory due to GLPI configuration"
-msgstr "CRA เป็นสิ่งจำเป็นเนื่องจากการกำหนดค่าของ GLPI"
+msgid "CRA is mandatory due to Parto configuration"
+msgstr "CRA เป็นสิ่งจำเป็นเนื่องจากการกำหนดค่าของ Parto"
 
 #: templates/pages/setup/webhook/webhook_security.html.twig
 msgid "Use CRA Challenge?"
@@ -7096,11 +7096,11 @@ msgstr "การตั้งค่าเอกสาร"
 msgid ""
 "The maximum upload size is primarily determined by the "
 "\"upload_max_filesize\" and \"post_max_size\" PHP settings. The setting "
-"below is to further restrict the uploads for just GLPI."
+"below is to further restrict the uploads for just Parto."
 msgstr ""
 "ขนาดอัปโหลดสูงสุดถูกกำหนดโดยการตั้งค่า PHP \"upload_max_filesize\" และ "
 "\"post_max_size\" เป็นหลัก "
-"การตั้งค่าด้านล่างนี้ใช้เพื่อจำกัดการอัปโหลดเฉพาะสำหรับ GLPI "
+"การตั้งค่าด้านล่างนี้ใช้เพื่อจำกัดการอัปโหลดเฉพาะสำหรับ Parto "
 "เพิ่มเติมเท่านั้น"
 
 #: templates/pages/setup/general/management_setup.html.twig
@@ -7247,8 +7247,8 @@ msgstr ""
 "\"telemetry\""
 
 #: templates/pages/setup/general/systeminfo_form.html.twig
-msgid "GLPI update"
-msgstr "การอัปเดต GLPI"
+msgid "Parto update"
+msgstr "การอัปเดต Parto"
 
 #: templates/pages/setup/general/systeminfo_form.html.twig
 msgid "Check if a new version is available"
@@ -7353,8 +7353,8 @@ msgstr "ติดตั้งส่วนขยาย %s สำเร็จ"
 
 #: templates/pages/setup/general/performance.html.twig
 #, php-format
-msgid "Installing and enabling the \"%s\" extension may improve GLPI performance"
-msgstr "การติดตั้งและเปิดใช้งานส่วนขยาย \"%s\" อาจช่วยเพิ่มประสิทธิภาพของ GLPI"
+msgid "Installing and enabling the \"%s\" extension may improve Parto performance"
+msgstr "การติดตั้งและเปิดใช้งานส่วนขยาย \"%s\" อาจช่วยเพิ่มประสิทธิภาพของ Parto"
 
 #: templates/pages/setup/general/performance.html.twig src/Config.php:1306
 #: src/Glpi/System/Requirement/Extension.php:81
@@ -7491,8 +7491,8 @@ msgid "Display counters"
 msgstr "แสดงตัวนับ"
 
 #: templates/pages/setup/general/preferences_setup.html.twig
-msgid "Show GLPI ID"
-msgstr "แสดง GLPI ID"
+msgid "Show Parto ID"
+msgstr "แสดง Parto ID"
 
 #: templates/pages/setup/general/preferences_setup.html.twig
 msgid "Keep devices when purging an item"
@@ -7817,10 +7817,10 @@ msgstr "อนุญาตให้อัปโหลดไฟล์โดยไ
 
 #: templates/pages/setup/general/general_setup.html.twig
 msgid ""
-"Do not use this option if your GLPI is reachable from the internet. Use at "
+"Do not use this option if your Parto is reachable from the internet. Use at "
 "your own risk."
 msgstr ""
-"อย่าใช้ตัวเลือกนี้หาก GLPI สามารถเข้าถึงได้จากอินเทอร์เน็ต "
+"อย่าใช้ตัวเลือกนี้หาก Parto สามารถเข้าถึงได้จากอินเทอร์เน็ต "
 "ใช้งานโดยยอมรับความเสี่ยง"
 
 #: templates/pages/setup/general/general_setup.html.twig
@@ -7996,10 +7996,10 @@ msgstr "การลงทะเบียน"
 #: templates/pages/setup/general/glpinetwork_setup.html.twig
 msgid ""
 "A registration key is needed to use some advanced features (like the plugin "
-"marketplace) in GLPI"
+"marketplace) in Parto"
 msgstr ""
 "จำเป็นต้องมีคีย์การลงทะเบียนเพื่อใช้ฟีเจอร์ขั้นสูงบางอย่าง (เช่น "
-"ตลาดปลั๊กอิน) ใน GLPI"
+"ตลาดปลั๊กอิน) ใน Parto"
 
 #: templates/pages/setup/general/glpinetwork_setup.html.twig
 #, php-format
@@ -8175,8 +8175,8 @@ msgid "Seconds behind source:"
 msgstr "วินาทีที่ตามหลังต้นทาง:"
 
 #: templates/pages/setup/general/dbreplica_setup.html.twig
-msgid "GLPI history delay:"
-msgstr "ความล่าช้าของประวัติ GLPI:"
+msgid "Parto history delay:"
+msgstr "ความล่าช้าของประวัติ Parto:"
 
 #: templates/pages/setup/general/dbreplica_setup.html.twig src/Ticket.php:2207
 #: src/HTMLTableMain.php:231 src/Infocom.php:812 src/ProjectTask.php:911
@@ -8198,10 +8198,10 @@ msgstr "ไม่มี"
 
 #: templates/pages/setup/general/dbreplica_setup.html.twig
 msgid ""
-"This indicates the delay between the source and the replica for GLPI history"
+"This indicates the delay between the source and the replica for Parto history"
 " (table: glpi_logs, column: date_mod)."
 msgstr ""
-"นี่แสดงถึงความล่าช้าระหว่างต้นทางและเรพลิกาสำหรับประวัติ GLPI (ตาราง: "
+"นี่แสดงถึงความล่าช้าระหว่างต้นทางและเรพลิกาสำหรับประวัติ Parto (ตาราง: "
 "glpi_logs, คอลัมน์: date_mod)"
 
 #: templates/pages/setup/general/dbreplica_setup.html.twig
@@ -9114,8 +9114,8 @@ msgstr "เมล์แจ้งเตือน"
 
 #: templates/pages/oauth/authorize.html.twig
 #, php-format
-msgid "%s wants to access your GLPI account"
-msgstr "%s ต้องการเข้าถึงบัญชี GLPI ของคุณ"
+msgid "%s wants to access your Parto account"
+msgstr "%s ต้องการเข้าถึงบัญชี Parto ของคุณ"
 
 #: templates/pages/oauth/authorize.html.twig
 msgid ""
@@ -9563,7 +9563,7 @@ msgstr ""
 
 #: templates/pages/reauth/prompt.html.twig
 msgid ""
-"The action you requested may change GLPI behavior or display confidential "
+"The action you requested may change Parto behavior or display confidential "
 "data."
 msgstr ""
 
@@ -9758,8 +9758,8 @@ msgid "Debug"
 msgstr "การแก้ปัญหา"
 
 #: templates/pages/admin/user/user.html.twig
-msgid "Use GLPI in mode"
-msgstr "ใช้ GLPI ในโหมด"
+msgid "Use Parto in mode"
+msgstr "ใช้ Parto ในโหมด"
 
 #: templates/pages/admin/user/user.html.twig
 msgid "Contact information"
@@ -10719,9 +10719,9 @@ msgstr ""
 #: templates/pages/admin/customobjects/main.html.twig
 msgid ""
 "It can be personalized, but some words are reserved such as classes from "
-"GLPI like Computer, Monitor, etc."
+"Parto like Computer, Monitor, etc."
 msgstr ""
-"สามารถปรับแต่งได้ แต่มีการสงวนคำบางคำไว้ เช่น คลาสจาก GLPI เช่น Computer, "
+"สามารถปรับแต่งได้ แต่มีการสงวนคำบางคำไว้ เช่น คลาสจาก Parto เช่น Computer, "
 "Monitor เป็นต้น"
 
 #: templates/pages/admin/customobjects/main.html.twig
@@ -11389,8 +11389,8 @@ msgstr ""
 "หรือการระบุกลุ่มผู้รับผิดชอบ)"
 
 #: templates/pages/admin/rules/index.html.twig
-msgid "The asset is created or updated in GLPI"
-msgstr "ข้อมูลอุปกรณ์จะถูกสร้างขึ้นหรืออัปเดตให้เป็นปัจจุบันในระบบ GLPI"
+msgid "The asset is created or updated in Parto"
+msgstr "ข้อมูลอุปกรณ์จะถูกสร้างขึ้นหรืออัปเดตให้เป็นปัจจุบันในระบบ Parto"
 
 #: templates/pages/admin/rules/index.html.twig
 msgid "You do not have the required permissions"
@@ -12274,10 +12274,10 @@ msgstr "โปรดเลือกประเภทที่แสดงถึ
 #: templates/pages/admin/assetdefinition/capacity/is_inventoriable_capacity_configuration_form.html.twig
 msgid ""
 "We need this information to send the inventory file in the correct inventory"
-" engine of the GLPI framework."
+" engine of the Parto framework."
 msgstr ""
 "เราต้องการข้อมูลนี้เพื่อส่งไฟล์สินค้าคงคลังไปยังเอนจินสินค้าคงคลังที่ถูกต้องของเฟรมเวิร์ก"
-" GLPI"
+" Parto"
 
 #: templates/pages/admin/assetdefinition/fields_display.html.twig
 #: js/src/vue/CustomObject/FieldPreview/Sidebar.vue:58
@@ -13889,8 +13889,8 @@ msgid "PHP OPcache reset successful"
 msgstr "รีเซ็ต PHP OPcache สำเร็จ"
 
 #: front/config.form.php:78
-msgid "GLPI cache reset successful"
-msgstr "รีเซ็ต GLPI แคชสำเร็จ"
+msgid "Parto cache reset successful"
+msgstr "รีเซ็ต Parto แคชสำเร็จ"
 
 #: front/config.form.php:86
 msgid "Translation cache reset successful"
@@ -18618,8 +18618,8 @@ msgstr "เรียกใช้กฎมาตรฐานการตั้ง
 
 #: src/RuleDictionnarySoftwareCollection.php:309
 #: src/RuleDictionnarySoftwareCollection.php:439
-msgid "Software deleted by GLPI dictionary rules"
-msgstr "ซอฟแวร์ลบโดย GLPI กฎมาตรฐานการตั้งชื่อ"
+msgid "Software deleted by Parto dictionary rules"
+msgstr "ซอฟแวร์ลบโดย Parto กฎมาตรฐานการตั้งชื่อ"
 
 #: src/DevicePciModel.php:44
 msgid "Other component model"
@@ -19056,8 +19056,8 @@ msgid "Synchronize"
 msgstr "ซิงโครไนซ์"
 
 #: src/AuthLDAP.php:1678
-msgid "Last update in GLPI"
-msgstr "อัปเดตล่าสุดใน GLPI"
+msgid "Last update in Parto"
+msgstr "อัปเดตล่าสุดใน Parto"
 
 #: src/AuthLDAP.php:1678
 msgid "Last update in the LDAP directory"
@@ -19527,8 +19527,8 @@ msgstr "ปลั๊กอินนี้ต้องการ PHP Parameter: %1
 
 #: src/Plugin.php:2282
 #, php-format
-msgid "This plugin requires GLPI parameter %1$s"
-msgstr "ปลั๊กอินนี้ต้องการ GLPI Parameter: %1$s"
+msgid "This plugin requires Parto parameter %1$s"
+msgstr "ปลั๊กอินนี้ต้องการ Parto Parameter: %1$s"
 
 #: src/Plugin.php:2613
 msgctxt "plugin"
@@ -19901,8 +19901,8 @@ msgstr "อัปเดตเป็นเวอร์ชัน %s เสร็�
 
 #: src/Migration.php:820
 #, php-format
-msgid "Automatically generated by GLPI %s"
-msgstr "สร้างโดยอัตโนมัติโดย GLPI %s"
+msgid "Automatically generated by Parto %s"
+msgstr "สร้างโดยอัตโนมัติโดย Parto %s"
 
 #. TRANS: %s is the table or item to migrate
 #: src/Migration.php:876 install/migrations/update_9.1.x_to_9.2.0.php:1211
@@ -20855,8 +20855,8 @@ msgid "Unsupported mail server type:%s."
 msgstr "ไม่รองรับประเภทของเมลเซิร์ฟเวอร์: %s"
 
 #: src/Auth.php:355 src/Auth.php:1057 src/Auth.php:1079 src/Auth.php:1107
-msgid "User not authorized to connect in GLPI"
-msgstr "ผู้ใช้ไม่ได้รับอนุญาตในการเชื่อมต่อใน GLPI"
+msgid "User not authorized to connect in Parto"
+msgstr "ผู้ใช้ไม่ได้รับอนุญาตในการเชื่อมต่อใน Parto"
 
 #: src/Auth.php:486
 msgid ""
@@ -20906,8 +20906,8 @@ msgid "Failed login for %1$s from IP %2$s"
 msgstr "เข้าสู่ระบบไม่ผ่าน %1$s จาก IP %2$s"
 
 #: src/Auth.php:1241
-msgid "Authentication on GLPI database"
-msgstr "การตรวจสอบบนฐานข้อมูล GLPI "
+msgid "Authentication on Parto database"
+msgstr "การตรวจสอบบนฐานข้อมูล Parto "
 
 #: src/Auth.php:1255 src/Auth.php:1270
 msgid "Authentication on a LDAP directory"
@@ -20935,8 +20935,8 @@ msgid "CAS"
 msgstr "CAS"
 
 #: src/Auth.php:1333 src/Auth.php:1767
-msgid "GLPI internal database"
-msgstr "ฐานข้อมูล GLPI "
+msgid "Parto internal database"
+msgstr "ฐานข้อมูล Parto "
 
 #: src/Auth.php:1345 src/Auth.php:1350 src/Auth.php:1355
 #, php-format
@@ -24145,11 +24145,11 @@ msgstr "รีเซ็ตรหัสผ่านสำเร็จ"
 
 #: src/User.php:5891 src/Glpi/Api/API.php:2286
 msgid ""
-"If the given email address corresponds to one and only one GLPI user, you "
+"If the given email address corresponds to one and only one Parto user, you "
 "will receive an email containing the information required to reset your "
 "password. Please contact your administrator if you do not receive an email."
 msgstr ""
-"หากที่อยู่อีเมลที่ระบุตรงกับผู้ใช้ GLPI เพียงคนเดียว "
+"หากที่อยู่อีเมลที่ระบุตรงกับผู้ใช้ Parto เพียงคนเดียว "
 "คุณจะได้รับอีเมลที่มีข้อมูลที่จำเป็นในการรีเซ็ตรหัสผ่านของคุณ "
 "โปรดติดต่อผู้ดูแลระบบของคุณหากคุณไม่ได้รับอีเมล"
 
@@ -24340,8 +24340,8 @@ msgid "Running"
 msgstr "Running"
 
 #: src/CronTask.php:956
-msgid "A minimum of 64 Mio is commonly required for GLPI."
-msgstr "โดยทั่วไป GLPI ต้องการหน่วยความจำอย่างน้อย 64 MB"
+msgid "A minimum of 64 Mio is commonly required for Parto."
+msgstr "โดยทั่วไป Parto ต้องการหน่วยความจำอย่างน้อย 64 MB"
 
 #: src/CronTask.php:962
 msgid "No task with Run mode = CLI, fix your tasks configuration"
@@ -24477,10 +24477,10 @@ msgstr "จำนวนวันในการเก็บรักษา Archi
 
 #: src/CronTask.php:2079
 msgid ""
-"You have at least one automatic action configured in GLPI mode, we advise "
+"You have at least one automatic action configured in Parto mode, we advise "
 "you to switch to CLI mode."
 msgstr ""
-"คุณมีงานอัตโนมัติอย่างน้อยหนึ่งรายการที่ตั้งค่าเป็นโหมด GLPI "
+"คุณมีงานอัตโนมัติอย่างน้อยหนึ่งรายการที่ตั้งค่าเป็นโหมด Parto "
 "เราขอแนะนำให้เปลี่ยนเป็นโหมด CLI"
 
 #: src/CronTask.php:2088
@@ -24809,10 +24809,10 @@ msgstr "สิ่งนี้จะรีเซ็ตคอลัมน์เป
 
 #: src/DisplayPreference.php:168
 msgid ""
-"This will only work for types from GLPI itself or enabled plugins that "
+"This will only work for types from Parto itself or enabled plugins that "
 "support this action."
 msgstr ""
-"สิ่งนี้จะทำงานเฉพาะกับประเภทจาก GLPI เอง "
+"สิ่งนี้จะทำงานเฉพาะกับประเภทจาก Parto เอง "
 "หรือปลั๊กอินที่เปิดใช้งานซึ่งรองรับการดำเนินการนี้"
 
 #: src/DisplayPreference.php:713
@@ -25710,27 +25710,27 @@ msgstr "คีย์การลงทะเบียนถูกต้อง"
 #: src/GLPINetwork.php:248
 #, php-format
 msgid ""
-"You need help to integrate GLPI in your IT, have a bug fixed or benefit from pre-configured rules or dictionaries?\n"
+"You need help to integrate Parto in your IT, have a bug fixed or benefit from pre-configured rules or dictionaries?\n"
 "\n"
 "We provide the %s space for you.\n"
 "GLPI-Network is a commercial service that includes a subscription for tier 3 support, ensuring the correction of bugs encountered with a commitment time.\n"
 "\n"
-"In this same space, you will be able to contact an official partner to help you with your GLPI integration."
+"In this same space, you will be able to contact an official partner to help you with your Parto integration."
 msgstr ""
-"คุณต้องการความช่วยเหลือในการรวม GLPI เข้ากับ IT ของคุณ, แก้ไขบั๊ก หรือรับประโยชน์จากกฎและมาตรฐานการตั้งชื่อที่กำหนดไว้ล่วงหน้าหรือไม่?\n"
+"คุณต้องการความช่วยเหลือในการรวม Parto เข้ากับ IT ของคุณ, แก้ไขบั๊ก หรือรับประโยชน์จากกฎและมาตรฐานการตั้งชื่อที่กำหนดไว้ล่วงหน้าหรือไม่?\n"
 "\n"
 "เราจัดเตรียมพื้นที่ %s ไว้สำหรับคุณ\n"
 "GLPI-Network เป็นบริการเชิงพาณิชย์ที่รวมการสมัครสมาชิกสำหรับการสนับสนุนระดับ 3 เพื่อให้มั่นใจว่าจะมีการแก้ไขบั๊กที่พบตามเวลาที่กำหนด\n"
 "\n"
-"ในพื้นที่เดียวกันนี้ คุณจะสามารถติดต่อพันธมิตรอย่างเป็นทางการเพื่อช่วยคุณในการรวม GLPI ของคุณ"
+"ในพื้นที่เดียวกันนี้ คุณจะสามารถติดต่อพันธมิตรอย่างเป็นทางการเพื่อช่วยคุณในการรวม Parto ของคุณ"
 
 #: src/GLPINetwork.php:263
 #, php-format
 msgid ""
-"Having troubles setting up an advanced GLPI module?\n"
+"Having troubles setting up an advanced Parto module?\n"
 "We can help you solve them. Sign up for support on %s."
 msgstr ""
-"มีปัญหาในการตั้งค่าโมดูล GLPI ขั้นสูงหรือไม่?\n"
+"มีปัญหาในการตั้งค่าโมดูล Parto ขั้นสูงหรือไม่?\n"
 "เราสามารถช่วยคุณแก้ปัญหาได้ สมัครรับการสนับสนุนที่ %s"
 
 #: src/Knowbase.php:67
@@ -25762,8 +25762,8 @@ msgid_plural "Update Sources"
 msgstr[0] "อัปเดตแหล่งที่มา"
 
 #: src/AutoUpdateSystem.php:49
-msgid "GLPI Native Inventory"
-msgstr "ระบบสินค้าคงคลังในตัวของ GLPI"
+msgid "Parto Native Inventory"
+msgstr "ระบบสินค้าคงคลังในตัวของ Parto"
 
 #: src/VirtualMachineType.php:44
 msgid "Virtualization system"
@@ -27105,8 +27105,8 @@ msgstr ""
 "และปลั๊กอินในเวอร์ชันอนาคต!"
 
 #: src/Telemetry.php:487
-msgid "Reference your GLPI"
-msgstr "อ้างอิงระบบ GLPI ของคุณ"
+msgid "Reference your Parto"
+msgstr "อ้างอิงระบบ Parto ของคุณ"
 
 #: src/Telemetry.php:489
 #, php-format
@@ -27521,9 +27521,9 @@ msgstr[0] "ซ็อกเก็ต"
 
 #: src/Glpi/Console/Build/GenerateCodeManifestCommand.php:58
 msgid ""
-"Generate GLPI source code manifest that could be used to validate source "
+"Generate Parto source code manifest that could be used to validate source "
 "code integrity."
-msgstr "สร้าง Manifest ของซอร์สโค้ด GLPI เพื่อใช้ตรวจสอบความถูกต้อง"
+msgstr "สร้าง Manifest ของซอร์สโค้ด Parto เพื่อใช้ตรวจสอบความถูกต้อง"
 
 #: src/Glpi/Console/Build/GenerateCodeManifestCommand.php:63
 msgid "Hash algorithm to use"
@@ -27631,10 +27631,10 @@ msgstr "ไดเรกทอรีสำหรับการตั้งค่
 
 #: src/Glpi/Console/Application.php:203
 msgid ""
-"Output language (default value is existing GLPI \"language\" configuration "
+"Output language (default value is existing Parto \"language\" configuration "
 "or \"en_GB\")"
 msgstr ""
-"ภาษาของข้อความแสดงผล (ค่าเริ่มต้นคือ \"ภาษา\" ที่กำหนดไว้ใน GLPI หรือ "
+"ภาษาของข้อความแสดงผล (ค่าเริ่มต้นคือ \"ภาษา\" ที่กำหนดไว้ใน Parto หรือ "
 "\"en_GB\")"
 
 #: src/Glpi/Console/Application.php:214
@@ -27673,8 +27673,8 @@ msgid "Run the \"%1$s\" command for more details."
 msgstr "เรียกใช้คำสั่ง \"%1$s\" เพื่อดูรายละเอียดเพิ่มเติม"
 
 #: src/Glpi/Console/User/DisableCommand.php:48
-msgid "Disable a GLPI user"
-msgstr "ปิดใช้งานผู้ใช้ GLPI"
+msgid "Disable a Parto user"
+msgstr "ปิดใช้งานผู้ใช้ Parto"
 
 #: src/Glpi/Console/User/DisableCommand.php:60
 msgid "User disabled"
@@ -27689,16 +27689,16 @@ msgid "User not found"
 msgstr "ไม่พบผู้ใช้"
 
 #: src/Glpi/Console/User/DeleteCommand.php:48
-msgid "Delete a GLPI user"
-msgstr "ลบผู้ใช้ GLPI"
+msgid "Delete a Parto user"
+msgstr "ลบผู้ใช้ Parto"
 
 #: src/Glpi/Console/User/DeleteCommand.php:59
 msgid "User deleted"
 msgstr "ลบผู้ใช้แล้ว"
 
 #: src/Glpi/Console/User/EnableCommand.php:48
-msgid "Enable a GLPI user"
-msgstr "เปิดใช้งานผู้ใช้ GLPI"
+msgid "Enable a Parto user"
+msgstr "เปิดใช้งานผู้ใช้ Parto"
 
 #: src/Glpi/Console/User/EnableCommand.php:60
 msgid "User enabled"
@@ -27729,8 +27729,8 @@ msgid "Passwords do not match"
 msgstr "รหัสผ่านไม่ตรงกัน"
 
 #: src/Glpi/Console/User/CreateCommand.php:49
-msgid "Create a new local GLPI user"
-msgstr "สร้างผู้ใช้ GLPI ในเครื่องใหม่"
+msgid "Create a new local Parto user"
+msgstr "สร้างผู้ใช้ Parto ในเครื่องใหม่"
 
 #: src/Glpi/Console/User/CreateCommand.php:60
 msgid "User already exists"
@@ -27745,8 +27745,8 @@ msgid "Failed to create user"
 msgstr "สร้างผู้ใช้ล้มเหลว"
 
 #: src/Glpi/Console/User/ResetPasswordCommand.php:50
-msgid "Reset the password of a local GLPI user"
-msgstr "รีเซ็ตรหัสผ่านของผู้ใช้ GLPI ในเครื่อง"
+msgid "Reset the password of a local Parto user"
+msgstr "รีเซ็ตรหัสผ่านของผู้ใช้ Parto ในเครื่อง"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:120
 msgid "Update database schema to new version"
@@ -27764,19 +27764,19 @@ msgstr "ไม่ต้องตรวจสอบความถูกต้อ
 
 #: src/Glpi/Console/Database/UpdateCommand.php:140
 msgid ""
-"Force execution of update from v-1 version of GLPI even if schema did not "
+"Force execution of update from v-1 version of Parto even if schema did not "
 "changed"
 msgstr ""
-"บังคับการดำเนินการ update จาก GLPI เวอร์ชัน v-1 แม้ว่า database schema "
+"บังคับการดำเนินการ update จาก Parto เวอร์ชัน v-1 แม้ว่า database schema "
 "จะไม่ได้มีการเปลี่ยนแปลง"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:182 install/install.php:449
 #, php-format
 msgid ""
-"Current GLPI version not found for database named \"%s\". Update cannot be "
+"Current Parto version not found for database named \"%s\". Update cannot be "
 "done."
 msgstr ""
-"ไม่พบเวอร์ชัน GLPI ปัจจุบันสำหรับฐานข้อมูลชื่อ \"%s\" "
+"ไม่พบเวอร์ชัน Parto ปัจจุบันสำหรับฐานข้อมูลชื่อ \"%s\" "
 "ไม่สามารถทำการอัปเดตได้"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:190
@@ -27802,12 +27802,12 @@ msgid "Database user"
 msgstr "Database User"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:194
-msgid "GLPI version"
-msgstr "เวอร์ชัน GLPI"
+msgid "Parto version"
+msgstr "เวอร์ชัน Parto"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:196
-msgid "GLPI database version"
-msgstr "GLPI Database Version"
+msgid "Parto database version"
+msgstr "Parto Database Version"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:203
 #: src/Glpi/Console/Migration/MyIsamToInnoDbCommand.php:86
@@ -27855,9 +27855,9 @@ msgstr "ข้ามการตรวจสอบความถูกต้อ
 #, php-format
 msgid ""
 "It is recommended to run the \"%s\" command to validate that the database "
-"schema is consistent with the current GLPI version."
+"schema is consistent with the current Parto version."
 msgstr ""
-"แนะนำให้รันคำสั่ง \"%s\" เพื่อตรวจสอบว่า Database Schema สอดคล้องกับ GLPI "
+"แนะนำให้รันคำสั่ง \"%s\" เพื่อตรวจสอบว่า Database Schema สอดคล้องกับ Parto "
 "เวอร์ชันปัจจุบัน"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:313
@@ -27876,8 +27876,8 @@ msgstr ""
 #: src/Glpi/Console/Database/UpdateCommand.php:331
 #, php-format
 msgid ""
-"The database schema is not consistent with the installed GLPI version (%s)."
-msgstr "Database Schema ไม่สอดคล้องกับเวอร์ชัน GLPI ที่ติดตั้ง (%s)"
+"The database schema is not consistent with the installed Parto version (%s)."
+msgstr "Database Schema ไม่สอดคล้องกับเวอร์ชัน Parto ที่ติดตั้ง (%s)"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:333
 #, php-format
@@ -28065,7 +28065,7 @@ msgstr "แก้ไขข้อผิดพลาดเหล่านี้แ
 
 #: src/Glpi/Console/Database/IsUpToDateCommand.php:53
 msgid ""
-"Check if the database schema version matches the installed GLPI version."
+"Check if the database schema version matches the installed Parto version."
 msgstr ""
 
 #: src/Glpi/Console/Database/IsUpToDateCommand.php:62
@@ -28116,11 +28116,11 @@ msgstr ""
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:163
 msgid ""
-"Plugin to check. If option is not used, checks will be done on GLPI core "
+"Plugin to check. If option is not used, checks will be done on Parto core "
 "database tables."
 msgstr ""
 "ปลั๊กอินที่จะใช้ในการตรวจสอบ หากไม่ได้เลือกตัวเลือกนี้ "
-"ระบบจะตรวจสอบจากตารางฐานข้อมูลของ GLPI core"
+"ระบบจะตรวจสอบจากตารางฐานข้อมูลของ Parto core"
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:171
 #: src/Glpi/Console/AbstractCommand.php:113
@@ -28128,12 +28128,12 @@ msgid "Unable to connect to database."
 msgstr "ไม่สามารถเชื่อมต่อกับฐานข้อมูลได้"
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:204
-msgid "Unable to fetch GLPI version."
-msgstr "ไม่สามารถเรียกเวอร์ชัน GLPI ได้"
+msgid "Unable to fetch Parto version."
+msgstr "ไม่สามารถเรียกเวอร์ชัน Parto ได้"
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:216
-msgid "The database contains no GLPI tables."
-msgstr "ฐานข้อมูลไม่มีตารางของ GLPI"
+msgid "The database contains no Parto tables."
+msgstr "ฐานข้อมูลไม่มีตารางของ Parto"
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:217
 #, php-format
@@ -28166,8 +28166,8 @@ msgid "Unknown table \"%s\" has been found in database."
 msgstr "พบตารางที่ไม่รู้จัก \"%s\" ในฐานข้อมูล"
 
 #: src/Glpi/Console/Database/InstallCommand.php:112
-msgid "Default language of GLPI"
-msgstr "ภาษาเริ่มต้นของ GLPI"
+msgid "Default language of Parto"
+msgstr "ภาษาเริ่มต้นของ Parto"
 
 #: src/Glpi/Console/Database/InstallCommand.php:120
 msgid "Force execution of installation, overriding existing database"
@@ -28363,9 +28363,9 @@ msgstr "รูปแบบ DSN ของ %s: %s"
 #: src/Glpi/Console/Cache/ConfigureCommand.php:126
 msgid ""
 "Cache namespace can be use to ensure either separation or sharing of "
-"multiple GLPI instances data on same cache system."
+"multiple Parto instances data on same cache system."
 msgstr ""
-"Cache Namespace สามารถใช้เพื่อแยกหรือแชร์ข้อมูลของ GLPI "
+"Cache Namespace สามารถใช้เพื่อแยกหรือแชร์ข้อมูลของ Parto "
 "หลายอินสแตนซ์ในระบบแคชเดียวกัน"
 
 #: src/Glpi/Console/Cache/ConfigureCommand.php:146
@@ -29016,9 +29016,9 @@ msgstr ""
 #: src/Glpi/Console/Marketplace/InfoCommand.php:59
 #: src/Glpi/Console/Marketplace/SearchCommand.php:62
 msgid ""
-"Access to the marketplace CLI commands is disallowed by the GLPI "
+"Access to the marketplace CLI commands is disallowed by the Parto "
 "configuration"
-msgstr "การเข้าถึงคำสั่ง CLI ของ Marketplace ถูกปฏิเสธโดยการกำหนดค่าของ GLPI"
+msgstr "การเข้าถึงคำสั่ง CLI ของ Marketplace ถูกปฏิเสธโดยการกำหนดค่าของ Parto"
 
 #: src/Glpi/Console/Marketplace/UpgradeCommand.php:72
 #: src/Glpi/Console/Marketplace/DownloadCommand.php:66
@@ -29041,8 +29041,8 @@ msgstr "ปลั๊กอิน \"%s\" ไม่มีอยู่ใน Market
 
 #: src/Glpi/Console/Marketplace/UpgradeCommand.php:123
 #, php-format
-msgid "Plugin \"%s\" is not available for your GLPI version."
-msgstr "ปลั๊กอิน \"%s\" ไม่สามารถใช้งานได้กับ GLPI เวอร์ชันของคุณ"
+msgid "Plugin \"%s\" is not available for your Parto version."
+msgstr "ปลั๊กอิน \"%s\" ไม่สามารถใช้งานได้กับ Parto เวอร์ชันของคุณ"
 
 #: src/Glpi/Console/Marketplace/UpgradeCommand.php:132
 #, php-format
@@ -29183,8 +29183,8 @@ msgstr "จำลองการย้ายข้อมูล"
 #: src/Glpi/Console/Migration/FormCreatorPluginToCoreCommand.php:54
 #: src/Glpi/Console/Migration/DatabasesPluginToCoreCommand.php:62
 #, php-format
-msgid "Migrate %s plugin data into GLPI core tables"
-msgstr "ย้ายข้อมูลปลั๊กอิน %s ไปยังตารางหลักของ GLPI"
+msgid "Migrate %s plugin data into Parto core tables"
+msgstr "ย้ายข้อมูลปลั๊กอิน %s ไปยังตารางหลักของ Parto"
 
 #: src/Glpi/Console/Migration/DomainsPluginToCoreCommand.php:114
 #: src/Glpi/Console/Migration/DomainsPluginToCoreCommand.php:175
@@ -29298,10 +29298,10 @@ msgstr "ไม่ต้องหยุดเมื่อพบข้อผิด
 
 #: src/Glpi/Console/Migration/AppliancesPluginToCoreCommand.php:159
 msgid ""
-"You are about to launch migration of Appliances plugin data into GLPI core "
+"You are about to launch migration of Appliances plugin data into Parto core "
 "tables."
 msgstr ""
-"คุณกำลังจะเริ่ม Migration ข้อมูลปลั๊กอิน Appliances ไปยังตารางหลักของ GLPI"
+"คุณกำลังจะเริ่ม Migration ข้อมูลปลั๊กอิน Appliances ไปยังตารางหลักของ Parto"
 
 #: src/Glpi/Console/Migration/AppliancesPluginToCoreCommand.php:160
 msgid "Any previous appliance created in core will be lost."
@@ -29346,8 +29346,8 @@ msgid "Associable items to a ticket"
 msgstr "รายการที่สามารถเชื่อมโยงกับใบแจ้งซ่อม"
 
 #: src/Glpi/Console/Migration/AppliancesPluginToCoreCommand.php:321
-msgid "Updating GLPI itemtypes..."
-msgstr "กำลังอัปเดตประเภทรายการของ GLPI..."
+msgid "Updating Parto itemtypes..."
+msgstr "กำลังอัปเดตประเภทรายการของ Parto..."
 
 #: src/Glpi/Console/Migration/AppliancesPluginToCoreCommand.php:369
 msgid "Creating Appliance Items..."
@@ -29443,8 +29443,8 @@ msgid "Found %s table(s) requiring a migration to \"ROW_FORMAT=DYNAMIC\"."
 msgstr "พบ %s ตารางที่ต้องการการย้ายข้อมูลเป็น \"ROW_FORMAT=DYNAMIC\""
 
 #: src/Glpi/Console/Migration/GenericobjectPluginToCoreCommand.php:53
-msgid "Migrate plugin data into GLPI core tables"
-msgstr "ย้ายข้อมูลปลั๊กอินไปยังตารางหลักของ GLPI"
+msgid "Migrate plugin data into Parto core tables"
+msgstr "ย้ายข้อมูลปลั๊กอินไปยังตารางหลักของ Parto"
 
 #: src/Glpi/Console/Migration/ComputeDocumentsSizeCommand.php:56
 msgid "Computes the missing file sizes in the database."
@@ -29500,9 +29500,9 @@ msgstr ""
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:214
 msgid ""
-"You are about to launch migration of Racks plugin data into GLPI core "
+"You are about to launch migration of Racks plugin data into Parto core "
 "tables."
-msgstr "คุณกำลังจะเริ่มการย้ายข้อมูลปลั๊กอิน Racks ไปยังตารางหลักของ GLPI"
+msgstr "คุณกำลังจะเริ่มการย้ายข้อมูลปลั๊กอิน Racks ไปยังตารางหลักของ Parto"
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:253
 msgid "Checking plugin version..."
@@ -29510,10 +29510,10 @@ msgstr "กำลังตรวจสอบเวอร์ชันปลั๊
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:261
 msgid ""
-"Racks plugin is not part of GLPI plugin list. It has never been installed or"
+"Racks plugin is not part of Parto plugin list. It has never been installed or"
 " has been cleaned."
 msgstr ""
-"ปลั๊กอิน Racks ไม่อยู่ในรายการปลั๊กอินของ GLPI "
+"ปลั๊กอิน Racks ไม่อยู่ในรายการปลั๊กอินของ Parto "
 "อาจไม่เคยถูกติดตั้งมาก่อนหรือถูกล้างข้อมูลออกไปแล้ว"
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:264
@@ -29568,8 +29568,8 @@ msgid "Importing other models..."
 msgstr "กำลังนำเข้าโมเดลอื่นๆ..."
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:514
-msgid "Other items do not exist in GLPI core."
-msgstr "รายการอื่นๆ ไม่มีอยู่ในระบบหลักของ GLPI"
+msgid "Other items do not exist in Parto core."
+msgstr "รายการอื่นๆ ไม่มีอยู่ในระบบหลักของ Parto"
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:516
 #, php-format
@@ -29748,9 +29748,9 @@ msgstr "ไม่สามารถสร้างห้องเริ่มต
 #: src/Glpi/Console/Migration/AbstractPluginToCoreCommand.php:106
 #, php-format
 msgid ""
-"You are about to launch migration of \"%s\" plugin data into GLPI core "
+"You are about to launch migration of \"%s\" plugin data into Parto core "
 "tables."
-msgstr "คุณกำลังจะเริ่ม Migration ข้อมูลปลั๊กอิน \"%s\" ไปยังตารางหลักของ GLPI"
+msgstr "คุณกำลังจะเริ่ม Migration ข้อมูลปลั๊กอิน \"%s\" ไปยังตารางหลักของ Parto"
 
 #: src/Glpi/Console/Migration/AbstractPluginToCoreCommand.php:135
 #, php-format
@@ -29893,8 +29893,8 @@ msgid "Error migrating table \"%s\"."
 msgstr "เกิดข้อผิดพลาดขณะ Migration ตาราง \"%s\""
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:75
-msgid "Check GLPI source code file integrity."
-msgstr "ตรวจสอบความถูกต้องของไฟล์ซอร์สโค้ด GLPI"
+msgid "Check Parto source code file integrity."
+msgstr "ตรวจสอบความถูกต้องของไฟล์ซอร์สโค้ด Parto"
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:80
 msgid "Show diff of altered files"
@@ -29906,16 +29906,16 @@ msgstr "อนุญาตให้ดาวน์โหลดเวอร์ช
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:99
 #, php-format
-msgid "Failed to validate GLPI source code integrity. Error was: %s"
-msgstr "ตรวจสอบความถูกต้องของซอร์สโค้ด GLPI ล้มเหลว ข้อผิดพลาดคือ: %s"
+msgid "Failed to validate Parto source code integrity. Error was: %s"
+msgstr "ตรวจสอบความถูกต้องของซอร์สโค้ด Parto ล้มเหลว ข้อผิดพลาดคือ: %s"
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:114
-msgid "GLPI source code integrity is validated."
-msgstr "ตรวจสอบความถูกต้องของซอร์สโค้ด GLPI สำเร็จแล้ว"
+msgid "Parto source code integrity is validated."
+msgstr "ตรวจสอบความถูกต้องของซอร์สโค้ด Parto สำเร็จแล้ว"
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:118
-msgid "GLPI source code integrity is not validated."
-msgstr "ความถูกต้องของซอร์สโค้ด GLPI ไม่ได้รับการยืนยัน"
+msgid "Parto source code integrity is not validated."
+msgstr "ความถูกต้องของซอร์สโค้ด Parto ไม่ได้รับการยืนยัน"
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:140
 msgid "Cannot generate a diff on a development version."
@@ -29934,8 +29934,8 @@ msgstr ""
 "เวอร์ชันที่ปล่อยออกมา คุณต้องการอนุญาตการดำเนินการนี้หรือไม่?"
 
 #: src/Glpi/Console/Diagnostic/CheckDocumentsIntegrityCommand.php:57
-msgid "Validate files integrity for GLPI's documents."
-msgstr "ตรวจสอบความถูกต้องของไฟล์สำหรับเอกสารของ GLPI"
+msgid "Validate files integrity for Parto's documents."
+msgstr "ตรวจสอบความถูกต้องของไฟล์สำหรับเอกสารของ Parto"
 
 #: src/Glpi/Console/Diagnostic/CheckDocumentsIntegrityCommand.php:70
 #, php-format
@@ -31005,9 +31005,9 @@ msgid "Allow multiple items"
 msgstr ""
 
 #: src/Glpi/Form/QuestionType/QuestionTypeItem.php:595
-msgid "GLPI Object"
-msgid_plural "GLPI Objects"
-msgstr[0] "รายการ GLPI"
+msgid "Parto Object"
+msgid_plural "Parto Objects"
+msgstr[0] "รายการ Parto"
 
 #: src/Glpi/Form/QuestionType/QuestionTypeEmail.php:88
 msgid "Unexpected value"
@@ -31948,11 +31948,11 @@ msgstr "ขออภัย ไม่อนุญาตให้ทำราย�
 #: src/Glpi/Kernel/Listener/RequestListener/SessionCheckCookieListener.php:74
 msgid ""
 "The web server is configured to allow session cookies only on secured "
-"context (https). Therefore, you must access GLPI on a secured context to be "
+"context (https). Therefore, you must access Parto on a secured context to be "
 "able to use it."
 msgstr ""
 "เว็บเซิร์ฟเวอร์ถูกกำหนดค่าให้รองรับคุกกี้เซสชันเฉพาะในบริบทที่ปลอดภัย "
-"(https) เท่านั้น ดังนั้นคุณต้องเข้าถึง GLPI "
+"(https) เท่านั้น ดังนั้นคุณต้องเข้าถึง Parto "
 "ผ่านการเชื่อมต่อที่ปลอดภัยเพื่อใช้งาน"
 
 #: src/Glpi/Kernel/Listener/RequestListener/CheckDatabaseStatusListener.php:103
@@ -31962,8 +31962,8 @@ msgid ""
 msgstr "ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ SQL ได้ โปรดตรวจสอบการกำหนดค่าของคุณ"
 
 #: src/Glpi/Kernel/Listener/RequestListener/CheckDatabaseStatusListener.php:113
-msgid "Unable to load the GLPI configuration from the database."
-msgstr "ไม่สามารถโหลดการกำหนดค่าของ GLPI จากฐานข้อมูลได้"
+msgid "Unable to load the Parto configuration from the database."
+msgstr "ไม่สามารถโหลดการกำหนดค่าของ Parto จากฐานข้อมูลได้"
 
 #: src/Glpi/Kernel/Listener/ExceptionListener/AccessErrorListener.php:86
 #: src/Glpi/Controller/IndexController.php:92
@@ -32624,8 +32624,8 @@ msgid "Download again"
 msgstr "ดาวน์โหลดอีกครั้ง"
 
 #: src/Glpi/Marketplace/View.php:674
-msgid "This plugin is not available for your GLPI version."
-msgstr "ปลั๊กอินนี้ไม่สามารถใช้งานได้กับ GLPI เวอร์ชันของคุณ"
+msgid "This plugin is not available for your Parto version."
+msgstr "ปลั๊กอินนี้ไม่สามารถใช้งานได้กับ Parto เวอร์ชันของคุณ"
 
 #: src/Glpi/Marketplace/View.php:690
 msgid "The plugin has an available update but its directory is not writable."
@@ -32677,8 +32677,8 @@ msgid "Switch to marketplace"
 msgstr "สลับไปยัง Marketplace"
 
 #: src/Glpi/Marketplace/View.php:1059
-msgid "GLPI provides a new marketplace to download and install plugins."
-msgstr "GLPI มี Marketplace ใหม่สำหรับการดาวน์โหลดและติดตั้งปลั๊กอิน"
+msgid "Parto provides a new marketplace to download and install plugins."
+msgstr "Parto มี Marketplace ใหม่สำหรับการดาวน์โหลดและติดตั้งปลั๊กอิน"
 
 #: src/Glpi/Marketplace/View.php:1061
 msgid "Do you want to replace the plugins setup page by the new marketplace?"
@@ -32866,8 +32866,8 @@ msgstr ""
 #: src/Glpi/Migration/GenericobjectPluginMigration.php:285
 msgid ""
 "The object types families have not been imported as they are not handled by "
-"GLPI."
-msgstr "ประเภทของอุปกรณ์ไม่ได้รับการนำเข้าเนื่องจาก GLPI ไม่รองรับ"
+"Parto."
+msgstr "ประเภทของอุปกรณ์ไม่ได้รับการนำเข้าเนื่องจาก Parto ไม่รองรับ"
 
 #: src/Glpi/Migration/GenericobjectPluginMigration.php:297
 msgid "Importing dropdowns definitions..."
@@ -32886,8 +32886,8 @@ msgstr "กำลังนำเข้าข้อมูลอุปกรณ์
 #: src/Glpi/Migration/GenericobjectPluginMigration.php:683
 #: src/Glpi/Migration/AbstractPluginMigration.php:285
 #, php-format
-msgid "%s \"%s\" (%d) is most recent on GLPI side, its update has been skipped."
-msgstr "%s \"%s\" (%d) ในฝั่ง GLPI เป็นเวอร์ชันที่ใหม่กว่า จึงข้ามการอัปเดต"
+msgid "%s \"%s\" (%d) is most recent on Parto side, its update has been skipped."
+msgstr "%s \"%s\" (%d) ในฝั่ง Parto เป็นเวอร์ชันที่ใหม่กว่า จึงข้ามการอัปเดต"
 
 #: src/Glpi/Migration/GenericobjectPluginMigration.php:613
 #, php-format
@@ -33009,8 +33009,8 @@ msgid "External page"
 msgstr "หน้าเว็บภายนอก"
 
 #: src/Glpi/Helpdesk/Tile/GlpiPageTile.php:76
-msgid "GLPI page"
-msgstr "หน้า GLPI"
+msgid "Parto page"
+msgstr "หน้า Parto"
 
 #: src/Glpi/Helpdesk/DefaultDataManager.php:104
 msgid "Browse help articles"
@@ -33162,10 +33162,10 @@ msgstr "ค่าคงที่ขนาด Sodium ChaCha20-Poly1305"
 
 #: src/Glpi/System/RequirementsManager.php:134
 msgid ""
-"Enable usage of ChaCha20-Poly1305 encryption required by GLPI. This is "
+"Enable usage of ChaCha20-Poly1305 encryption required by Parto. This is "
 "provided by libsodium 1.0.12 and newer."
 msgstr ""
-"เปิดใช้งานการเข้ารหัสแบบ ChaCha20-Poly1305 ที่ GLPI กำหนด ซึ่งจัดเตรียมโดย "
+"เปิดใช้งานการเข้ารหัสแบบ ChaCha20-Poly1305 ที่ Parto กำหนด ซึ่งจัดเตรียมโดย "
 "libsodium 1.0.12 ขึ้นไป"
 
 #: src/Glpi/System/RequirementsManager.php:139
@@ -33178,8 +33178,8 @@ msgstr ""
 "2.0"
 
 #: src/Glpi/System/RequirementsManager.php:149
-msgid "Permissions for GLPI data directories"
-msgstr "สิทธิ์การเขียนสำหรับไดเรกทอรีข้อมูลของ GLPI"
+msgid "Permissions for Parto data directories"
+msgstr "สิทธิ์การเขียนสำหรับไดเรกทอรีข้อมูลของ Parto"
 
 #: src/Glpi/System/RequirementsManager.php:170
 msgid "Enhance security on images validation."
@@ -33241,8 +33241,8 @@ msgstr "หน่วยความจำที่จัดสรรไว้น
 
 #: src/Glpi/System/Requirement/MemoryLimit.php:80
 #, php-format
-msgid "A minimum of %s is commonly required for GLPI."
-msgstr "โดยทั่วไป GLPI ต้องการหน่วยความจำขั้นต่ำ %s"
+msgid "A minimum of %s is commonly required for Parto."
+msgstr "โดยทั่วไป Parto ต้องการหน่วยความจำขั้นต่ำ %s"
 
 #: src/Glpi/System/Requirement/MemoryLimit.php:81
 msgid "Try increasing the memory_limit parameter in the php.ini file."
@@ -33387,11 +33387,11 @@ msgstr "คุณควรใช้คำแนะนำต่อไปนี้
 
 #: src/Glpi/System/Requirement/SessionsSecurityConfiguration.php:71
 msgid ""
-"PHP directive \"session.cookie_secure\" should be set to \"on\" when GLPI "
+"PHP directive \"session.cookie_secure\" should be set to \"on\" when Parto "
 "can be accessed on HTTPS protocol."
 msgstr ""
 "คำสั่ง PHP \"session.cookie_secure\" ควรถูกกำหนดเป็น \"on\" "
-"เมื่อสามารถเข้าถึง GLPI ผ่านโปรโตคอล HTTPS ได้"
+"เมื่อสามารถเข้าถึง Parto ผ่านโปรโตคอล HTTPS ได้"
 
 #: src/Glpi/System/Requirement/SessionsSecurityConfiguration.php:86
 msgid ""
@@ -33541,10 +33541,10 @@ msgstr "PHP %s ไม่ได้รับการบำรุงรักษ�
 
 #: src/Glpi/System/Requirement/PhpSupportedVersion.php:73
 msgid ""
-"Even if GLPI still supports this PHP version, an upgrade to a more recent "
+"Even if Parto still supports this PHP version, an upgrade to a more recent "
 "PHP version is recommended."
 msgstr ""
-"แม้ว่า GLPI จะยังคงรองรับเวอร์ชัน PHP นี้ แต่แนะนำให้อัปเกรดเป็นเวอร์ชัน PHP"
+"แม้ว่า Parto จะยังคงรองรับเวอร์ชัน PHP นี้ แต่แนะนำให้อัปเกรดเป็นเวอร์ชัน PHP"
 " ที่ใหม่กว่า"
 
 #: src/Glpi/System/Requirement/PhpSupportedVersion.php:74
@@ -34030,8 +34030,8 @@ msgid "An internal error occurred while trying to fetch the data."
 msgstr "เกิดข้อผิดพลาดภายในขณะพยายามดึงข้อมูล"
 
 #: src/Glpi/Api/HL/Search.php:166
-msgid "For more information, check the GLPI logs."
-msgstr "สำหรับข้อมูลเพิ่มเติม โปรดตรวจสอบ Log ของ GLPI"
+msgid "For more information, check the Parto logs."
+msgstr "สำหรับข้อมูลเพิ่มเติม โปรดตรวจสอบ Log ของ Parto"
 
 #: src/Glpi/Api/HL/RSQL/Parser.php:73
 #, php-format
@@ -35612,13 +35612,13 @@ msgid "Impossible to accomplish an update by this way!"
 msgstr "เป็นไปไม่ได้ที่จะบรรลุอัปเดตโดยวิธีการนี้!"
 
 #: install/update.php:127
-msgid "Go back to GLPI"
-msgstr "ย้อนกลับไป GLPI"
+msgid "Go back to Parto"
+msgstr "ย้อนกลับไป Parto"
 
 #: install/update.php:133
 #, php-format
-msgid "Caution! You will update the GLPI database named: %s"
-msgstr "ข้อควรระวัง! คุณจะปรับปรุงฐานข้อมูล GLPI ชื่อ: %s"
+msgid "Caution! You will update the Parto database named: %s"
+msgstr "ข้อควรระวัง! คุณจะปรับปรุงฐานข้อมูล Parto ชื่อ: %s"
 
 #: install/update.php:163
 msgid "Updating the database..."
@@ -36519,8 +36519,8 @@ msgid "Item NOT unlocked!"
 msgstr "รายการไม่ถูกปลดล็อก"
 
 #: js/modules/ObjectLock.js:137
-msgid "Contact your GLPI admin!"
-msgstr "ติดต่อผู้ดูแลระบบ GLPI ของคุณ!"
+msgid "Contact your Parto admin!"
+msgstr "ติดต่อผู้ดูแลระบบ Parto ของคุณ!"
 
 #: js/modules/Helpdesk/HelpdeskConfigController.js:187
 #: js/modules/Helpdesk/HelpdeskConfigController.js:266

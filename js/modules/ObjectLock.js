@@ -134,7 +134,7 @@ class ObjectLock {
                     }, () => {
                         glpi_alert({
                             title: __('Item NOT unlocked!'),
-                            message: __('Contact your GLPI admin!'),
+                            message: __('Contact your Parto admin!'),
                         });
                     });
                 }

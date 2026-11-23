@@ -67,9 +67,9 @@ class NotificationTargetTest extends DbTestCase
         $ntarget_child_1 = new NotificationTarget($child_1);
         $ntarget_child_2 = new NotificationTarget($child_2);
 
-        $this->assertEquals("[GLPI] ", $ntarget_parent->getSubjectPrefix());
-        $this->assertEquals("[GLPI] ", $ntarget_child_1->getSubjectPrefix());
-        $this->assertEquals("[GLPI] ", $ntarget_child_2->getSubjectPrefix());
+        $this->assertEquals("[Parto] ", $ntarget_parent->getSubjectPrefix());
+        $this->assertEquals("[Parto] ", $ntarget_child_1->getSubjectPrefix());
+        $this->assertEquals("[Parto] ", $ntarget_child_2->getSubjectPrefix());
 
         $entity  = new Entity();
         $this->assertTrue($entity->update([

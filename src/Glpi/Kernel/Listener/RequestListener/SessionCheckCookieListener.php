@@ -71,7 +71,7 @@ class SessionCheckCookieListener implements EventSubscriberInterface
         $cookie_secure = filter_var(ini_get('session.cookie_secure'), FILTER_VALIDATE_BOOLEAN);
         if ($event->getRequest()->isSecure() === false && $cookie_secure === true) {
             $exception = new BadRequestHttpException();
-            $exception->setMessageToDisplay(__('The web server is configured to allow session cookies only on secured context (https). Therefore, you must access GLPI on a secured context to be able to use it.'));
+            $exception->setMessageToDisplay(__('The web server is configured to allow session cookies only on secured context (https). Therefore, you must access Parto on a secured context to be able to use it.'));
             throw $exception;
         }
     }

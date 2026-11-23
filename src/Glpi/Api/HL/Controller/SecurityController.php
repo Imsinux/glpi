@@ -179,7 +179,7 @@ final class SecurityController extends AbstractController
                         'enum' => [Auth::DB_GLPI, Auth::MAIL, Auth::LDAP, Auth::EXTERNAL, Auth::CAS, Auth::X509, Auth::API, Auth::OAUTH],
                         'description' => <<<EOT
                             The authentication type that was used to create the session. Possible values are:
-                            - 1: GLPI database authentication
+                            - 1: Parto database authentication
                             - 2: Email authentication
                             - 3: LDAP authentication
                             - 4: External authentication

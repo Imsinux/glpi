@@ -315,7 +315,7 @@ EOT,
     public function index(Request $request): Response
     {
         $data = [
-            'message' => 'Welcome to GLPI API',
+            'message' => 'Welcome to Parto API',
             'api_versions' => Router::getAPIVersions(),
         ];
 
@@ -333,10 +333,10 @@ EOT,
         if (ThemeManager::getInstance()->getCurrentTheme()->isDarkTheme()) {
             $swagger_content .= ' class="dark-mode"';
         }
-        $swagger_content .= '><head><meta charset="UTF-8"><title>GLPI API Documentation</title>';
+        $swagger_content .= '><head><meta charset="UTF-8"><title>Parto API Documentation</title>';
         $swagger_content .= Html::script('/lib/swagger-ui.js');
         $swagger_content .= Html::css('/lib/swagger-ui.css');
-        $favicon = Html::getPrefixedUrl('/pics/favicon.ico');
+        $favicon = Html::getPrefixedUrl('/pics/logos/iransolar-icon.png');
 
         $hlapi_versions = array_filter(Router::getAPIVersions(), static fn($v) => $v['api_version'] !== '1');
         $doc_json_paths = [];
@@ -362,7 +362,7 @@ EOT,
         $doc_json_paths = json_encode($doc_json_paths, JSON_THROW_ON_ERROR);
 
         $swagger_content .= <<<HTML
-        <link rel="shortcut icon" type="images/x-icon" href="$favicon" />
+        <link rel="icon" type="image/png" sizes="64x64" href="$favicon" />
         </head>
         <body style="margin:0; padding:0;">
             <div id="swagger-ui"></div>
@@ -795,7 +795,7 @@ HTML;
     #[Route(path: '/status/all', methods: ['GET'], security_level: Route::SECURITY_NONE, tags: ['Status'], scopes: ['status'])]
     #[RouteVersion(introduced: '2.0')]
     #[Doc\Route(
-        description: 'Get the the status of all GLPI system status checker services',
+        description: 'Get the status of all Parto system status checker services',
         responses: [
             new Doc\Response(
                 schema: new Doc\Schema(
@@ -825,7 +825,7 @@ HTML;
     ], priority: 9, tags: ['Status'], scopes: ['status'])]
     #[RouteVersion(introduced: '2.0')]
     #[Doc\Route(
-        description: 'Get the status of a GLPI system status checker service. Use "all" as the service to get the full system status.',
+        description: 'Get the status of a Parto system status checker service. Use "all" as the service to get the full system status.',
         responses: [
             new Doc\Response(
                 schema: new Doc\Schema(

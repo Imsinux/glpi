@@ -113,7 +113,7 @@ class Application extends BaseApplication
         parent::configureIO($input, $output);
         ConsoleErrorDisplayHandler::setOutput($output);
 
-        parent::__construct('GLPI CLI', GLPI_VERSION);
+        parent::__construct('Parto CLI', GLPI_VERSION);
 
         $this->kernel->boot();
         $this->setDispatcher($this->kernel->getContainer()->get('event_dispatcher'));
@@ -200,7 +200,7 @@ class Application extends BaseApplication
                 '--lang',
                 null,
                 InputOption::VALUE_OPTIONAL,
-                __('Output language (default value is existing GLPI "language" configuration or "en_GB")')
+                __('Output language (default value is existing Parto "language" configuration or "en_GB")')
             ),
         ];
 
@@ -286,7 +286,7 @@ class Application extends BaseApplication
         ) {
             $output->writeln(
                 '<error>'
-                . __('The GLPI codebase has been updated. The update of the GLPI database is necessary.')
+                . __('The Parto codebase has been updated. The update of the Parto database is necessary.')
                 . '</error>'
                 . PHP_EOL
                 . '<error>'

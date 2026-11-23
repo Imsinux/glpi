@@ -484,7 +484,7 @@ class Telemetry extends CommonGLPI
      */
     public static function showReference()
     {
-        $out = "<h3>" . __s('Reference your GLPI') . "</h3>";
+        $out = "<h3>" . __s('Reference your Parto') . "</h3>";
         $out .= sprintf(
             __s("Besides, if you appreciate GLPI and its community, please take a minute to reference your organization by filling %1\$s"),
             sprintf(

@@ -1,8 +1,8 @@
 {
-    "name": "@glpi/glpi",
+    "name": "parto",
     "version": "",
     "private": true,
-    "description": "GLPI dependencies",
+    "description": "Parto asset management and service desk",
     "license": "GPL-3.0-or-later",
     "engines": {
         "node": ">= 24.11"

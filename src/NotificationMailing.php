@@ -133,7 +133,7 @@ class NotificationMailing implements NotificationInterface
         }
 
         $mail->to(new Address($recipient, $CFG_GLPI['admin_email_name']));
-        $mail->subject("[GLPI] " . __('Mail test'));
+        $mail->subject('[' . NotificationTarget::DEFAULT_SUBJECT_TAG . '] ' . __('Mail test'));
         $mail->text($text);
 
         $success = $mmail->send();

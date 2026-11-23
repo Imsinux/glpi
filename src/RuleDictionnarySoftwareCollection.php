@@ -306,7 +306,7 @@ TWIG, $twig_params);
         }
         $soft = new Software();
         if (isset($res_rule['_ignore_import']) && ($res_rule['_ignore_import'] == 1)) {
-            $soft->putInTrash($ID, __('Software deleted by GLPI dictionary rules'));
+            $soft->putInTrash($ID, __('Software deleted by Parto dictionary rules'));
             return;
         }
 
@@ -436,7 +436,7 @@ TWIG, $twig_params);
 
             $software = new Software();
             foreach ($iterator as $soft) {
-                $software->putInTrash($soft["id"], __('Software deleted by GLPI dictionary rules'));
+                $software->putInTrash($soft["id"], __('Software deleted by Parto dictionary rules'));
             }
         }
     }

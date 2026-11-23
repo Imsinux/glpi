@@ -99,12 +99,12 @@ if (PHP_SAPI === 'cli') {
     }
 
     if (!Config::isLegacyConfigurationLoaded()) {
-        echo 'ERROR: Unable to load the GLPI configuration from the database.' . PHP_EOL;
+        echo 'ERROR: Unable to load the Parto configuration from the database.' . PHP_EOL;
         exit(1); // @phpstan-ignore glpi.forbidExit (CLI context)
     }
 
     if (Update::isUpdateMandatory()) {
-        echo 'The GLPI codebase has been updated. The update of the GLPI database is necessary.' . PHP_EOL;
+        echo 'The Parto codebase has been updated. The update of the Parto database is necessary.' . PHP_EOL;
         exit(1); // @phpstan-ignore glpi.forbidExit (CLI context)
     }
 

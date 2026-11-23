@@ -652,10 +652,10 @@ class MailCollectorTest extends DbTestCase
                 'expected_items_id' => $ticket_id,
                 'accepted'          => true,
             ],
-            // Subject fallback - multiple matches: the configured tag (GLPI) wins over a foreign one
+            // Subject fallback - multiple matches: the default tag (Parto) wins over a foreign one
             [
                 'headers'           => [
-                    'subject' => "[Foreign #1234567] Re: [GLPI #{$padded_ticket_id}] Foo",
+                    'subject' => "[Foreign #1234567] Re: [Parto #{$padded_ticket_id}] Foo",
                 ],
                 'expected_itemtype' => Ticket::class,
                 'expected_items_id' => $ticket_id,

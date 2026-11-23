@@ -64,7 +64,7 @@ class UpgradeCommand extends AbstractCommand
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         if (!Controller::isCLIAllowed()) {
-            $output->writeln("<error>" . __('Access to the marketplace CLI commands is disallowed by the GLPI configuration') . "</error>");
+            $output->writeln("<error>" . __('Access to the marketplace CLI commands is disallowed by the Parto configuration') . "</error>");
             return self::FAILURE;
         }
 
@@ -120,7 +120,7 @@ class UpgradeCommand extends AbstractCommand
 
             if ($latest_version === null) {
                 $msg = '<comment>'
-                    . sprintf(__('Plugin "%s" is not available for your GLPI version.'), $plugin_key)
+                    . sprintf(__('Plugin "%s" is not available for your Parto version.'), $plugin_key)
                     . '</comment>'
                 ;
                 $output->writeln($msg);

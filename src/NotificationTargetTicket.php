@@ -67,7 +67,7 @@ class NotificationTargetTicket extends NotificationTargetCommonITILObject
             ));
 
             if (empty($perso_tag)) {
-                $perso_tag = 'GLPI';
+                $perso_tag = self::DEFAULT_SUBJECT_TAG;
             }
             return sprintf("[$perso_tag #%07d] ", $this->obj->getID());
         }

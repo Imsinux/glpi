@@ -72,7 +72,7 @@ class CheckSourceCodeIntegrityCommand extends AbstractCommand
         parent::configure();
 
         $this->setName('diagnostic:check_source_code_integrity');
-        $this->setDescription(__('Check GLPI source code file integrity.'));
+        $this->setDescription(__('Check Parto source code file integrity.'));
         $this->addOption(
             'diff',
             'd',
@@ -96,7 +96,7 @@ class CheckSourceCodeIntegrityCommand extends AbstractCommand
         try {
             $summary = $checker->getSummary();
         } catch (Exception $e) {
-            $output->writeln('<error>' . sprintf(__('Failed to validate GLPI source code integrity. Error was: %s'), $e->getMessage()) . '</error>');
+            $output->writeln('<error>' . sprintf(__('Failed to validate Parto source code integrity. Error was: %s'), $e->getMessage()) . '</error>');
             return 1;
         }
 
@@ -111,11 +111,11 @@ class CheckSourceCodeIntegrityCommand extends AbstractCommand
             $all_ok = false;
         }
         if ($all_ok) {
-            $output->writeln('<info>' . __('GLPI source code integrity is validated.') . '</info>');
+            $output->writeln('<info>' . __('Parto source code integrity is validated.') . '</info>');
             return 0;
         }
 
-        $output->writeln('<error>' . __('GLPI source code integrity is not validated.') . '</error>');
+        $output->writeln('<error>' . __('Parto source code integrity is not validated.') . '</error>');
 
         // @note Keep result untranslated
         $table = new Table($output);

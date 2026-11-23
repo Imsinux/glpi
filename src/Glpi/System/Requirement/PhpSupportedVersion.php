@@ -70,7 +70,7 @@ class PhpSupportedVersion extends AbstractRequirement
         } else {
             $this->validated = false;
             $this->validation_messages[] = sprintf(__('PHP %s is no longer maintained by its community.'), $php_version);
-            $this->validation_messages[] = __('Even if GLPI still supports this PHP version, an upgrade to a more recent PHP version is recommended.');
+            $this->validation_messages[] = __('Even if Parto still supports this PHP version, an upgrade to a more recent PHP version is recommended.');
             $this->validation_messages[] = __('Indeed, this PHP version may contain unpatched security vulnerabilities.');
         }
     }

@@ -94,8 +94,8 @@ class GLPIPDF extends TCPDF
             $this->SetHeaderData('', 0, $title, '');
         }
 
-        $this->SetCreator('GLPI');
-        $this->SetAuthor('GLPI');
+        $this->SetCreator(__('Parto'));
+        $this->SetAuthor(__('Parto'));
 
         $this->SetFont($config['font'], '', $config['font_size']);
         $this->setHeaderFont([$config['font'], 'B', $config['font_size']]);
@@ -138,7 +138,7 @@ class GLPIPDF extends TCPDF
     {
         // Position at 15 mm from bottom
         $this->SetY(-$this->config['margin_bottom']);
-        $text = sprintf("GLPI PDF export - %s", Html::convDate(date("Y-m-d")));
+        $text = sprintf("%s PDF export - %s", __('Parto'), Html::convDate(date("Y-m-d")));
         if ($this->total_count != null) {
             $text .= " - " . sprintf(_n('%s item', '%s items', $this->total_count), $this->total_count);
         }

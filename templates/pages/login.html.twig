@@ -30,7 +30,7 @@
  # ---------------------------------------------------------------------
  #}
 
-{% extends 'layout/page_card_notlogged.html.twig' %}
+{% extends 'layout/page_login.html.twig' %}
 
 {% block content_block %}
     <form action="{{ path('front/login.php') }}" method="post" data-submit-once>
@@ -42,12 +42,12 @@
             </div>
         {% endif %}
         <div class="row justify-content-center">
-            <div class="col-md-5">
+            <div class="{{ right_panel ? 'col-md-7' : 'col-md-10' }}">
                 <div class="card-header mb-4">
                     <h2 class="mx-auto">{{ __('Login to your account') }}</h2>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label" for="login_name">{{ __('Login') }}</label>
+                    <label class="form-label" for="login_name">{{ __('Username') }}</label>
                     <input type="text" class="form-control" id="login_name" name="login_name" placeholder="" autocomplete="username"/>
                 </div>
                 <div class="mb-4">
@@ -123,8 +123,6 @@
 {% endblock %}
 
 {% block footer_block %}
-    {{ copyright_message|raw }}
-
     {% if must_call_cron %}
         <div style="background-image: url('{{ path('/front/cron.php') }}');"></div>
     {% endif %}

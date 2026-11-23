@@ -245,10 +245,10 @@ class GLPINetwork extends CommonGLPI
         return nl2br(
             sprintf(
                 __s(
-                    "You need help to integrate GLPI in your IT, have a bug fixed or benefit from pre-configured rules or dictionaries?\n\n"
+                    "You need help to integrate Parto in your IT, have a bug fixed or benefit from pre-configured rules or dictionaries?\n\n"
                     . "We provide the %s space for you.\n"
                     . "GLPI-Network is a commercial service that includes a subscription for tier 3 support, ensuring the correction of bugs encountered with a commitment time.\n\n"
-                    . "In this same space, you will be able to contact an official partner to help you with your GLPI integration."
+                    . "In this same space, you will be able to contact an official partner to help you with your Parto integration."
                 ),
                 "<a href='" . $url . "' target='_blank'>" . $url . "</a>"
             )
@@ -260,7 +260,7 @@ class GLPINetwork extends CommonGLPI
         $url = htmlescape(GLPI_NETWORK_SERVICES);
 
         return nl2br(sprintf(
-            __s("Having troubles setting up an advanced GLPI module?\n"
+            __s("Having troubles setting up an advanced Parto module?\n"
             . "We can help you solve them. Sign up for support on %s."),
             "<a href='" . $url . "' target='_blank'>" . $url . "</a>"
         ));

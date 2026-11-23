@@ -352,7 +352,7 @@ class Auth extends CommonGLPI
                     if (Plugin::doHookFunction(Hooks::RESTRICT_LDAP_AUTH, $info)) {
                         return $info;
                     }
-                    $this->addToError(__('User not authorized to connect in GLPI'));
+                    $this->addToError(__('User not authorized to connect in Parto'));
                     // Use is present by has no right to connect because of a plugin
                     return false;
                 } catch (LdapException $e) {
@@ -1054,7 +1054,7 @@ class Auth extends CommonGLPI
         global $CFG_GLPI, $DB;
 
         if (isset($this->user->fields['_deny_login'])) {
-            $this->addToError(__('User not authorized to connect in GLPI'));
+            $this->addToError(__('User not authorized to connect in Parto'));
             $this->auth_succeded = false;
             $this->denied_by_rule = true;
         }
@@ -1076,7 +1076,7 @@ class Auth extends CommonGLPI
 
         if ($DB->isReplica()) {
             if (!$this->user_present) { // Can't add in replica mode
-                $this->addToError(__('User not authorized to connect in GLPI'));
+                $this->addToError(__('User not authorized to connect in Parto'));
                 $this->auth_succeded = false;
             }
         } else {
@@ -1104,7 +1104,7 @@ class Auth extends CommonGLPI
                 $this->user->add($input);
             } else {
                 // Auto add not enable so auth failed
-                $this->addToError(__('User not authorized to connect in GLPI'));
+                $this->addToError(__('User not authorized to connect in Parto'));
                 $this->auth_succeded = false;
             }
         }
@@ -1244,7 +1244,7 @@ class Auth extends CommonGLPI
         global $DB;
 
         $methods = [
-            self::DB_GLPI  => __('Authentication on GLPI database'),
+            self::DB_GLPI  => __('Authentication on Parto database'),
             self::EXTERNAL => __('External authentications'),
         ];
 
@@ -1336,7 +1336,7 @@ class Auth extends CommonGLPI
             self::CAS => __('CAS'),
             self::X509 => __('x509 certificate authentication'),
             self::EXTERNAL => __('Other'),
-            self::DB_GLPI => __('GLPI internal database'),
+            self::DB_GLPI => __('Parto internal database'),
             self::API => __('API'),
             default => '',
         };
@@ -1770,7 +1770,7 @@ class Auth extends CommonGLPI
 
         $elements = [
             '_default'  => 'local',
-            'local'     => __("GLPI internal database"),
+            'local'     => __("Parto internal database"),
         ];
 
         // Get LDAP

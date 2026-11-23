@@ -110,7 +110,7 @@ final class CheckDatabaseStatusListener implements EventSubscriberInterface
         if (!Config::isLegacyConfigurationLoaded()) {
             $exception = new HttpException(500);
             $exception->setMessageToDisplay(
-                __('Unable to load the GLPI configuration from the database.')
+                __('Unable to load the Parto configuration from the database.')
             );
             $exception->setLinkText(__('Try again'));
             $exception->setLinkUrl($event->getRequest()->getRequestUri());

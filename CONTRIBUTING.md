@@ -1,10 +1,10 @@
-# Contributing to GLPI
+# Contributing to Parto
 
 Thank you for considering a contribution. Please read this document before opening an issue or pull request.
 
 ## Scope
 
-This repository covers **GLPI core only**. Third-party plugins are owned by their authors — report plugin issues and requests to the relevant plugin repository.
+This repository covers **Parto core only**. Third-party plugins are owned by their authors — report plugin issues and requests to the relevant plugin repository.
 
 Issues, pull requests, commit messages, and code comments must be in **English**.
 

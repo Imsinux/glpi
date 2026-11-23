@@ -45,7 +45,7 @@ class EnableCommand extends AbstractUserCommand
         parent::configure();
 
         $this->setName('user:enable');
-        $this->setDescription(__('Enable a GLPI user'));
+        $this->setDescription(__('Enable a Parto user'));
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int

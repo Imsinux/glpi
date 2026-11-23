@@ -45,7 +45,7 @@ class DeleteCommand extends AbstractUserCommand
         parent::configure();
 
         $this->setName('user:delete');
-        $this->setDescription(__('Delete a GLPI user'));
+        $this->setDescription(__('Delete a Parto user'));
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int

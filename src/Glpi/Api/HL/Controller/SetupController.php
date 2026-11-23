@@ -608,7 +608,7 @@ EOT,
                     ],
                     'create_user_from_email' => [
                         'type' => Doc\Schema::TYPE_BOOLEAN,
-                        'description' => 'Create a new user if the email address of the requester does not exist in GLPI',
+                        'description' => 'Create a new user if the email address of the requester does not exist in Parto',
                         'default' => false,
                     ],
                     'date_last_collect' => [
@@ -743,7 +743,7 @@ EOT,
                     ],
                     'secret' => [
                         'type' => Doc\Schema::TYPE_STRING,
-                        'description' => 'A secret value that can be shared with a target server to allow it to validate requests are actually coming from the GLPI server and that the content was not modified between GLPI and the target.',
+                        'description' => 'A secret value that can be shared with a target server to allow it to validate requests are actually coming from the Parto server and that the content was not modified between Parto and the target.',
                     ],
                     'use_cra_challenge' => [
                         'type' => Doc\Schema::TYPE_BOOLEAN,
@@ -915,7 +915,7 @@ EOT,
                         ],
                         'description' => <<<EOT
                         -  0: No matching rule to assign the ticket to an entity.
-                        -  1: User unknown. The email address of the requester does not correspond to any user in GLPI.
+                        -  1: User unknown. The email address of the requester does not correspond to any user in Parto.
                         -  2: Failed operation/insert. An error occurred while trying to create the ticket or followup.
                         -  3: Not enough rights. The user does not have permission to create the ticket or followup.
 EOT,

@@ -671,7 +671,7 @@ JS;
                 $rand = mt_rand();
                 $buttons .= "<i class='ti ti-alert-triangle plugin-unavailable' id='plugin-tooltip-$rand' aria-hidden='true'></i>";
                 Html::showToolTip(
-                    __s('This plugin is not available for your GLPI version.'),
+                    __s('This plugin is not available for your Parto version.'),
                     [
                         'applyto' => "plugin-tooltip-$rand",
                     ]
@@ -1056,7 +1056,7 @@ JS;
                 'style' => 'width: 600px',
             ]);
             echo "<br><br>";
-            echo __s("GLPI provides a new marketplace to download and install plugins.");
+            echo __s("Parto provides a new marketplace to download and install plugins.");
             echo "<br><br>";
             echo "<b>" . __s("Do you want to replace the plugins setup page by the new marketplace?") . "</b>";
             echo "</div>";

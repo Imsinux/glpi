@@ -109,7 +109,7 @@ class InstallCommand extends AbstractConfigureCommand implements ConfigurationCo
             'default-language',
             'L',
             InputOption::VALUE_OPTIONAL,
-            __('Default language of GLPI'),
+            __('Default language of Parto'),
             'en_GB'
         );
 
@@ -310,7 +310,7 @@ class InstallCommand extends AbstractConfigureCommand implements ConfigurationCo
              AND table_name LIKE 'glpi\_%'"
         );
         if (!$tables_result) {
-            throw new RuntimeException('Unable to check GLPI tables existence.');
+            throw new RuntimeException('Unable to check Parto tables existence.');
         }
         if ($tables_result->fetch_array()[0] > 0 && !$force) {
             $output->writeln(

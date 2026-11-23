@@ -187,7 +187,7 @@
                                 {% endif %}
                             </li>
                             <li>
-                                <span class="text-secondary" id="glpi_delay_{{ replica_num }}">{{ __('GLPI history delay:') }}</span>
+                                <span class="text-secondary" id="glpi_delay_{{ replica_num }}">{{ __('Parto history delay:') }}</span>
                                 {% if replication_delay[replica_num] is defined %}
                                     {% if replication_delay[replica_num] > 0 %}
                                         <span class="badge bg-red-lt">{{ replication_delay[replica_num]|formatted_duration }}</span>
@@ -200,7 +200,7 @@
                                     <span class="badge bg-red-lt">{{ __('Undefined') }}</span>
                                 {% endif %}
                                 {% do call('Html::showToolTip', [
-                                    __('This indicates the delay between the source and the replica for GLPI history (table: glpi_logs, column: date_mod).')
+                                    __('This indicates the delay between the source and the replica for Parto history (table: glpi_logs, column: date_mod).')
                                 ]) %}
                             </li>
                             <li>

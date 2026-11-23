@@ -72,7 +72,7 @@
 {% endset %}
 
 {% set glpi_info %}
-GLPI: {{ ver }} ({{ config('root_doc') }} => {{ constant('GLPI_ROOT') }})
+{{ __(config('app_name')) }}: {{ ver }} ({{ config('root_doc') }} => {{ constant('GLPI_ROOT') }})
 Installation mode: {{ constant('GLPI_INSTALL_MODE') }}
 Current language: {{ language }}
 Source Integrity: {% if code_integrity is null %}N/A{% elseif code_integrity is empty %}OK{% else %}{{ code_integrity|length }} files changed{% endif %}
@@ -137,9 +137,9 @@ Requirements:
 {% endset %}
 
 <div class="accordion" id="sysinfo_accordion">
-   {{ _self.sysinfo_section('GLPI information', glpi_info, false, glpi_info_precontent) }}
+   {{ _self.sysinfo_section(__('Parto information'), glpi_info, false, glpi_info_precontent) }}
    {{ _self.sysinfo_section('Server', server_info, true) }}
-   {{ _self.sysinfo_section('GLPI constants', constants_info, true) }}
+   {{ _self.sysinfo_section(__('Parto constants'), constants_info, true) }}
    {% for info_obj in system_info_objs %}
       {% set info = call([info_obj, 'getSystemInformation']) %}
       {% if info['label'] is not empty and info['content'] is not empty %}

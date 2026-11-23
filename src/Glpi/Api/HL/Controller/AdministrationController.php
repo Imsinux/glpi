@@ -218,7 +218,7 @@ final class AdministrationController extends AbstractController
                         'type' => Doc\Schema::TYPE_NUMBER,
                         'enum' => [Auth::DB_GLPI, Auth::MAIL, Auth::LDAP, Auth::EXTERNAL, Auth::CAS, Auth::X509],
                         'description' => <<<EOD
-                            - 1: GLPI database
+                            - 1: Parto database
                             - 2: Email
                             - 3: LDAP
                             - 4: External
@@ -669,7 +669,7 @@ EOD,
                         'x-version-introduced' => '2.3.0',
                         'type' => Doc\Schema::TYPE_STRING,
                         'format' => Doc\Schema::FORMAT_STRING_URI,
-                        'description' => 'Base URL of the GLPI instance used by this entity. Used when generating links in notifications for users of this entity.',
+                        'description' => 'Base URL of the Parto instance used by this entity. Used when generating links in notifications for users of this entity.',
                     ],
                     'date_creation' => [
                         'type' => Doc\Schema::TYPE_STRING,

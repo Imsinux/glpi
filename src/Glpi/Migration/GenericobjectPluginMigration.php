@@ -282,7 +282,7 @@ class GenericobjectPluginMigration extends AbstractPluginMigration
             if ($families_count > 0) {
                 $this->result->addMessage(
                     MessageType::Notice,
-                    __('The object types families have not been imported as they are not handled by GLPI.')
+                    __('The object types families have not been imported as they are not handled by Parto.')
                 );
             }
 
@@ -386,7 +386,7 @@ class GenericobjectPluginMigration extends AbstractPluginMigration
                 $this->result->addMessage(
                     MessageType::Debug,
                     sprintf(
-                        __('%s "%s" (%d) is most recent on GLPI side, its update has been skipped.'),
+                        __('%s "%s" (%d) is most recent on Parto side, its update has been skipped.'),
                         AssetDefinition::getTypeName(1),
                         $existing_definition->getFriendlyName() ?: NOT_AVAILABLE,
                         $existing_definition->getID(),
@@ -680,7 +680,7 @@ class GenericobjectPluginMigration extends AbstractPluginMigration
                     $this->result->addMessage(
                         MessageType::Debug,
                         sprintf(
-                            __('%s "%s" (%d) is most recent on GLPI side, its update has been skipped.'),
+                            __('%s "%s" (%d) is most recent on Parto side, its update has been skipped.'),
                             $dropdown_class::getTypeName(1),
                             $existing_dropdown->getFriendlyName() ?: NOT_AVAILABLE,
                             $existing_dropdown->getID(),

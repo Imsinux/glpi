@@ -51,7 +51,7 @@ class FormCreatorPluginToCoreCommand extends AbstractPluginMigrationCommand
     #[Override]
     public function getDescription(): string
     {
-        return sprintf(__('Migrate %s plugin data into GLPI core tables'), 'Formcreator');
+        return sprintf(__('Migrate %s plugin data into Parto core tables'), 'Formcreator');
     }
 
     #[Override]

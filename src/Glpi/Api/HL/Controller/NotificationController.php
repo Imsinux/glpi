@@ -297,13 +297,13 @@ EOT,
                         'type' => Doc\Schema::TYPE_STRING,
                         'description' => <<<EOT
                             The mode of the notification template for the notification.
-                            Typically only "mailing" or "ajax", but there are a few other types known to GLPI but not directly used, or which may be added by plugins.
+                            Typically only "mailing" or "ajax", but there are a few other types known to Parto but not directly used, or which may be added by plugins.
                             - mailing: Email notification
                             - ajax: Browser notification (client-initiated pull notifications, not real-time push notifications)
-                            - websocket: Not used by GLPI core
-                            - sms: Not used by GLPI core
-                            - xmpp: Not used by GLPI core
-                            - irc: Not used by GLPI core
+                            - websocket: Not used by Parto core
+                            - sms: Not used by Parto core
+                            - xmpp: Not used by Parto core
+                            - irc: Not used by Parto core
 EOT,
                         'maxLength' => 20,
                         'enum' => ['mailing', 'ajax', 'websocket', 'sms', 'xmpp', 'irc'],
@@ -366,13 +366,13 @@ EOT,
                         'type' => Doc\Schema::TYPE_STRING,
                         'description' => <<<EOT
                             The mode of the notification template for the notification.
-                            Typically only "mailing" or "ajax", but there are a few other types known to GLPI but not directly used, or which may be added by plugins.
+                            Typically only "mailing" or "ajax", but there are a few other types known to Parto but not directly used, or which may be added by plugins.
                             - mailing: Email notification
                             - ajax: Browser notification (client-initiated pull notifications, not real-time push notifications)
-                            - websocket: Not used by GLPI core
-                            - sms: Not used by GLPI core
-                            - xmpp: Not used by GLPI core
-                            - irc: Not used by GLPI core
+                            - websocket: Not used by Parto core
+                            - sms: Not used by Parto core
+                            - xmpp: Not used by Parto core
+                            - irc: Not used by Parto core
 EOT,
                         'maxLength' => 20,
                         'enum' => ['mailing', 'ajax', 'websocket', 'sms', 'xmpp', 'irc'],

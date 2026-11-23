@@ -3436,7 +3436,7 @@ class APIRestTest extends TestCase
 
         $notifications = \array_filter(
             $result,
-            fn($notification) => $notification['name'] === '[GLPI] Forgotten password?'
+            fn($notification) => $notification['name'] === '[Parto] Forgotten password?'
         );
 
         $this->assertNotEmpty($notifications);
@@ -3479,7 +3479,7 @@ class APIRestTest extends TestCase
 
         $notifications = \array_filter(
             $result['data'],
-            fn($notification) => $notification['1'] === '[GLPI] Forgotten password?'
+            fn($notification) => $notification['1'] === '[Parto] Forgotten password?'
         );
 
         foreach ($notifications as $notification) {

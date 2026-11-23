@@ -34,7 +34,7 @@
 {% if css_files is not defined %}
    {% set css_files = [
        {'path': 'lib/base.css'},
-       {'path': 'lib/tabler.css'},
+       {'path': session('glpiisrtl') ? 'lib/tabler.rtl.css' : 'lib/tabler.css'},
        {'path': 'css/glpi.scss'},
        {'path': 'css/core_palettes.scss'}
    ] %}
@@ -66,7 +66,7 @@
 {% set is_anonymous_page = true %}
 
 {{ include('layout/parts/head.html.twig') }}
-<body class="welcome-anonymous">
+<body class="{% block body_class %}welcome-anonymous{% endblock %}">
    <div class="skip-links">
       <a class="visually-hidden-focusable skip-link" href="#page">{{ __('Go to main content') }}</a>
    </div>
@@ -84,7 +84,7 @@
             <div class="text-center">
                <div class="col-md">
                   {% block logo_block %}
-                     <span class="glpi-logo mb-4" title="GLPI"></span>
+                     <span class="glpi-logo mb-4" title="{{ __(config('app_name')) }}"></span>
                   {% endblock %}
                </div>
             </div>
@@ -102,12 +102,14 @@
                {% block footer_block %}{% endblock %}
             </div>
 
-            <div class="text-center mt-3">
-               <a href="{{ help_url() }}">
-                  <i class="ti ti-help" aria-hidden="true"></i>
-                  {{ __('Help') }}
-               </a>
-            </div>
+            {% block help_block %}
+               <div class="text-center mt-3">
+                  <a href="{{ help_url() }}">
+                     <i class="ti ti-help" aria-hidden="true"></i>
+                     {{ __('Help') }}
+                  </a>
+               </div>
+            {% endblock %}
          </div>
       </div>
    </main>

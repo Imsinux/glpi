@@ -73,7 +73,7 @@ final class GlpiPageTile extends CommonDBTM implements TileInterface, ProvideTra
     #[Override]
     public function getLabel(): string
     {
-        return __("GLPI page");
+        return __("Parto page");
     }
 
     public static function getPossiblesPages(): array

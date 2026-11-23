@@ -189,7 +189,7 @@ class CommandLoader implements CommandLoaderInterface
                         // Do not register commands that are using a protected pattern
                         trigger_error(
                             sprintf(
-                                'GLPI command `%s` must be moved outside the protected `%s` namespace.',
+                                'Parto command `%s` must be moved outside the protected `%s` namespace.',
                                 $name,
                                 $protected_namespaces
                             ),

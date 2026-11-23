@@ -889,7 +889,7 @@ class CronTask extends CommonDBTM
     public static function getModeName(int $mode): string
     {
         return match ((int) $mode) {
-            self::MODE_INTERNAL => __('GLPI'),
+            self::MODE_INTERNAL => __('Parto'),
             self::MODE_EXTERNAL => __('CLI'),
             default => '???',
         };
@@ -953,7 +953,7 @@ class CronTask extends CommonDBTM
             // If cron is launched in command line, and if memory is insufficient,
             // display a warning in the logs
             if (Toolbox::checkMemoryLimit() === 2) {
-                Toolbox::logInFile('cron', __('A minimum of 64 Mio is commonly required for GLPI.') . "\n");
+                Toolbox::logInFile('cron', __('A minimum of 64 Mio is commonly required for Parto.') . "\n");
             }
             // If no task in CLI mode, call cron.php from command line is not really usefull ;)
             if (!countElementsInTable(self::getTable(), ['mode' => abs($mode)])) {
@@ -2076,7 +2076,7 @@ TWIG, ['msg' => __('Last run list')]);
         $crontask = new self();
         $warnings = [];
         if ($crontask->getNeedToRun(self::MODE_INTERNAL)) {
-            $warnings[] = __("You have at least one automatic action configured in GLPI mode, we advise you to switch to CLI mode.");
+            $warnings[] = __("You have at least one automatic action configured in Parto mode, we advise you to switch to CLI mode.");
         }
 
         if (

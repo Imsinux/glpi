@@ -2232,7 +2232,7 @@ class Plugin extends CommonDBTM
      */
     public static function messageIncompatible($type = 'core', $min = null, $max = null)
     {
-        $type = ($type === 'core' ? __('GLPI') : __('PHP'));
+        $type = ($type === 'core' ? __('Parto') : __('PHP'));
         if ($min === null && $max !== null) {
             return sprintf(
                 __('This plugin requires %1$s < %2$s.'),
@@ -2294,7 +2294,7 @@ class Plugin extends CommonDBTM
                 );
             case 'glpiparam':
                 return sprintf(
-                    __('This plugin requires GLPI parameter %1$s'),
+                    __('This plugin requires Parto parameter %1$s'),
                     $name
                 );
             default:
@@ -2360,7 +2360,7 @@ class Plugin extends CommonDBTM
     public function checkGlpiVersion($infos)
     {
         if (!isset($infos['min']) && !isset($infos['max'])) {
-            throw new LogicException('Either "min" or "max" is required for GLPI requirements!');
+            throw new LogicException('Either "min" or "max" is required for Parto requirements!');
         }
 
         $glpiVersion = $this->getGlpiVersion();

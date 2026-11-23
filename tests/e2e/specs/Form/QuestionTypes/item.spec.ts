@@ -89,7 +89,7 @@ test.describe('Item form question type', () => {
 
         const new_question = await form.addQuestion('Item question');
         await form.setQuestionType(new_question, 'Item');
-        await form.setSubQuestionType(new_question, 'GLPI Objects');
+        await form.setSubQuestionType(new_question, 'Parto Objects');
         await form.setItemTypeForItemQuestion(new_question, 'Computers');
 
         await form.getDropdownByLabel('Select an item', new_question).click();

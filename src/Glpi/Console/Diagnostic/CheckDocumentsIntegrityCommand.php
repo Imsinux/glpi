@@ -54,7 +54,7 @@ final class CheckDocumentsIntegrityCommand extends AbstractCommand
         parent::configure();
 
         $this->setName('diagnostic:check_documents_integrity');
-        $this->setDescription(__("Validate files integrity for GLPI's documents."));
+        $this->setDescription(__("Validate files integrity for Parto's documents."));
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int

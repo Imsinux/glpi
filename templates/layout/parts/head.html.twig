@@ -30,8 +30,9 @@
  # ---------------------------------------------------------------------
  #}
 
+{% set page_lang = (lang ?? get_current_locale().language ?? 'en')|replace({'_': '-'}) %}
 <!DOCTYPE html>
-<html lang="{{ lang ?? 'en' }}"
+<html lang="{{ page_lang }}"
     {% if session('glpiisrtl') %}
         dir="rtl"
     {% endif %}
@@ -47,7 +48,7 @@
     {% endif %}
 >
 <head>
-   <title>{% if title is defined %}{{ title }} - {% endif %}{{ config('app_name') }}</title>
+   <title>{% if title is defined %}{{ title }} - {% endif %}{{ __(config('app_name')) }}</title>
 
    <meta charset="utf-8" />
 
@@ -62,13 +63,17 @@
         <{{ header_tag.tag }} {% for key, value in header_tag.properties %}{{ key }}="{{ value }}" {% endfor %}/>
     {% endfor %}
 
+   {% if page_lang|split('-')|first == 'fa' %}
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" />
+   {% endif %}
+
    {% for css_file in css_files|merge(get_plugins_css_files(is_anonymous_page|default(false))) %}
       <link rel="stylesheet" type="text/css" href="{{ css_path(css_file.path, css_file.options ?? []) }}" />
    {% endfor %}
 
    {{ custom_css() }}
 
-   <link rel="shortcut icon" type="images/x-icon" href="{{ asset_path('/pics/favicon.ico') }}" />
+   <link rel="icon" type="image/png" sizes="64x64" href="{{ asset_path('/pics/logos/iransolar-icon.png') }}" />
 
    {{ importmap() }}
 

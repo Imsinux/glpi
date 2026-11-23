@@ -46,7 +46,7 @@ class AutoUpdateSystem extends CommonDropdown
     {
         switch ($key) {
             case self::NATIVE_INVENTORY:
-                return __('GLPI Native Inventory');
+                return __('Parto Native Inventory');
         }
 
         return '';

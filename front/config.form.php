@@ -75,7 +75,7 @@ if (!empty($_POST['reset_core_cache'])) {
     $config->checkGlobal(UPDATE);
     $cache_manager = new CacheManager();
     if ($cache_manager->getCoreCacheInstance()->clear()) {
-        Session::addMessageAfterRedirect(__s('GLPI cache reset successful'));
+        Session::addMessageAfterRedirect(__s('Parto cache reset successful'));
     }
     Html::redirect(Toolbox::getItemTypeFormURL('Config'));
 }

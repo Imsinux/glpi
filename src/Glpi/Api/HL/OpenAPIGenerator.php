@@ -156,7 +156,7 @@ final class OpenAPIGenerator
     private function getInfo(): array
     {
         $description = <<<EOT
-The High-Level REST API documentation shown here is dynamically generated from the core GLPI code and any enabled plugins.
+The High-Level REST API documentation shown here is dynamically generated from the core Parto code and any enabled plugins.
 If a plugin is not enabled, its routes will not be shown here.
 EOT;
 
@@ -169,7 +169,7 @@ EOT;
         }
 
         return [
-            'title' => 'GLPI High-Level REST API',
+            'title' => 'Parto High-Level REST API',
             'description' => $description,
             'version' => $this->api_version,
             'license' => [
@@ -312,7 +312,7 @@ EOT;
             'servers' => [
                 [
                     'url' => $CFG_GLPI['url_base'] . '/api.php',
-                    'description' => 'GLPI High-Level REST API',
+                    'description' => 'Parto High-Level REST API',
                 ],
             ],
             'components' => [

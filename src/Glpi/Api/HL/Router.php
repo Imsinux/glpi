@@ -152,7 +152,7 @@ class Router
         global $CFG_GLPI;
 
         $low_level_api_description = <<<EOT
-The low-level API which is closely tied to the GLPI source code.
+The low-level API which is closely tied to the Parto source code.
 While not as user friendly as the high-level API, it is more powerful and allows to do some things that are not possible with the high-level API.
 It has no promise of stability between versions so it may change without warning.
 EOT;

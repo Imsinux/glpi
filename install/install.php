@@ -63,7 +63,7 @@ function header_html(string $etape): void
 
     TemplateRenderer::getInstance()->display('layout/parts/head.html.twig', [
         'lang'  => $_SESSION['glpilanguage'],
-        'title' => __('GLPI setup'),
+        'title' => __('Parto setup'),
         'css_files' => [
             ['path' => 'lib/tabler.css'],
             ['path' => 'lib/base.css'],
@@ -85,7 +85,7 @@ function header_html(string $etape): void
     echo "<div id='principal'>";
     echo "<div id='bloc'>";
     echo "<div id='logo_bloc'></div>";
-    echo "<h2>" . __s('GLPI setup') . "</h2>";
+    echo "<h2>" . __s('Parto setup') . "</h2>";
     echo "<br><h3>" . htmlescape($etape) . "</h3>";
 }
 
@@ -446,7 +446,7 @@ function update1(string $dbname): void
         $DB = DBConnection::getDbInstanceUsingParameters($host, $user, $password, $dbname);
         $update = new Update($DB);
         if ($update->getCurrents()['version'] === null) {
-            $error = sprintf(__('Current GLPI version not found for database named "%s". Update cannot be done.'), $dbname);
+            $error = sprintf(__('Current Parto version not found for database named "%s". Update cannot be done.'), $dbname);
         } elseif (
             !DBConnection::createMainConfig($host, $user, $password, $dbname)
             || !DBConnection::updateConfigProperties($DB->getComputedConfigBooleanFlags())

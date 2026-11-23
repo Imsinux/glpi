@@ -45,7 +45,7 @@ class DisableCommand extends AbstractUserCommand
         parent::configure();
 
         $this->setName('user:disable');
-        $this->setDescription(__('Disable a GLPI user'));
+        $this->setDescription(__('Disable a Parto user'));
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int

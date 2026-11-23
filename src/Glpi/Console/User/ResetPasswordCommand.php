@@ -47,7 +47,7 @@ class ResetPasswordCommand extends AbstractUserCommand
         parent::configure();
 
         $this->setName('user:reset_password');
-        $this->setDescription(__('Reset the password of a local GLPI user'));
+        $this->setDescription(__('Reset the password of a local Parto user'));
 
         $this->addOption('password', 'p', InputOption::VALUE_OPTIONAL, __('Password'));
     }

@@ -55,7 +55,7 @@ class GenerateCodeManifestCommand extends Command
         parent::configure();
 
         $this->setName('build:generate_code_manifest');
-        $this->setDescription(__('Generate GLPI source code manifest that could be used to validate source code integrity.'));
+        $this->setDescription(__('Generate Parto source code manifest that could be used to validate source code integrity.'));
         $this->addOption(
             'algorithm',
             'a',

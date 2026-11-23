@@ -160,7 +160,7 @@ class CheckSchemaIntegrityCommand extends AbstractCommand
             'plugin',
             'p',
             InputOption::VALUE_REQUIRED,
-            __('Plugin to check. If option is not used, checks will be done on GLPI core database tables.')
+            __('Plugin to check. If option is not used, checks will be done on Parto core database tables.')
         );
     }
 
@@ -201,7 +201,7 @@ class CheckSchemaIntegrityCommand extends AbstractCommand
 
             if ($installed_version === null) {
                 throw new EarlyExitException(
-                    '<error>' . __('Unable to fetch GLPI version.') . '</error>',
+                    '<error>' . __('Unable to fetch Parto version.') . '</error>',
                     self::ERROR_NO_VERSION_FOUND
                 );
             }
@@ -213,7 +213,7 @@ class CheckSchemaIntegrityCommand extends AbstractCommand
 
         if (!$checker->hasTables($context)) {
             $message = $plugin_key === null
-                ? __('The database contains no GLPI tables.')
+                ? __('The database contains no Parto tables.')
                 : sprintf(__('The database contains no tables of the plugin "%s".'), $plugin_key);
             throw new EarlyExitException(
                 '<error>' . $message . '</error>',

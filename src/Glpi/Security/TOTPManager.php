@@ -125,7 +125,7 @@ final class TOTPManager
     /**
      * @var string Label to use for the brand in QR codes
      */
-    public static string $brand_label = 'GLPI';
+    public static string $brand_label = 'Parto';
 
     /**
      * Mainly used to get the displayed issuer for the TOTP in Authenticator app

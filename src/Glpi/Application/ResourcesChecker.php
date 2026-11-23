@@ -48,8 +48,8 @@ final class ResourcesChecker
     public function checkResources(): void
     {
         if ($this->isSourceCodeMixedOfMultipleVersions()) {
-            echo 'Source code files of a previous GLPI version were detected.' . PHP_EOL;
-            echo 'Please update GLPI by following the procedure described in the installation documentation.' . PHP_EOL;
+            echo 'Source code files of a previous Parto version were detected.' . PHP_EOL;
+            echo 'Please update Parto by following the procedure described in the installation documentation.' . PHP_EOL;
             exit(1); // @phpstan-ignore glpi.forbidExit (Script execution should be stopped to prevent further errors)
         }
 
@@ -58,12 +58,12 @@ final class ResourcesChecker
         }
         if (!$this->areDependenciesUpToDate()) {
             echo 'Application dependencies are not up to date.' . PHP_EOL;
-            echo 'Run "php bin/console dependencies install" in the glpi tree to fix this.' . PHP_EOL;
+            echo 'Run "php bin/console dependencies install" in the project directory to fix this.' . PHP_EOL;
             exit(1); // @phpstan-ignore glpi.forbidExit (Script execution should be stopped to prevent further errors)
         }
         if ($this->shouldLocalesBeChecked() && !$this->areLocalesUpToDate()) {
             echo 'Application locales have to be compiled.' . PHP_EOL;
-            echo 'Run "php bin/console tools:locales:compile" in the glpi tree to fix this.' . PHP_EOL;
+            echo 'Run "php bin/console tools:locales:compile" in the project directory to fix this.' . PHP_EOL;
             exit(1); // @phpstan-ignore glpi.forbidExit (Script execution should be stopped to prevent further errors)
         }
     }

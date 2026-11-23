@@ -1,4 +1,4 @@
-name: "GLPI CI"
+name: "Parto CI"
 
 permissions:
   contents: "read"
@@ -290,7 +290,7 @@ jobs:
       - name: "Show versions"
         run: |
           .github/actions/init_show-versions.sh
-      - name: "Build GLPI's dependencies and translations"
+      - name: "Build Parto's dependencies and translations"
         run: |
           docker compose exec -T app .github/actions/init_build.sh
       - name: Install Playwright Browsers

@@ -1675,7 +1675,7 @@ TWIG, $twig_params);
             $columns['sync_field'] = __('Synchronization field');
         }
         $columns['user'] = User::getTypeName(1);
-        $columns['date_mod'] = $values['mode'] ? __('Last update in GLPI') : __('Last update in the LDAP directory');
+        $columns['date_mod'] = $values['mode'] ? __('Last update in Parto') : __('Last update in the LDAP directory');
 
         TemplateRenderer::getInstance()->display('components/datatable.html.twig', [
             'is_tab' => false,

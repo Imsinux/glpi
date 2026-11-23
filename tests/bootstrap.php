@@ -63,7 +63,7 @@ if (!file_exists(GLPI_CONFIG_DIR . '/config_db.php')) {
     exit(1);
 }
 if (Update::isUpdateMandatory()) {
-    echo 'The GLPI codebase has been updated. The update of the GLPI database is necessary.' . PHP_EOL;
+    echo 'The Parto codebase has been updated. The update of the Parto database is necessary.' . PHP_EOL;
     exit(1);
 }
 

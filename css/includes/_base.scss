@@ -31,6 +31,10 @@
  * ---------------------------------------------------------------------
  */
 
+:root:lang(fa) {
+    --tblr-font-sans-serif: vazirmatn, inter, sans-serif;
+}
+
 :root {
     --tblr-light: #fafbfc;
     --tblr-dark: #101923;
@@ -62,12 +66,12 @@
     --glpi-tabs-active-bg: var(--tblr-bg-surface);
     --glpi-tabs-active-fg: var(--tblr-body-color);
     --glpi-tabs-active-border-color: var(--glpi-tabs-border-color);
-    --glpi-logo-light: url("../pics/logos/logo-GLPI-100-white.png");
-    --glpi-logo-light-reduced: url("../pics/logos/logo-G-100-white.png");
-    --glpi-logo-dark: url("../pics/logos/logo-GLPI-100-black.png");
-    --glpi-logo-dark-reduced: url("../pics/logos/logo-G-100-black.png");
-    --glpi-logo-dark-login: url("../pics/logos/logo-GLPI-250-black.png");
-    --glpi-logo-light-login: url("../pics/logos/logo-GLPI-250-white.png");
+    --glpi-logo-light: url("../pics/logos/iransolar.png");
+    --glpi-logo-light-reduced: url("../pics/logos/iransolar-icon.png");
+    --glpi-logo-dark: url("../pics/logos/parto.png");
+    --glpi-logo-dark-reduced: url("../pics/logos/iransolar-icon.png");
+    --glpi-logo-dark-login: url("../pics/logos/parto.png");
+    --glpi-logo-light-login: url("../pics/logos/iransolar.png");
     --glpi-logo: var(--glpi-logo-light);
     --glpi-logo-reduced: var(--glpi-logo-light-reduced);
     --glpi-mainmenu-bg: #2f3f64; // hsl(222, 36%, 29%)
@@ -165,9 +169,9 @@ body.in_modal {
 
 .page {
     .glpi-logo {
-        background: var(--glpi-logo) no-repeat;
+        background: var(--glpi-logo) center / contain no-repeat;
         height: 55px;
-        width: 100px;
+        width: 150px;
     }
 
     .page-body {
@@ -343,11 +347,24 @@ body.in_modal {
     width: fit-content;
 }
 
+.login-page {
+    display: flow-root;
+    min-height: 100dvh;
+    background: #17598a url("../pics/backgrounds/itsm-network-hub.png") 28% center / cover no-repeat;
+
+    .main-content-card {
+        inline-size: calc(100% - 1.5rem);
+        max-inline-size: 34rem;
+        margin-inline: auto;
+    }
+}
+
 .page-anonymous {
     .glpi-logo {
         --logo: var(--glpi-logo-dark-login);
 
         content: var(--logo);
+        object-fit: contain;
         width: 200px;
         height: 110px;
     }

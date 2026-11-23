@@ -280,7 +280,7 @@ abstract class AbstractRequest
                     }
                 }
             } elseif ($auth_required !== Conf::NO_AUTH) {
-                $this->addError('Server configuration error: invalid inventory authentication setting. Please configure the Inventory → Authorization header in GLPI.', 503);
+                $this->addError('Server configuration error: invalid inventory authentication setting. Please configure the Inventory → Authorization header in Parto.', 503);
                 return false;
             }
         }

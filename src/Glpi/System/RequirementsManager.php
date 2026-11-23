@@ -131,7 +131,7 @@ class RequirementsManager
             __('Sodium ChaCha20-Poly1305 size constant'),
             'SODIUM_CRYPTO_AEAD_XCHACHA20POLY1305_IETF_NPUBBYTES',
             false,
-            __('Enable usage of ChaCha20-Poly1305 encryption required by GLPI. This is provided by libsodium 1.0.12 and newer.')
+            __('Enable usage of ChaCha20-Poly1305 encryption required by Parto. This is provided by libsodium 1.0.12 and newer.')
         );
         $requirements[] = new Extension(
             'openssl',
@@ -146,7 +146,7 @@ class RequirementsManager
         $requirements[] = new LogsWriteAccess(GLPI_LOG_DIR);
 
         $requirements[] = new DirectoriesWriteAccess(
-            __('Permissions for GLPI data directories'),
+            __('Permissions for Parto data directories'),
             array_filter(
                 Variables::getDataDirectories(),
                 function ($directory) {

@@ -1,6 +1,6 @@
-# GLPI support
+# Parto support
 
-Looking for help on usage, capabilities or even configuration of your GLPI instance?
+Looking for help on usage, capabilities or even configuration of your Parto instance?
 
 You can ask on:
 - [GLPI forums](https://forum.glpi-project.org),

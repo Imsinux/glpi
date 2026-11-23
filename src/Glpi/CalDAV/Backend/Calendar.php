@@ -295,7 +295,7 @@ class Calendar extends AbstractBackend
     private function convertVCalendarToCalendarObject(VCalendar $vcalendar)
     {
 
-        $vcalendar->PRODID = '-//glpi-project.org//GLPI CalDAV server//EN';
+        $vcalendar->PRODID = '-//glpi-project.org//Parto CalDAV server//EN';
 
         $calendardata  = $vcalendar->serialize();
         $vcomponent    = $vcalendar->getBaseComponent();

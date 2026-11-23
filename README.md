@@ -1,15 +1,10 @@
-![GLPI Logo](https://raw.githubusercontent.com/glpi-project/glpi/main/public/pics/logos/logo-GLPI-250-black.png)
+![Parto](public/pics/logos/parto.png)
 
-![GLPI CI](https://github.com/glpi-project/glpi/workflows/GLPI%20CI/badge.svg?branch=9.5%2Fbugfixes)
-[![Github All Releases](https://img.shields.io/github/downloads/glpi-project/glpi/total.svg)](#download)
-[![Twitter Follow](https://img.shields.io/twitter/follow/GLPI_PROJECT.svg?style=social&label=Follow)](https://twitter.com/GLPI_PROJECT)
+## Parto (پرتو)
 
+Parto (پرتو) is an asset management and IT service desk application based on GLPI. It provides ITIL service desk features, license tracking and software auditing.
 
-## About GLPI
-
-GLPI stands for **Gestionnaire Libre de Parc Informatique** is a Free Asset and IT Management Software package, that provides ITIL Service Desk features, licenses tracking and software auditing.
-
-Major GLPI Features:
+### Features
 
 * **Service Asset and Configuration Management (SACM)**: Manages your IT assets and configurations, tracks computers, peripherals, network printers, and their associated components. With native dynamic inventory management from version 10 onwards, you can maintain an up-to-date configuration database, ensuring accurate and timely information about your assets.
 
@@ -43,7 +38,7 @@ Major GLPI Features:
 
 Moreover, supports many [plugins](http://plugins.glpi-project.org) that provide additional features.
 
-## Demonstration
+## Upstream demonstration
 
 Check GLPI features by asking for a free personal demonstration on **[glpi-network.cloud](https://www.glpi-network.cloud)**
 
@@ -51,7 +46,7 @@ Check GLPI features by asking for a free personal demonstration on **[glpi-netwo
 
 ![license](https://img.shields.io/github/license/glpi-project/glpi.svg)
 
-It is distributed under the GNU GENERAL PUBLIC LICENSE Version 3 - please consult the file called [LICENSE](https://raw.githubusercontent.com/glpi-project/glpi/main/LICENSE) for more details.
+It is distributed under the GNU GENERAL PUBLIC LICENSE Version 3 - please consult the file called [LICENSE](LICENSE) for more details.
 
 ## Some screenshots
 
@@ -99,13 +94,13 @@ It is distributed under the GNU GENERAL PUBLIC LICENSE Version 3 - please consul
 Please, consider using browsers on editor's supported version
 
 
-## Download
+## Upstream releases
 
 See :
 * [releases](https://github.com/glpi-project/glpi/releases) for tarball packages.
 
 
-## Documentation
+## Upstream documentation
 
 * [GLPI Administrator](https://glpi-install.readthedocs.io)
     * Install & Update
@@ -142,7 +137,7 @@ See :
     * Usage and features for some GLPI plugins
     * [Contribute to this documentation!](https://github.com/pluginsglpi/doc)
 
-## Additional resources
+## Upstream resources
 
 * [Official website](http://glpi-project.org)
 * [Demo](https://www.glpi-network.cloud)
@@ -156,6 +151,4 @@ See :
 
 
 ## Support
-GLPI is a living software. Improvements are continuously made, new functionalities are being developed, and issues are being fixed.
-
 To ease support and development, we need your help when encountering issues.

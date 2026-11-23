@@ -1400,18 +1400,18 @@ msgstr "هشدار"
 #: js/glpi_dialog.js:519 js/modules/ObjectLock.js:104
 msgid "Error"
 msgid_plural "Errors"
-msgstr[0] "Error"
-msgstr[1] "Errors"
+msgstr[0] "خطا"
+msgstr[1] "خطاها"
 
 #: templates/install/step0.html.twig
-msgid "Installation or update of GLPI"
-msgstr "نصب یا به‌روزرسانی GLPI"
+msgid "Installation or update of Parto"
+msgstr "نصب یا به‌روزرسانی پرتو"
 
 #: templates/install/step0.html.twig
 msgid ""
-"Choose 'Install' for a completely new installation of GLPI, or select "
-"'Upgrade' to update your version of GLPI from an earlier version."
-msgstr ""
+"Choose 'Install' for a completely new installation of Parto, or select "
+"'Upgrade' to update your version of Parto from an earlier version."
+msgstr "برای نصب تازهٔ پرتو، «نصب» را انتخاب کنید. برای به‌روزرسانی نسخهٔ قبلی، «ارتقا» را انتخاب کنید."
 
 #: templates/install/step0.html.twig src/Computer.php:411 src/Plugin.php:2935
 #: src/Plugin.php:3151 src/Item_SoftwareVersion.php:1046
@@ -1510,19 +1510,19 @@ msgstr "دوباره تلاش کنید"
 #: templates/install/update.need_update.html.twig
 #: src/Glpi/Console/Application.php:289
 msgid ""
-"The GLPI codebase has been updated. The update of the GLPI database is "
+"The Parto codebase has been updated. The update of the Parto database is "
 "necessary."
 msgstr ""
-"کدهای GLPI به‌روز شدند. لازم است پایگاه داده GLPI نیز به‌روزرسانی شود."
+"کدهای پرتو به‌روز شدند. لازم است پایگاه داده پرتو نیز به‌روزرسانی شود."
 
 #: templates/install/update.need_update.html.twig
 msgid ""
-"You are trying to use GLPI with outdated files compared to the version of "
-"the database. Please install the correct GLPI files corresponding to the "
+"You are trying to use Parto with outdated files compared to the version of "
+"the database. Please install the correct Parto files corresponding to the "
 "version of your database."
 msgstr ""
-"شما در حال استفاده از GLPI با فایل‌های قدیمی‌تر نسبت به نسخه پایگاه داده "
-"هستید. لطفاً نسخه صحیح فایل‌های GLPI متناسب با پایگاه داده خود را نصب کنید."
+"شما در حال استفاده از پرتو با فایل‌های قدیمی‌تر نسبت به نسخه پایگاه داده "
+"هستید. لطفاً نسخه صحیح فایل‌های پرتو متناسب با پایگاه داده خود را نصب کنید."
 
 #: templates/install/step1.html.twig
 msgid "Checking write access to configuration files"
@@ -1546,8 +1546,8 @@ msgstr ""
 
 #: templates/install/step1.html.twig
 msgid ""
-"Checking of the compatibility of your environment with the execution of GLPI"
-msgstr "در حال بررسی سازگاری محیط شما با اجرای GLPI"
+"Checking of the compatibility of your environment with the execution of Parto"
+msgstr "در حال بررسی سازگاری محیط شما با اجرای پرتو"
 
 #: templates/install/step1.html.twig src/Glpi/Console/AbstractCommand.php:269
 msgid "Do you want to continue?"
@@ -1576,12 +1576,12 @@ msgstr "لطفاً گزینه نسخه ناپایدار را علامت بزنی
 
 #: templates/install/install.install_required.html.twig install/update.php:98
 #: install/update.php:118 install/install.php:66 install/install.php:88
-msgid "GLPI setup"
-msgstr "GLPI setup"
+msgid "Parto setup"
+msgstr "راه‌اندازی پرتو"
 
 #: templates/install/install.install_required.html.twig
-msgid "The GLPI database must be configured and installed."
-msgstr "The GLPI database must be configured and installed."
+msgid "The Parto database must be configured and installed."
+msgstr "پایگاه دادهٔ پرتو باید پیکربندی و نصب شود."
 
 #: templates/install/install.install_required.html.twig
 msgid "Go to install page"
@@ -1590,10 +1590,8 @@ msgstr "Go to install page"
 #: templates/install/install.install_required.html.twig
 msgid ""
 "If you see this page when the installation has already been done, it means "
-"that the GLPI database configuration file has been removed or corrupted."
-msgstr ""
-"If you see this page when the installation has already been done, it means "
-"that the GLPI database configuration file has been removed or corrupted."
+"that the Parto database configuration file has been removed or corrupted."
+msgstr "اگر پس از نصب این صفحه را می‌بینید، فایل پیکربندی پایگاه دادهٔ پرتو حذف شده یا آسیب دیده است."
 
 #: templates/install/step8.html.twig
 msgid "The installation is finished"
@@ -1625,13 +1623,13 @@ msgstr "شما می‌توانید این حساب‌ها و داده‌های �
 
 #: templates/install/step8.html.twig
 #: templates/install/post_update_step.html.twig
-msgid "Use GLPI"
-msgstr "استفاده از GLPI"
+msgid "Use Parto"
+msgstr "ورود به پرتو"
 
 #: templates/install/post_update_step.html.twig
 #: src/Glpi/Console/Database/UpdateCommand.php:286
-msgid "The database schema is not consistent with the current GLPI version."
-msgstr "ساختار پایگاه داده با نسخه فعلی GLPI مطابقت ندارد."
+msgid "The database schema is not consistent with the current Parto version."
+msgstr "ساختار پایگاه داده با نسخه فعلی پرتو مطابقت ندارد."
 
 #: templates/install/post_update_step.html.twig
 #: src/Glpi/Console/Database/UpdateCommand.php:288
@@ -5100,7 +5098,7 @@ msgstr "هشدارها برای اطلاعات مالی و اداری"
 #: templates/layout/parts/page_header_empty.html.twig
 #: templates/layout/parts/page_header.html.twig
 msgid "Go to main content"
-msgstr ""
+msgstr "رفتن به محتوای اصلی"
 
 #: templates/layout/page_card_notlogged.html.twig
 #: templates/layout/parts/user_header.html.twig src/DocumentType.php:181
@@ -6203,8 +6201,8 @@ msgstr ""
 
 #: templates/pages/setup/crontask/crontask.html.twig src/Plugin.php:2220
 #: src/CronTask.php:892 src/RuleImportEntity.php:134
-msgid "GLPI"
-msgstr "GLPI"
+msgid "Parto"
+msgstr "پرتو"
 
 #: templates/pages/setup/crontask/crontask.html.twig src/CronTask.php:893
 msgid "CLI"
@@ -6370,8 +6368,8 @@ msgid "Action when a user is restored in the LDAP directory"
 msgstr "عملیات هنگام بازیابی کاربر در فهرست LDAP"
 
 #: templates/pages/setup/authentication/setup.html.twig
-msgid "GLPI server time zone"
-msgstr "منطقه زمانی سرور GLPI"
+msgid "Parto server time zone"
+msgstr "منطقهٔ زمانی سرور پرتو"
 
 #: templates/pages/setup/authentication/setup.html.twig
 msgid "Actions when a user is deleted from the LDAP directory"
@@ -6984,12 +6982,9 @@ msgstr "Secret"
 #: templates/pages/setup/webhook/webhook_security.html.twig
 msgid ""
 "The webhook secret can be shared with a target server to allow it to "
-"validate requests are actually coming from the GLPI server and that the "
-"content was not modified between GLPI and the target."
-msgstr ""
-"The webhook secret can be shared with a target server to allow it to "
-"validate requests are actually coming from the GLPI server and that the "
-"content was not modified between GLPI and the target."
+"validate requests are actually coming from the Parto server and that the "
+"content was not modified between Parto and the target."
+msgstr "با اشتراک‌گذاری کلید محرمانهٔ وب‌هوک، سرور مقصد می‌تواند بررسی کند که درخواست را پرتو فرستاده و محتوای آن در مسیر تغییر نکرده است."
 
 #: templates/pages/setup/webhook/webhook_security.html.twig
 msgid "Expiration delay"
@@ -7002,16 +6997,13 @@ msgstr "Target authentication"
 #: templates/pages/setup/webhook/webhook_security.html.twig
 msgid ""
 "Challenge–response authentication can be used to validate the identity of "
-"the target server before any data is sent from GLPI. This uses the shared "
+"the target server before any data is sent from Parto. This uses the shared "
 "secret that was generated in the above section."
-msgstr ""
-"Challenge–response authentication can be used to validate the identity of "
-"the target server before any data is sent from GLPI. This uses the shared "
-"secret that was generated in the above section."
+msgstr "احراز هویت چالش و پاسخ با کلید مشترک بخش بالا، هویت سرور مقصد را پیش از ارسال داده از پرتو بررسی می‌کند."
 
 #: templates/pages/setup/webhook/webhook_security.html.twig
-msgid "CRA is mandatory due to GLPI configuration"
-msgstr "CRA is mandatory due to GLPI configuration"
+msgid "CRA is mandatory due to Parto configuration"
+msgstr "پیکربندی پرتو احراز هویت چالش و پاسخ را الزامی می‌کند."
 
 #: templates/pages/setup/webhook/webhook_security.html.twig
 msgid "Use CRA Challenge?"
@@ -7144,11 +7136,8 @@ msgstr "تنظیمات اسناد"
 msgid ""
 "The maximum upload size is primarily determined by the "
 "\"upload_max_filesize\" and \"post_max_size\" PHP settings. The setting "
-"below is to further restrict the uploads for just GLPI."
-msgstr ""
-"The maximum upload size is primarily determined by the "
-"\"upload_max_filesize\" and \"post_max_size\" PHP settings. The setting "
-"below is to further restrict the uploads for just GLPI."
+"below is to further restrict the uploads for just Parto."
+msgstr "حداکثر اندازهٔ بارگذاری با تنظیمات upload_max_filesize و post_max_size در PHP تعیین می‌شود. تنظیم زیر می‌تواند این حد را در پرتو کاهش دهد."
 
 #: templates/pages/setup/general/management_setup.html.twig
 msgid "Document files maximum size (Mio)"
@@ -7297,8 +7286,8 @@ msgstr ""
 "automatic action."
 
 #: templates/pages/setup/general/systeminfo_form.html.twig
-msgid "GLPI update"
-msgstr "GLPI update"
+msgid "Parto update"
+msgstr "به‌روزرسانی پرتو"
 
 #: templates/pages/setup/general/systeminfo_form.html.twig
 msgid "Check if a new version is available"
@@ -7403,8 +7392,8 @@ msgstr "افزونه %s نصب شده است"
 
 #: templates/pages/setup/general/performance.html.twig
 #, php-format
-msgid "Installing and enabling the \"%s\" extension may improve GLPI performance"
-msgstr "نصب و فعال‌سازی افزونه \"%s\" ممکن است عملکرد GLPI را بهبود بخشد"
+msgid "Installing and enabling the \"%s\" extension may improve Parto performance"
+msgstr "نصب و فعال‌سازی افزونه \"%s\" ممکن است عملکرد پرتو را بهبود بخشد"
 
 #: templates/pages/setup/general/performance.html.twig src/Config.php:1306
 #: src/Glpi/System/Requirement/Extension.php:81
@@ -7541,8 +7530,8 @@ msgid "Display counters"
 msgstr "نمایش شمارنده‌ها"
 
 #: templates/pages/setup/general/preferences_setup.html.twig
-msgid "Show GLPI ID"
-msgstr "نمایش شناسه GLPI"
+msgid "Show Parto ID"
+msgstr "نمایش شناسهٔ پرتو"
 
 #: templates/pages/setup/general/preferences_setup.html.twig
 msgid "Keep devices when purging an item"
@@ -7872,9 +7861,9 @@ msgstr ""
 
 #: templates/pages/setup/general/general_setup.html.twig
 msgid ""
-"Do not use this option if your GLPI is reachable from the internet. Use at "
+"Do not use this option if your Parto is reachable from the internet. Use at "
 "your own risk."
-msgstr ""
+msgstr "اگر پرتو از اینترنت در دسترس است، این گزینه را فعال نکنید. مسئولیت استفاده از این گزینه با شماست."
 
 #: templates/pages/setup/general/general_setup.html.twig
 msgid "Dynamic display"
@@ -8048,10 +8037,8 @@ msgstr "ثبت‌نام"
 #: templates/pages/setup/general/glpinetwork_setup.html.twig
 msgid ""
 "A registration key is needed to use some advanced features (like the plugin "
-"marketplace) in GLPI"
-msgstr ""
-"A registration key is needed to use some advanced features (like the plugin "
-"marketplace) in GLPI"
+"marketplace) in Parto"
+msgstr "برای استفاده از برخی امکانات پیشرفتهٔ پرتو، مانند بازار افزونه‌ها، کلید ثبت لازم است."
 
 #: templates/pages/setup/general/glpinetwork_setup.html.twig
 #, php-format
@@ -8229,8 +8216,8 @@ msgid "Seconds behind source:"
 msgstr "Seconds behind source:"
 
 #: templates/pages/setup/general/dbreplica_setup.html.twig
-msgid "GLPI history delay:"
-msgstr "GLPI history delay:"
+msgid "Parto history delay:"
+msgstr "تأخیر تاریخچهٔ پرتو:"
 
 #: templates/pages/setup/general/dbreplica_setup.html.twig src/Ticket.php:2207
 #: src/HTMLTableMain.php:231 src/Infocom.php:812 src/ProjectTask.php:911
@@ -8252,11 +8239,9 @@ msgstr "هیچ‌کدام"
 
 #: templates/pages/setup/general/dbreplica_setup.html.twig
 msgid ""
-"This indicates the delay between the source and the replica for GLPI history"
+"This indicates the delay between the source and the replica for Parto history"
 " (table: glpi_logs, column: date_mod)."
-msgstr ""
-"This indicates the delay between the source and the replica for GLPI history"
-" (table: glpi_logs, column: date_mod)."
+msgstr "تأخیر همگام‌سازی تاریخچهٔ پرتو بین پایگاه دادهٔ اصلی و نسخهٔ همتا را نشان می‌دهد (جدول glpi_logs، ستون date_mod)."
 
 #: templates/pages/setup/general/dbreplica_setup.html.twig
 msgid "IO running:"
@@ -9173,8 +9158,8 @@ msgstr "اعلان‌های ایمیلی"
 
 #: templates/pages/oauth/authorize.html.twig
 #, php-format
-msgid "%s wants to access your GLPI account"
-msgstr "%s wants to access your GLPI account"
+msgid "%s wants to access your Parto account"
+msgstr "«%s» درخواست دسترسی به حساب پرتو شما را دارد."
 
 #: templates/pages/oauth/authorize.html.twig
 msgid ""
@@ -9633,9 +9618,9 @@ msgstr ""
 
 #: templates/pages/reauth/prompt.html.twig
 msgid ""
-"The action you requested may change GLPI behavior or display confidential "
+"The action you requested may change Parto behavior or display confidential "
 "data."
-msgstr ""
+msgstr "اقدام درخواستی شما ممکن است رفتار پرتو را تغییر دهد یا اطلاعات محرمانه را نمایش دهد."
 
 #: templates/pages/form_renderer.html.twig
 msgid "Untitled section"
@@ -9829,8 +9814,8 @@ msgid "Debug"
 msgstr "اشکال‌زدایی"
 
 #: templates/pages/admin/user/user.html.twig
-msgid "Use GLPI in mode"
-msgstr "استفاده از GLPI در حالت"
+msgid "Use Parto in mode"
+msgstr "استفاده از پرتو در حالت"
 
 #: templates/pages/admin/user/user.html.twig
 msgid "Contact information"
@@ -10792,10 +10777,8 @@ msgstr ""
 #: templates/pages/admin/customobjects/main.html.twig
 msgid ""
 "It can be personalized, but some words are reserved such as classes from "
-"GLPI like Computer, Monitor, etc."
-msgstr ""
-"It can be personalized, but some words are reserved such as classes from "
-"GLPI like Computer, Monitor, etc."
+"Parto like Computer, Monitor, etc."
+msgstr "می‌توانید این نام را تغییر دهید. برخی نام‌ها، از جمله نام کلاس‌های پرتو مانند Computer و Monitor، رزرو شده‌اند."
 
 #: templates/pages/admin/customobjects/main.html.twig
 #, php-format
@@ -11462,8 +11445,8 @@ msgid "Alter asset fields based on their data"
 msgstr "Alter asset fields based on their data"
 
 #: templates/pages/admin/rules/index.html.twig
-msgid "The asset is created or updated in GLPI"
-msgstr "The asset is created or updated in GLPI"
+msgid "The asset is created or updated in Parto"
+msgstr "دارایی در پرتو ایجاد یا به‌روزرسانی شد"
 
 #: templates/pages/admin/rules/index.html.twig
 msgid "You do not have the required permissions"
@@ -12357,10 +12340,8 @@ msgstr "Please select the type that represents the best the asset."
 #: templates/pages/admin/assetdefinition/capacity/is_inventoriable_capacity_configuration_form.html.twig
 msgid ""
 "We need this information to send the inventory file in the correct inventory"
-" engine of the GLPI framework."
-msgstr ""
-"We need this information to send the inventory file in the correct inventory"
-" engine of the GLPI framework."
+" engine of the Parto framework."
+msgstr "پرتو برای فرستادن فایل موجودی به موتور پردازش مناسب به این اطلاعات نیاز دارد."
 
 #: templates/pages/admin/assetdefinition/fields_display.html.twig
 #: js/src/vue/CustomObject/FieldPreview/Sidebar.vue:58
@@ -12401,7 +12382,7 @@ msgstr "واگذار شده"
 
 #: templates/pages/login.html.twig
 msgid "Login to your account"
-msgstr "ورود به حساب کاربری شما"
+msgstr "ورود به حساب کاربری"
 
 #: templates/pages/login.html.twig
 msgid "Login source"
@@ -12418,7 +12399,7 @@ msgstr "ورود"
 #: templates/pages/login.html.twig templates/forgotpassword.html.twig
 #: src/NotificationTargetUser.php:48
 msgid "Forgotten password?"
-msgstr "کلمه عبور را فراموش کرده‌اید؟"
+msgstr "گذرواژه را فراموش کرده‌اید؟"
 
 #: templates/pages/login.html.twig front/helpdesk.faq.php:78
 #: front/helpdesk.faq.php:82 front/helpdesk.faq.php:84
@@ -13986,8 +13967,8 @@ msgid "PHP OPcache reset successful"
 msgstr "بازنشانی OPcache PHP با موفقیت انجام شد"
 
 #: front/config.form.php:78
-msgid "GLPI cache reset successful"
-msgstr "بازنشانی کش GLPI با موفقیت انجام شد"
+msgid "Parto cache reset successful"
+msgstr "بازنشانی کش پرتو با موفقیت انجام شد"
 
 #: front/config.form.php:86
 msgid "Translation cache reset successful"
@@ -18764,8 +18745,8 @@ msgstr "Replay dictionary rules for manufacturers"
 
 #: src/RuleDictionnarySoftwareCollection.php:309
 #: src/RuleDictionnarySoftwareCollection.php:439
-msgid "Software deleted by GLPI dictionary rules"
-msgstr "نرم‌افزار توسط قواعد فرهنگ GLPI حذف شد"
+msgid "Software deleted by Parto dictionary rules"
+msgstr "نرم‌افزار توسط قواعد فرهنگ پرتو حذف شد"
 
 #: src/DevicePciModel.php:44
 msgid "Other component model"
@@ -19221,8 +19202,8 @@ msgid "Synchronize"
 msgstr "همگام‌سازی"
 
 #: src/AuthLDAP.php:1678
-msgid "Last update in GLPI"
-msgstr "آخرین بروزرسانی در GLPI"
+msgid "Last update in Parto"
+msgstr "آخرین بروزرسانی در پرتو"
 
 #: src/AuthLDAP.php:1678
 msgid "Last update in the LDAP directory"
@@ -19703,8 +19684,8 @@ msgstr "این افزونه نیازمند پارامتر PHP با نام %1$s �
 
 #: src/Plugin.php:2282
 #, php-format
-msgid "This plugin requires GLPI parameter %1$s"
-msgstr "این افزونه نیازمند پارامتر GLPI با نام %1$s است"
+msgid "This plugin requires Parto parameter %1$s"
+msgstr "این افزونه نیازمند پارامتر پرتو با نام %1$s است"
 
 #: src/Plugin.php:2613
 msgctxt "plugin"
@@ -20082,8 +20063,8 @@ msgstr "Update to %s version completed."
 
 #: src/Migration.php:820
 #, php-format
-msgid "Automatically generated by GLPI %s"
-msgstr "به طور خودکار توسط GLPI %s تولید شده است"
+msgid "Automatically generated by Parto %s"
+msgstr "به طور خودکار توسط پرتو %s تولید شده است"
 
 #. TRANS: %s is the table or item to migrate
 #: src/Migration.php:876 install/migrations/update_9.1.x_to_9.2.0.php:1211
@@ -21067,8 +21048,8 @@ msgid "Unsupported mail server type:%s."
 msgstr "نوع سرور ایمیل پشتیبانی نمی‌شود: %s."
 
 #: src/Auth.php:355 src/Auth.php:1057 src/Auth.php:1079 src/Auth.php:1107
-msgid "User not authorized to connect in GLPI"
-msgstr "کاربر مجاز به اتصال در GLPI نیست"
+msgid "User not authorized to connect in Parto"
+msgstr "کاربر مجاز به اتصال در پرتو نیست"
 
 #: src/Auth.php:486
 msgid ""
@@ -21120,8 +21101,8 @@ msgid "Failed login for %1$s from IP %2$s"
 msgstr "ورود ناموفق %1$s از آی‌پی %2$s"
 
 #: src/Auth.php:1241
-msgid "Authentication on GLPI database"
-msgstr "تصدیق هویت در پایگاه داده GLPI"
+msgid "Authentication on Parto database"
+msgstr "تصدیق هویت در پایگاه داده پرتو"
 
 #: src/Auth.php:1255 src/Auth.php:1270
 msgid "Authentication on a LDAP directory"
@@ -21149,8 +21130,8 @@ msgid "CAS"
 msgstr "CAS"
 
 #: src/Auth.php:1333 src/Auth.php:1767
-msgid "GLPI internal database"
-msgstr "پایگاه داده داخلی GLPI"
+msgid "Parto internal database"
+msgstr "پایگاه دادهٔ داخلی پرتو"
 
 #: src/Auth.php:1345 src/Auth.php:1350 src/Auth.php:1355
 #, php-format
@@ -24457,11 +24438,11 @@ msgstr "بازنشانی گذرواژه با موفقیت انجام شد"
 
 #: src/User.php:5891 src/Glpi/Api/API.php:2286
 msgid ""
-"If the given email address corresponds to one and only one GLPI user, you "
+"If the given email address corresponds to one and only one Parto user, you "
 "will receive an email containing the information required to reset your "
 "password. Please contact your administrator if you do not receive an email."
 msgstr ""
-"اگر آدرس ایمیل وارد شده به یک کاربر مشخص در GLPI تعلق داشته باشد، ایمیلی "
+"اگر آدرس ایمیل وارد شده به یک کاربر مشخص در پرتو تعلق داشته باشد، ایمیلی "
 "حاوی اطلاعات لازم برای بازیابی گذرواژه دریافت خواهید کرد. اگر ایمیلی دریافت "
 "نکردید، لطفاً با مدیر سیستم تماس بگیرید."
 
@@ -24659,8 +24640,8 @@ msgid "Running"
 msgstr "در حال اجرا"
 
 #: src/CronTask.php:956
-msgid "A minimum of 64 Mio is commonly required for GLPI."
-msgstr "حداقل 64 مگابایت معمولاً برای GLPI مورد نیاز است."
+msgid "A minimum of 64 Mio is commonly required for Parto."
+msgstr "حداقل 64 مگابایت معمولاً برای پرتو مورد نیاز است."
 
 #: src/CronTask.php:962
 msgid "No task with Run mode = CLI, fix your tasks configuration"
@@ -24801,11 +24782,9 @@ msgstr "تعداد روزهای نگهداری لاگ‌های آرشیو شده
 
 #: src/CronTask.php:2079
 msgid ""
-"You have at least one automatic action configured in GLPI mode, we advise "
+"You have at least one automatic action configured in Parto mode, we advise "
 "you to switch to CLI mode."
-msgstr ""
-"You have at least one automatic action configured in GLPI mode, we advise "
-"you to switch to CLI mode."
+msgstr "حداقل یک اقدام خودکار در حالت پرتو تنظیم شده است. توصیه می‌شود آن را در حالت خط فرمان (CLI) اجرا کنید."
 
 #: src/CronTask.php:2088
 msgid ""
@@ -25137,11 +25116,9 @@ msgstr "This will reset the columns to the defaults for a new installation."
 
 #: src/DisplayPreference.php:168
 msgid ""
-"This will only work for types from GLPI itself or enabled plugins that "
+"This will only work for types from Parto itself or enabled plugins that "
 "support this action."
-msgstr ""
-"This will only work for types from GLPI itself or enabled plugins that "
-"support this action."
+msgstr "این قابلیت برای انواع دادهٔ پرتو و افزونه‌های فعالی در دسترس است که از این عملیات پشتیبانی می‌کنند."
 
 #: src/DisplayPreference.php:713
 msgctxt "button"
@@ -26068,27 +26045,27 @@ msgstr "کلید ثبت معتبر است."
 #: src/GLPINetwork.php:248
 #, php-format
 msgid ""
-"You need help to integrate GLPI in your IT, have a bug fixed or benefit from pre-configured rules or dictionaries?\n"
+"You need help to integrate Parto in your IT, have a bug fixed or benefit from pre-configured rules or dictionaries?\n"
 "\n"
 "We provide the %s space for you.\n"
 "GLPI-Network is a commercial service that includes a subscription for tier 3 support, ensuring the correction of bugs encountered with a commitment time.\n"
 "\n"
-"In this same space, you will be able to contact an official partner to help you with your GLPI integration."
+"In this same space, you will be able to contact an official partner to help you with your Parto integration."
 msgstr ""
-"نیاز به کمک برای یکپارچه‌سازی GLPI در فناوری اطلاعات خود دارید، یا می‌خواهید باگ‌ها رفع شوند، یا از قوانین و واژه‌نامه‌های از پیش‌پیکربندی‌شده بهره ببرید؟\n"
+"نیاز به کمک برای یکپارچه‌سازی پرتو در فناوری اطلاعات خود دارید، یا می‌خواهید باگ‌ها رفع شوند، یا از قوانین و واژه‌نامه‌های از پیش‌پیکربندی‌شده بهره ببرید؟\n"
 "\n"
 "ما فضای %s را برای شما فراهم کرده‌ایم.\n"
 "GLPI-Network یک سرویس تجاری است که شامل اشتراکی برای پشتیبانی سطح ۳ می‌باشد و رفع باگ‌های مشاهده‌شده را با زمان تعهد تضمین می‌کند.\n"
 "\n"
-"در همین فضا، می‌توانید با یک شریک رسمی تماس بگیرید تا در یکپارچه‌سازی GLPI به شما کمک کند."
+"در همین فضا، می‌توانید با یک شریک رسمی تماس بگیرید تا در یکپارچه‌سازی پرتو به شما کمک کند."
 
 #: src/GLPINetwork.php:263
 #, php-format
 msgid ""
-"Having troubles setting up an advanced GLPI module?\n"
+"Having troubles setting up an advanced Parto module?\n"
 "We can help you solve them. Sign up for support on %s."
 msgstr ""
-"در راه‌اندازی یک ماژول پیشرفته GLPI مشکل دارید؟\n"
+"در راه‌اندازی یک ماژول پیشرفته پرتو مشکل دارید؟\n"
 "ما می‌توانیم در حل آن به شما کمک کنیم. برای دریافت پشتیبانی در %s ثبت‌نام کنید."
 
 #: src/Knowbase.php:67
@@ -26122,8 +26099,8 @@ msgstr[0] "منبع بروزرسانی"
 msgstr[1] "منابع بروزرسانی"
 
 #: src/AutoUpdateSystem.php:49
-msgid "GLPI Native Inventory"
-msgstr "موجودی بومی (GLPI)"
+msgid "Parto Native Inventory"
+msgstr "موجودی بومی (پرتو)"
 
 #: src/VirtualMachineType.php:44
 msgid "Virtualization system"
@@ -27514,8 +27491,8 @@ msgstr ""
 "پلاگین‌های آن را بهبود دهیم!"
 
 #: src/Telemetry.php:487
-msgid "Reference your GLPI"
-msgstr "ثبت مرجع GLPI شما"
+msgid "Reference your Parto"
+msgstr "ثبت نسخهٔ پرتو شما"
 
 #: src/Telemetry.php:489
 #, php-format
@@ -27947,11 +27924,9 @@ msgstr[1] "سوکت‌ها"
 
 #: src/Glpi/Console/Build/GenerateCodeManifestCommand.php:58
 msgid ""
-"Generate GLPI source code manifest that could be used to validate source "
+"Generate Parto source code manifest that could be used to validate source "
 "code integrity."
-msgstr ""
-"Generate GLPI source code manifest that could be used to validate source "
-"code integrity."
+msgstr "ساخت فهرست فایل‌ها برای بررسی یکپارچگی کد منبع پرتو."
 
 #: src/Glpi/Console/Build/GenerateCodeManifestCommand.php:63
 msgid "Hash algorithm to use"
@@ -28058,9 +28033,9 @@ msgstr "Configuration directory to use. Deprecated option"
 
 #: src/Glpi/Console/Application.php:203
 msgid ""
-"Output language (default value is existing GLPI \"language\" configuration "
+"Output language (default value is existing Parto \"language\" configuration "
 "or \"en_GB\")"
-msgstr "زبان خروجی (مقدار پیش‌فرض پیکربندی موجود GLPI \"language\" یا \"en_GB\")"
+msgstr "زبان خروجی (مقدار پیش‌فرض پیکربندی موجود پرتو \"language\" یا \"en_GB\")"
 
 #: src/Glpi/Console/Application.php:214
 msgid "Allow the console to be executed by the root user"
@@ -28098,8 +28073,8 @@ msgid "Run the \"%1$s\" command for more details."
 msgstr "برای جزئیات بیشتر، فرمان \"%1$s\" را اجرا کنید."
 
 #: src/Glpi/Console/User/DisableCommand.php:48
-msgid "Disable a GLPI user"
-msgstr "Disable a GLPI user"
+msgid "Disable a Parto user"
+msgstr "غیرفعال کردن کاربر پرتو"
 
 #: src/Glpi/Console/User/DisableCommand.php:60
 msgid "User disabled"
@@ -28114,16 +28089,16 @@ msgid "User not found"
 msgstr "User not found"
 
 #: src/Glpi/Console/User/DeleteCommand.php:48
-msgid "Delete a GLPI user"
-msgstr "Delete a GLPI user"
+msgid "Delete a Parto user"
+msgstr "حذف کاربر پرتو"
 
 #: src/Glpi/Console/User/DeleteCommand.php:59
 msgid "User deleted"
 msgstr "User deleted"
 
 #: src/Glpi/Console/User/EnableCommand.php:48
-msgid "Enable a GLPI user"
-msgstr "Enable a GLPI user"
+msgid "Enable a Parto user"
+msgstr "فعال کردن کاربر پرتو"
 
 #: src/Glpi/Console/User/EnableCommand.php:60
 msgid "User enabled"
@@ -28154,8 +28129,8 @@ msgid "Passwords do not match"
 msgstr "Passwords do not match"
 
 #: src/Glpi/Console/User/CreateCommand.php:49
-msgid "Create a new local GLPI user"
-msgstr "Create a new local GLPI user"
+msgid "Create a new local Parto user"
+msgstr "ایجاد کاربر محلی جدید در پرتو"
 
 #: src/Glpi/Console/User/CreateCommand.php:60
 msgid "User already exists"
@@ -28170,8 +28145,8 @@ msgid "Failed to create user"
 msgstr "Failed to create user"
 
 #: src/Glpi/Console/User/ResetPasswordCommand.php:50
-msgid "Reset the password of a local GLPI user"
-msgstr "Reset the password of a local GLPI user"
+msgid "Reset the password of a local Parto user"
+msgstr "بازنشانی گذرواژهٔ کاربر محلی پرتو"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:120
 msgid "Update database schema to new version"
@@ -28189,19 +28164,19 @@ msgstr "اعتبارسنجی ساختار پایگاه داده قبل و بعد
 
 #: src/Glpi/Console/Database/UpdateCommand.php:140
 msgid ""
-"Force execution of update from v-1 version of GLPI even if schema did not "
+"Force execution of update from v-1 version of Parto even if schema did not "
 "changed"
 msgstr ""
-"اجرای اجباری به‌روزرسانی از نسخه v-1 GLPI حتی اگر ساختار پایگاه داده تغییر "
+"اجرای اجباری به‌روزرسانی از نسخه v-1 پرتو حتی اگر ساختار پایگاه داده تغییر "
 "نکرده باشد"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:182 install/install.php:449
 #, php-format
 msgid ""
-"Current GLPI version not found for database named \"%s\". Update cannot be "
+"Current Parto version not found for database named \"%s\". Update cannot be "
 "done."
 msgstr ""
-"نسخه فعلی GLPI برای پایگاه داده با نام \"%s\" یافت نشد. بروزرسانی امکان‌پذیر"
+"نسخه فعلی پرتو برای پایگاه داده با نام \"%s\" یافت نشد. بروزرسانی امکان‌پذیر"
 " نیست."
 
 #: src/Glpi/Console/Database/UpdateCommand.php:190
@@ -28227,12 +28202,12 @@ msgid "Database user"
 msgstr "کاربر پایگاه داده"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:194
-msgid "GLPI version"
-msgstr "نسخه GLPI"
+msgid "Parto version"
+msgstr "نسخه پرتو"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:196
-msgid "GLPI database version"
-msgstr "نسخه پایگاه داده GLPI"
+msgid "Parto database version"
+msgstr "نسخه پایگاه داده پرتو"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:203
 #: src/Glpi/Console/Migration/MyIsamToInnoDbCommand.php:86
@@ -28280,10 +28255,10 @@ msgstr "اعتبارسنجی ساختار پایگاه داده نادیده گ�
 #, php-format
 msgid ""
 "It is recommended to run the \"%s\" command to validate that the database "
-"schema is consistent with the current GLPI version."
+"schema is consistent with the current Parto version."
 msgstr ""
 "توصیه می‌شود فرمان \"%s\" اجرا شود تا اطمینان حاصل شود ساختار پایگاه داده با"
-" نسخه فعلی GLPI سازگار است."
+" نسخه فعلی پرتو سازگار است."
 
 #: src/Glpi/Console/Database/UpdateCommand.php:313
 msgid "Checking database schema integrity..."
@@ -28301,8 +28276,8 @@ msgstr ""
 #: src/Glpi/Console/Database/UpdateCommand.php:331
 #, php-format
 msgid ""
-"The database schema is not consistent with the installed GLPI version (%s)."
-msgstr "ساختار پایگاه داده با نسخه نصب‌شده GLPI (%s) سازگار نیست."
+"The database schema is not consistent with the installed Parto version (%s)."
+msgstr "ساختار پایگاه داده با نسخه نصب‌شده پرتو (%s) سازگار نیست."
 
 #: src/Glpi/Console/Database/UpdateCommand.php:333
 #, php-format
@@ -28493,8 +28468,8 @@ msgstr ""
 
 #: src/Glpi/Console/Database/IsUpToDateCommand.php:53
 msgid ""
-"Check if the database schema version matches the installed GLPI version."
-msgstr ""
+"Check if the database schema version matches the installed Parto version."
+msgstr "بررسی تطابق نسخهٔ ساختار پایگاه داده با نسخهٔ نصب‌شدهٔ پرتو."
 
 #: src/Glpi/Console/Database/IsUpToDateCommand.php:62
 msgid "The database is not up to date."
@@ -28543,11 +28518,11 @@ msgstr ""
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:163
 msgid ""
-"Plugin to check. If option is not used, checks will be done on GLPI core "
+"Plugin to check. If option is not used, checks will be done on Parto core "
 "database tables."
 msgstr ""
 "افزونه‌ای برای بررسی. در صورت عدم استفاده از این گزینه، بررسی‌ها روی جداول "
-"اصلی پایگاه داده GLPI انجام خواهد شد."
+"اصلی پایگاه داده پرتو انجام خواهد شد."
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:171
 #: src/Glpi/Console/AbstractCommand.php:113
@@ -28555,12 +28530,12 @@ msgid "Unable to connect to database."
 msgstr "امکان اتصال به پایگاه داده وجود ندارد."
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:204
-msgid "Unable to fetch GLPI version."
-msgstr ""
+msgid "Unable to fetch Parto version."
+msgstr "دریافت نسخهٔ پرتو امکان‌پذیر نیست."
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:216
-msgid "The database contains no GLPI tables."
-msgstr ""
+msgid "The database contains no Parto tables."
+msgstr "هیچ جدولی از پرتو در این پایگاه داده وجود ندارد."
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:217
 #, php-format
@@ -28593,8 +28568,8 @@ msgid "Unknown table \"%s\" has been found in database."
 msgstr "جدول ناشناخته \"%s\" در پایگاه داده یافت شد."
 
 #: src/Glpi/Console/Database/InstallCommand.php:112
-msgid "Default language of GLPI"
-msgstr "زبان پیش‌فرض GLPI"
+msgid "Default language of Parto"
+msgstr "زبان پیش‌فرض پرتو"
 
 #: src/Glpi/Console/Database/InstallCommand.php:120
 msgid "Force execution of installation, overriding existing database"
@@ -28795,10 +28770,10 @@ msgstr "فرمت DSN برای %s: %s"
 #: src/Glpi/Console/Cache/ConfigureCommand.php:126
 msgid ""
 "Cache namespace can be use to ensure either separation or sharing of "
-"multiple GLPI instances data on same cache system."
+"multiple Parto instances data on same cache system."
 msgstr ""
 "Namespace کش می‌تواند برای اطمینان از جداسازی یا به اشتراک‌گذاری داده‌های "
-"چند نمونه GLPI روی یک سیستم کش استفاده شود."
+"چند نمونه پرتو روی یک سیستم کش استفاده شود."
 
 #: src/Glpi/Console/Cache/ConfigureCommand.php:146
 msgid "Either --dsn or --use-default options have to be used."
@@ -29130,7 +29105,7 @@ msgstr "Disable 2FA for a user"
 #: src/Glpi/Console/Security/SessionRevokeCommand.php:55
 #: src/Glpi/Console/Security/SessionListCommand.php:52
 msgid "Username"
-msgstr "Username"
+msgstr "نام کاربری"
 
 #: src/Glpi/Console/Security/DisableTFACommand.php:62
 #: src/Glpi/Console/Security/SessionRevokeCommand.php:90
@@ -29438,11 +29413,9 @@ msgstr ""
 #: src/Glpi/Console/Marketplace/InfoCommand.php:59
 #: src/Glpi/Console/Marketplace/SearchCommand.php:62
 msgid ""
-"Access to the marketplace CLI commands is disallowed by the GLPI "
+"Access to the marketplace CLI commands is disallowed by the Parto "
 "configuration"
-msgstr ""
-"Access to the marketplace CLI commands is disallowed by the GLPI "
-"configuration"
+msgstr "پیکربندی پرتو دسترسی به دستورهای خط فرمان بازار افزونه‌ها را محدود کرده است."
 
 #: src/Glpi/Console/Marketplace/UpgradeCommand.php:72
 #: src/Glpi/Console/Marketplace/DownloadCommand.php:66
@@ -29465,8 +29438,8 @@ msgstr ""
 
 #: src/Glpi/Console/Marketplace/UpgradeCommand.php:123
 #, php-format
-msgid "Plugin \"%s\" is not available for your GLPI version."
-msgstr ""
+msgid "Plugin \"%s\" is not available for your Parto version."
+msgstr "افزونهٔ «%s» برای نسخهٔ پرتو شما در دسترس نیست."
 
 #: src/Glpi/Console/Marketplace/UpgradeCommand.php:132
 #, php-format
@@ -29609,8 +29582,8 @@ msgstr "Simulate the migration"
 #: src/Glpi/Console/Migration/FormCreatorPluginToCoreCommand.php:54
 #: src/Glpi/Console/Migration/DatabasesPluginToCoreCommand.php:62
 #, php-format
-msgid "Migrate %s plugin data into GLPI core tables"
-msgstr "Migrate %s plugin data into GLPI core tables"
+msgid "Migrate %s plugin data into Parto core tables"
+msgstr "انتقال داده‌های افزونهٔ %s به جدول‌های اصلی پرتو"
 
 #: src/Glpi/Console/Migration/DomainsPluginToCoreCommand.php:114
 #: src/Glpi/Console/Migration/DomainsPluginToCoreCommand.php:175
@@ -29724,10 +29697,10 @@ msgstr "Do not stop on import errors"
 
 #: src/Glpi/Console/Migration/AppliancesPluginToCoreCommand.php:159
 msgid ""
-"You are about to launch migration of Appliances plugin data into GLPI core "
+"You are about to launch migration of Appliances plugin data into Parto core "
 "tables."
 msgstr ""
-"در شُرُف آغاز مهاجرت داده‌های افزونهٔ Appliances به جداول اصلی GLPI هستید."
+"در شُرُف آغاز مهاجرت داده‌های افزونهٔ Appliances به جداول اصلی پرتو هستید."
 
 #: src/Glpi/Console/Migration/AppliancesPluginToCoreCommand.php:160
 msgid "Any previous appliance created in core will be lost."
@@ -29772,8 +29745,8 @@ msgid "Associable items to a ticket"
 msgstr "موارد قابل پیوند به یک تیکت"
 
 #: src/Glpi/Console/Migration/AppliancesPluginToCoreCommand.php:321
-msgid "Updating GLPI itemtypes..."
-msgstr "در حال به‌روزرسانی نوع آیتم‌های GLPI..."
+msgid "Updating Parto itemtypes..."
+msgstr "در حال به‌روزرسانی انواع اقلام پرتو…"
 
 #: src/Glpi/Console/Migration/AppliancesPluginToCoreCommand.php:369
 msgid "Creating Appliance Items..."
@@ -29869,8 +29842,8 @@ msgid "Found %s table(s) requiring a migration to \"ROW_FORMAT=DYNAMIC\"."
 msgstr "%s جدول نیازمند مهاجرت به \"ROW_FORMAT=DYNAMIC\" یافت شد."
 
 #: src/Glpi/Console/Migration/GenericobjectPluginToCoreCommand.php:53
-msgid "Migrate plugin data into GLPI core tables"
-msgstr "Migrate plugin data into GLPI core tables"
+msgid "Migrate plugin data into Parto core tables"
+msgstr "انتقال داده‌های افزونه به جدول‌های اصلی پرتو"
 
 #: src/Glpi/Console/Migration/ComputeDocumentsSizeCommand.php:56
 msgid "Computes the missing file sizes in the database."
@@ -29926,10 +29899,10 @@ msgstr ""
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:214
 msgid ""
-"You are about to launch migration of Racks plugin data into GLPI core "
+"You are about to launch migration of Racks plugin data into Parto core "
 "tables."
 msgstr ""
-"شما در حال شروع مهاجرت داده‌های افزونه Racks به جداول اصلی GLPI هستید."
+"شما در حال شروع مهاجرت داده‌های افزونه Racks به جداول اصلی پرتو هستید."
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:253
 msgid "Checking plugin version..."
@@ -29937,10 +29910,10 @@ msgstr "در حال بررسی نسخه افزونه..."
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:261
 msgid ""
-"Racks plugin is not part of GLPI plugin list. It has never been installed or"
+"Racks plugin is not part of Parto plugin list. It has never been installed or"
 " has been cleaned."
 msgstr ""
-"افزونه Racks جزو فهرست افزونه‌های GLPI نیست. این افزونه هرگز نصب نشده یا پاک"
+"افزونه Racks جزو فهرست افزونه‌های پرتو نیست. این افزونه هرگز نصب نشده یا پاک"
 " شده است."
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:264
@@ -29995,8 +29968,8 @@ msgid "Importing other models..."
 msgstr "در حال وارد کردن مدل‌های دیگر..."
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:514
-msgid "Other items do not exist in GLPI core."
-msgstr "آیتم‌های دیگر در هسته GLPI موجود نیستند."
+msgid "Other items do not exist in Parto core."
+msgstr "آیتم‌های دیگر در هسته پرتو موجود نیستند."
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:516
 #, php-format
@@ -30176,9 +30149,9 @@ msgstr "امکان ایجاد اتاق پیش‌فرض وجود ندارد."
 #: src/Glpi/Console/Migration/AbstractPluginToCoreCommand.php:106
 #, php-format
 msgid ""
-"You are about to launch migration of \"%s\" plugin data into GLPI core "
+"You are about to launch migration of \"%s\" plugin data into Parto core "
 "tables."
-msgstr "شما در شُرُف آغاز مهاجرت داده‌های افزونه \"%s\" به جداول اصلی GLPI هستید."
+msgstr "شما در شُرُف آغاز مهاجرت داده‌های افزونه \"%s\" به جداول اصلی پرتو هستید."
 
 #: src/Glpi/Console/Migration/AbstractPluginToCoreCommand.php:135
 #, php-format
@@ -30319,8 +30292,8 @@ msgid "Error migrating table \"%s\"."
 msgstr "خطا در مهاجرت جدول \"%s\"."
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:75
-msgid "Check GLPI source code file integrity."
-msgstr "Check GLPI source code file integrity."
+msgid "Check Parto source code file integrity."
+msgstr "بررسی یکپارچگی فایل‌های کد منبع پرتو."
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:80
 msgid "Show diff of altered files"
@@ -30332,16 +30305,16 @@ msgstr "Allow downloading the GLPI release if needed"
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:99
 #, php-format
-msgid "Failed to validate GLPI source code integrity. Error was: %s"
-msgstr "Failed to validate GLPI source code integrity. Error was: %s"
+msgid "Failed to validate Parto source code integrity. Error was: %s"
+msgstr "بررسی یکپارچگی کد منبع پرتو ناموفق بود. خطا: %s"
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:114
-msgid "GLPI source code integrity is validated."
-msgstr "GLPI source code integrity is validated."
+msgid "Parto source code integrity is validated."
+msgstr "یکپارچگی کد منبع پرتو تأیید شد."
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:118
-msgid "GLPI source code integrity is not validated."
-msgstr "GLPI source code integrity is not validated."
+msgid "Parto source code integrity is not validated."
+msgstr "یکپارچگی کد منبع پرتو تأیید نشد."
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:140
 msgid "Cannot generate a diff on a development version."
@@ -30360,8 +30333,8 @@ msgstr ""
 "archive. Do you want to allow this operation?"
 
 #: src/Glpi/Console/Diagnostic/CheckDocumentsIntegrityCommand.php:57
-msgid "Validate files integrity for GLPI's documents."
-msgstr "اعتبارسنجی صحت فایل‌های اسناد GLPI"
+msgid "Validate files integrity for Parto's documents."
+msgstr "اعتبارسنجی صحت فایل‌های اسناد پرتو"
 
 #: src/Glpi/Console/Diagnostic/CheckDocumentsIntegrityCommand.php:70
 #, php-format
@@ -31436,10 +31409,10 @@ msgid "Allow multiple items"
 msgstr ""
 
 #: src/Glpi/Form/QuestionType/QuestionTypeItem.php:595
-msgid "GLPI Object"
-msgid_plural "GLPI Objects"
-msgstr[0] "GLPI Object"
-msgstr[1] "GLPI Objects"
+msgid "Parto Object"
+msgid_plural "Parto Objects"
+msgstr[0] "شیء پرتو"
+msgstr[1] "شیء پرتو"
 
 #: src/Glpi/Form/QuestionType/QuestionTypeEmail.php:88
 msgid "Unexpected value"
@@ -32389,12 +32362,9 @@ msgstr "عملیاتی که درخواست کرده‌اید مجاز نیست."
 #: src/Glpi/Kernel/Listener/RequestListener/SessionCheckCookieListener.php:74
 msgid ""
 "The web server is configured to allow session cookies only on secured "
-"context (https). Therefore, you must access GLPI on a secured context to be "
+"context (https). Therefore, you must access Parto on a secured context to be "
 "able to use it."
-msgstr ""
-"The web server is configured to allow session cookies only on secured "
-"context (https). Therefore, you must access GLPI on a secured context to be "
-"able to use it."
+msgstr "وب‌سرور فقط در اتصال امن کوکی نشست را می‌پذیرد. برای استفاده از پرتو با HTTPS متصل شوید."
 
 #: src/Glpi/Kernel/Listener/RequestListener/CheckDatabaseStatusListener.php:103
 msgid ""
@@ -32405,13 +32375,13 @@ msgstr ""
 " configuration."
 
 #: src/Glpi/Kernel/Listener/RequestListener/CheckDatabaseStatusListener.php:113
-msgid "Unable to load the GLPI configuration from the database."
-msgstr "Unable to load the GLPI configuration from the database."
+msgid "Unable to load the Parto configuration from the database."
+msgstr "بارگذاری پیکربندی پرتو از پایگاه داده امکان‌پذیر نیست."
 
 #: src/Glpi/Kernel/Listener/ExceptionListener/AccessErrorListener.php:86
 #: src/Glpi/Controller/IndexController.php:92
 msgid "Your session has expired. Please log in again."
-msgstr "Your session has expired. Please log in again."
+msgstr "نشست شما به پایان رسیده است. لطفاً دوباره وارد شوید."
 
 #: src/Glpi/Knowbase/History/CurrentVersionLogEvent.php:44
 #: src/Glpi/Knowbase/History/CreationEvent.php:49
@@ -33066,8 +33036,8 @@ msgid "Download again"
 msgstr "دوباره دانلود کنید"
 
 #: src/Glpi/Marketplace/View.php:674
-msgid "This plugin is not available for your GLPI version."
-msgstr "این پلاگین برای نسخه GLPI شما در دسترس نیست."
+msgid "This plugin is not available for your Parto version."
+msgstr "این پلاگین برای نسخه پرتو شما در دسترس نیست."
 
 #: src/Glpi/Marketplace/View.php:690
 msgid "The plugin has an available update but its directory is not writable."
@@ -33121,8 +33091,8 @@ msgid "Switch to marketplace"
 msgstr "رفتن به مارکت‌پلیس"
 
 #: src/Glpi/Marketplace/View.php:1059
-msgid "GLPI provides a new marketplace to download and install plugins."
-msgstr "GLPI یک مارکت‌پلیس جدید برای دانلود و نصب پلاگین‌ها فراهم کرده است."
+msgid "Parto provides a new marketplace to download and install plugins."
+msgstr "پرتو یک مارکت‌پلیس جدید برای دانلود و نصب پلاگین‌ها فراهم کرده است."
 
 #: src/Glpi/Marketplace/View.php:1061
 msgid "Do you want to replace the plugins setup page by the new marketplace?"
@@ -33177,8 +33147,7 @@ msgstr "برای دسترسی به این برنامه باید کوکی‌ها 
 #: src/Glpi/Controller/IndexController.php:88
 msgid ""
 "Logins are not possible at this time. Please contact your administrator."
-msgstr ""
-"Logins are not possible at this time. Please contact your administrator."
+msgstr "در حال حاضر ورود به سامانه ممکن نیست. لطفاً با مدیر سامانه تماس بگیرید."
 
 #: src/Glpi/Controller/IndexController.php:132
 msgid "Default (from user profile)"
@@ -33311,10 +33280,8 @@ msgstr ""
 #: src/Glpi/Migration/GenericobjectPluginMigration.php:285
 msgid ""
 "The object types families have not been imported as they are not handled by "
-"GLPI."
-msgstr ""
-"The object types families have not been imported as they are not handled by "
-"GLPI."
+"Parto."
+msgstr "گروه‌های انواع اشیا وارد نشدند، زیرا پرتو از آن‌ها پشتیبانی نمی‌کند."
 
 #: src/Glpi/Migration/GenericobjectPluginMigration.php:297
 msgid "Importing dropdowns definitions..."
@@ -33333,8 +33300,8 @@ msgstr "Importing assets definitions..."
 #: src/Glpi/Migration/GenericobjectPluginMigration.php:683
 #: src/Glpi/Migration/AbstractPluginMigration.php:285
 #, php-format
-msgid "%s \"%s\" (%d) is most recent on GLPI side, its update has been skipped."
-msgstr "%s \"%s\" (%d) is most recent on GLPI side, its update has been skipped."
+msgid "%s \"%s\" (%d) is most recent on Parto side, its update has been skipped."
+msgstr "%s «%s» (%d) در پرتو جدیدتر است. به‌روزرسانی آن انجام نشد."
 
 #: src/Glpi/Migration/GenericobjectPluginMigration.php:613
 #, php-format
@@ -33458,8 +33425,8 @@ msgid "External page"
 msgstr "External page"
 
 #: src/Glpi/Helpdesk/Tile/GlpiPageTile.php:76
-msgid "GLPI page"
-msgstr "GLPI page"
+msgid "Parto page"
+msgstr "صفحهٔ پرتو"
 
 #: src/Glpi/Helpdesk/DefaultDataManager.php:104
 msgid "Browse help articles"
@@ -33611,10 +33578,10 @@ msgstr "ثابت اندازه Sodium ChaCha20-Poly1305"
 
 #: src/Glpi/System/RequirementsManager.php:134
 msgid ""
-"Enable usage of ChaCha20-Poly1305 encryption required by GLPI. This is "
+"Enable usage of ChaCha20-Poly1305 encryption required by Parto. This is "
 "provided by libsodium 1.0.12 and newer."
 msgstr ""
-"فعال‌سازی استفاده از رمزنگاری ChaCha20-Poly1305 که توسط GLPI نیاز است. این "
+"فعال‌سازی استفاده از رمزنگاری ChaCha20-Poly1305 که توسط پرتو نیاز است. این "
 "توسط libsodium نسخه 1.0.12 و بالاتر فراهم می‌شود."
 
 #: src/Glpi/System/RequirementsManager.php:139
@@ -33626,8 +33593,8 @@ msgstr ""
 "communication with inventory agents and OAuth 2.0 authentication."
 
 #: src/Glpi/System/RequirementsManager.php:149
-msgid "Permissions for GLPI data directories"
-msgstr "مجوزهای دسترسی به دایرکتوری‌های داده GLPI"
+msgid "Permissions for Parto data directories"
+msgstr "مجوزهای دسترسی به دایرکتوری‌های داده پرتو"
 
 #: src/Glpi/System/RequirementsManager.php:170
 msgid "Enhance security on images validation."
@@ -33689,8 +33656,8 @@ msgstr "حافظه تخصیص یافته نامحدود است."
 
 #: src/Glpi/System/Requirement/MemoryLimit.php:80
 #, php-format
-msgid "A minimum of %s is commonly required for GLPI."
-msgstr "حداقل %s معمولاً برای GLPI مورد نیاز است."
+msgid "A minimum of %s is commonly required for Parto."
+msgstr "حداقل %s معمولاً برای پرتو مورد نیاز است."
 
 #: src/Glpi/System/Requirement/MemoryLimit.php:81
 msgid "Try increasing the memory_limit parameter in the php.ini file."
@@ -33834,10 +33801,10 @@ msgstr "شما باید توصیه‌های زیر را برای پیکربند�
 
 #: src/Glpi/System/Requirement/SessionsSecurityConfiguration.php:71
 msgid ""
-"PHP directive \"session.cookie_secure\" should be set to \"on\" when GLPI "
+"PHP directive \"session.cookie_secure\" should be set to \"on\" when Parto "
 "can be accessed on HTTPS protocol."
 msgstr ""
-"دستور PHP \"session.cookie_secure\" باید هنگام دسترسی به GLPI از طریق پروتکل"
+"دستور PHP \"session.cookie_secure\" باید هنگام دسترسی به پرتو از طریق پروتکل"
 " HTTPS روی \"on\" تنظیم شود."
 
 #: src/Glpi/System/Requirement/SessionsSecurityConfiguration.php:86
@@ -33988,10 +33955,10 @@ msgstr "نسخه PHP %s دیگر توسط جامعه پشتیبانی نمی‌�
 
 #: src/Glpi/System/Requirement/PhpSupportedVersion.php:73
 msgid ""
-"Even if GLPI still supports this PHP version, an upgrade to a more recent "
+"Even if Parto still supports this PHP version, an upgrade to a more recent "
 "PHP version is recommended."
 msgstr ""
-"حتی اگر GLPI هنوز این نسخه PHP را پشتیبانی کند، توصیه می‌شود به نسخه جدیدتری"
+"حتی اگر پرتو هنوز این نسخه PHP را پشتیبانی کند، توصیه می‌شود به نسخه جدیدتری"
 " از PHP ارتقا دهید."
 
 #: src/Glpi/System/Requirement/PhpSupportedVersion.php:74
@@ -34485,8 +34452,8 @@ msgid "An internal error occurred while trying to fetch the data."
 msgstr "An internal error occurred while trying to fetch the data."
 
 #: src/Glpi/Api/HL/Search.php:166
-msgid "For more information, check the GLPI logs."
-msgstr "برای اطلاعات بیشتر، لاگ‌های GLPI را بررسی کنید."
+msgid "For more information, check the Parto logs."
+msgstr "برای اطلاعات بیشتر، لاگ‌های پرتو را بررسی کنید."
 
 #: src/Glpi/Api/HL/RSQL/Parser.php:73
 #, php-format
@@ -36096,13 +36063,13 @@ msgid "Impossible to accomplish an update by this way!"
 msgstr "امکان انجام بروزرسانی از این طریق وجود ندارد!"
 
 #: install/update.php:127
-msgid "Go back to GLPI"
-msgstr "بازگشت به GLPI"
+msgid "Go back to Parto"
+msgstr "بازگشت به پرتو"
 
 #: install/update.php:133
 #, php-format
-msgid "Caution! You will update the GLPI database named: %s"
-msgstr "احتیاط! شما در حال به‌روزرسانی پایگاه داده GLPI با نام: %s هستید"
+msgid "Caution! You will update the Parto database named: %s"
+msgstr "احتیاط! شما در حال به‌روزرسانی پایگاه داده پرتو با نام: %s هستید"
 
 #: install/update.php:163
 msgid "Updating the database..."
@@ -37006,8 +36973,8 @@ msgid "Item NOT unlocked!"
 msgstr "مورد باز نشد!"
 
 #: js/modules/ObjectLock.js:137
-msgid "Contact your GLPI admin!"
-msgstr "با مدیر GLPI خود تماس بگیرید!"
+msgid "Contact your Parto admin!"
+msgstr "با مدیر پرتو خود تماس بگیرید!"
 
 #: js/modules/Helpdesk/HelpdeskConfigController.js:187
 #: js/modules/Helpdesk/HelpdeskConfigController.js:266
@@ -37437,3 +37404,11 @@ msgstr "افزودن رزرو"
 #: js/src/vue/Reservations/ReservationScheduler.vue:139
 msgid "Edit reservation"
 msgstr "ویرایش رزرو"
+
+#: templates/pages/setup/general/systeminfo_table.html.twig:140
+msgid "Parto information"
+msgstr "اطلاعات پرتو"
+
+#: templates/pages/setup/general/systeminfo_table.html.twig:142
+msgid "Parto constants"
+msgstr "ثابت‌های پرتو"

@@ -1407,15 +1407,15 @@ msgstr[0] "Fel"
 msgstr[1] "Fel"
 
 #: templates/install/step0.html.twig
-msgid "Installation or update of GLPI"
-msgstr "Installation eller uppdatering av GLPI"
+msgid "Installation or update of Parto"
+msgstr "Installation eller uppdatering av Parto"
 
 #: templates/install/step0.html.twig
 msgid ""
-"Choose 'Install' for a completely new installation of GLPI, or select "
-"'Upgrade' to update your version of GLPI from an earlier version."
+"Choose 'Install' for a completely new installation of Parto, or select "
+"'Upgrade' to update your version of Parto from an earlier version."
 msgstr ""
-"Välj ”Installera” för en ny installation av GLPI eller ”Uppgradera” för att "
+"Välj ”Installera” för en ny installation av Parto eller ”Uppgradera” för att "
 "uppgradera en tidigare version."
 
 #: templates/install/step0.html.twig src/Computer.php:411 src/Plugin.php:2935
@@ -1515,19 +1515,19 @@ msgstr "Försök igen"
 #: templates/install/update.need_update.html.twig
 #: src/Glpi/Console/Application.php:289
 msgid ""
-"The GLPI codebase has been updated. The update of the GLPI database is "
+"The Parto codebase has been updated. The update of the Parto database is "
 "necessary."
 msgstr ""
-"GLPI-kodbasen har uppdaterats. En uppdatering av GLPI-databasen är "
+"Parto-kodbasen har uppdaterats. En uppdatering av Parto-databasen är "
 "nödvändig."
 
 #: templates/install/update.need_update.html.twig
 msgid ""
-"You are trying to use GLPI with outdated files compared to the version of "
-"the database. Please install the correct GLPI files corresponding to the "
+"You are trying to use Parto with outdated files compared to the version of "
+"the database. Please install the correct Parto files corresponding to the "
 "version of your database."
 msgstr ""
-"Du försöker använda GLPI med filer som tillhör en äldre utgåva än den "
+"Du försöker använda Parto med filer som tillhör en äldre utgåva än den "
 "version du har på din databas. Var god och installera den version av filer "
 "som tillhör din databasversion."
 
@@ -1551,8 +1551,8 @@ msgstr "Skrivåtkomst till dessa filer kan tas bort när åtgärden är klar."
 
 #: templates/install/step1.html.twig
 msgid ""
-"Checking of the compatibility of your environment with the execution of GLPI"
-msgstr "Kontrollerar kompabiliteten av miljön för användning med GLPI"
+"Checking of the compatibility of your environment with the execution of Parto"
+msgstr "Kontrollerar kompabiliteten av miljön för användning med Parto"
 
 #: templates/install/step1.html.twig src/Glpi/Console/AbstractCommand.php:269
 msgid "Do you want to continue?"
@@ -1581,12 +1581,12 @@ msgstr "Markera kryssrutan för instabil version."
 
 #: templates/install/install.install_required.html.twig install/update.php:98
 #: install/update.php:118 install/install.php:66 install/install.php:88
-msgid "GLPI setup"
-msgstr "GLPI-installation"
+msgid "Parto setup"
+msgstr "Parto-installation"
 
 #: templates/install/install.install_required.html.twig
-msgid "The GLPI database must be configured and installed."
-msgstr "GLPI-databasen måste vara installerad och konfigurerad."
+msgid "The Parto database must be configured and installed."
+msgstr "Parto-databasen måste vara installerad och konfigurerad."
 
 #: templates/install/install.install_required.html.twig
 msgid "Go to install page"
@@ -1595,10 +1595,10 @@ msgstr "Gå till installationssidan"
 #: templates/install/install.install_required.html.twig
 msgid ""
 "If you see this page when the installation has already been done, it means "
-"that the GLPI database configuration file has been removed or corrupted."
+"that the Parto database configuration file has been removed or corrupted."
 msgstr ""
 "Om du ser den här sidan när installationen redan är genomförd, betyder det "
-"att konfigurationsfilen för GLPI-databasen har tagits bort eller blivit "
+"att konfigurationsfilen för Parto-databasen har tagits bort eller blivit "
 "korrupt."
 
 #: templates/install/step8.html.twig
@@ -1632,13 +1632,13 @@ msgstr ""
 
 #: templates/install/step8.html.twig
 #: templates/install/post_update_step.html.twig
-msgid "Use GLPI"
-msgstr "Börja använda GLPI"
+msgid "Use Parto"
+msgstr "Börja använda Parto"
 
 #: templates/install/post_update_step.html.twig
 #: src/Glpi/Console/Database/UpdateCommand.php:286
-msgid "The database schema is not consistent with the current GLPI version."
-msgstr "Databasschemat överensstämmer inte med den aktuella GLPI-versionen."
+msgid "The database schema is not consistent with the current Parto version."
+msgstr "Databasschemat överensstämmer inte med den aktuella Parto-versionen."
 
 #: templates/install/post_update_step.html.twig
 #: src/Glpi/Console/Database/UpdateCommand.php:288
@@ -6222,8 +6222,8 @@ msgstr "Åtgärden avbröts utifrån. Ett nytt försök görs så snart som möj
 
 #: templates/pages/setup/crontask/crontask.html.twig src/Plugin.php:2220
 #: src/CronTask.php:892 src/RuleImportEntity.php:134
-msgid "GLPI"
-msgstr "GLPI"
+msgid "Parto"
+msgstr "Parto"
 
 #: templates/pages/setup/crontask/crontask.html.twig src/CronTask.php:893
 msgid "CLI"
@@ -6389,8 +6389,8 @@ msgid "Action when a user is restored in the LDAP directory"
 msgstr "Åtgärd när en användare återställs i LDAP-katalogen"
 
 #: templates/pages/setup/authentication/setup.html.twig
-msgid "GLPI server time zone"
-msgstr "Tidszon för GLPI-server"
+msgid "Parto server time zone"
+msgstr "Tidszon för Parto-server"
 
 #: templates/pages/setup/authentication/setup.html.twig
 msgid "Actions when a user is deleted from the LDAP directory"
@@ -7005,12 +7005,12 @@ msgstr "Hemlighet"
 #: templates/pages/setup/webhook/webhook_security.html.twig
 msgid ""
 "The webhook secret can be shared with a target server to allow it to "
-"validate requests are actually coming from the GLPI server and that the "
-"content was not modified between GLPI and the target."
+"validate requests are actually coming from the Parto server and that the "
+"content was not modified between Parto and the target."
 msgstr ""
 "Webhook-hemligheten kan delas med en målserver för att låta den verifiera "
-"att förfrågningarna faktiskt kommer från GLPI-servern och att innehållet "
-"inte har ändrats mellan GLPI och målet."
+"att förfrågningarna faktiskt kommer från Parto-servern och att innehållet "
+"inte har ändrats mellan Parto och målet."
 
 #: templates/pages/setup/webhook/webhook_security.html.twig
 msgid "Expiration delay"
@@ -7023,16 +7023,16 @@ msgstr "Målautentisering"
 #: templates/pages/setup/webhook/webhook_security.html.twig
 msgid ""
 "Challenge–response authentication can be used to validate the identity of "
-"the target server before any data is sent from GLPI. This uses the shared "
+"the target server before any data is sent from Parto. This uses the shared "
 "secret that was generated in the above section."
 msgstr ""
 "Challenge/response-autentisering kan användas för att validera målserverns "
-"identitet innan någon data skickas från GLPI. Detta använder den delade "
+"identitet innan någon data skickas från Parto. Detta använder den delade "
 "hemlighet som genererades i avsnittet ovan."
 
 #: templates/pages/setup/webhook/webhook_security.html.twig
-msgid "CRA is mandatory due to GLPI configuration"
-msgstr "CRA är obligatoriskt på grund av GLPI-konfigurationen"
+msgid "CRA is mandatory due to Parto configuration"
+msgstr "CRA är obligatoriskt på grund av Parto-konfigurationen"
 
 #: templates/pages/setup/webhook/webhook_security.html.twig
 msgid "Use CRA Challenge?"
@@ -7170,11 +7170,11 @@ msgstr "Dokumentinställningar"
 msgid ""
 "The maximum upload size is primarily determined by the "
 "\"upload_max_filesize\" and \"post_max_size\" PHP settings. The setting "
-"below is to further restrict the uploads for just GLPI."
+"below is to further restrict the uploads for just Parto."
 msgstr ""
 "Den maximala uppladdningsstorleken bestäms främst av PHP-inställningarna "
 "\"upload_max_filesize\" och \"post_max_size\". Inställningen nedan används "
-"för att ytterligare begränsa uppladdningar specifikt för GLPI."
+"för att ytterligare begränsa uppladdningar specifikt för Parto."
 
 #: templates/pages/setup/general/management_setup.html.twig
 msgid "Document files maximum size (Mio)"
@@ -7325,8 +7325,8 @@ msgstr ""
 "automatiska åtgärden \"telemetry\"."
 
 #: templates/pages/setup/general/systeminfo_form.html.twig
-msgid "GLPI update"
-msgstr "Uppdatera GLPI"
+msgid "Parto update"
+msgstr "Uppdatera Parto"
 
 #: templates/pages/setup/general/systeminfo_form.html.twig
 msgid "Check if a new version is available"
@@ -7433,9 +7433,9 @@ msgstr "%s-tillägget är installerat"
 
 #: templates/pages/setup/general/performance.html.twig
 #, php-format
-msgid "Installing and enabling the \"%s\" extension may improve GLPI performance"
+msgid "Installing and enabling the \"%s\" extension may improve Parto performance"
 msgstr ""
-"Genom att installera och aktivera tillägget \"%s\" kan prestandan hos GLPI "
+"Genom att installera och aktivera tillägget \"%s\" kan prestandan hos Parto "
 "förbättras"
 
 #: templates/pages/setup/general/performance.html.twig src/Config.php:1306
@@ -7573,8 +7573,8 @@ msgid "Display counters"
 msgstr "Visa räknare"
 
 #: templates/pages/setup/general/preferences_setup.html.twig
-msgid "Show GLPI ID"
-msgstr "Visa GLPI-ID"
+msgid "Show Parto ID"
+msgstr "Visa Parto-ID"
 
 #: templates/pages/setup/general/preferences_setup.html.twig
 msgid "Keep devices when purging an item"
@@ -7906,10 +7906,10 @@ msgstr "Tillåt ej inloggade användare att ladda upp filer"
 
 #: templates/pages/setup/general/general_setup.html.twig
 msgid ""
-"Do not use this option if your GLPI is reachable from the internet. Use at "
+"Do not use this option if your Parto is reachable from the internet. Use at "
 "your own risk."
 msgstr ""
-"Varning! Använd inte det här alternativet om din GLPI-instans är åtkomlig "
+"Varning! Använd inte det här alternativet om din Parto-instans är åtkomlig "
 "från internet. Använd på egen risk."
 
 #: templates/pages/setup/general/general_setup.html.twig
@@ -8085,10 +8085,10 @@ msgstr "Registrering"
 #: templates/pages/setup/general/glpinetwork_setup.html.twig
 msgid ""
 "A registration key is needed to use some advanced features (like the plugin "
-"marketplace) in GLPI"
+"marketplace) in Parto"
 msgstr ""
 "En registreringsnyckel krävs för att använda vissa avancerade funktioner "
-"(såsom marknadsplatsen för tillägg) i GLPI."
+"(såsom marknadsplatsen för tillägg) i Parto."
 
 #: templates/pages/setup/general/glpinetwork_setup.html.twig
 #, php-format
@@ -8267,8 +8267,8 @@ msgid "Seconds behind source:"
 msgstr "Sekunder efter källan:"
 
 #: templates/pages/setup/general/dbreplica_setup.html.twig
-msgid "GLPI history delay:"
-msgstr "Fördröjning GLPI-historik:"
+msgid "Parto history delay:"
+msgstr "Fördröjning Parto-historik:"
 
 #: templates/pages/setup/general/dbreplica_setup.html.twig src/Ticket.php:2207
 #: src/HTMLTableMain.php:231 src/Infocom.php:812 src/ProjectTask.php:911
@@ -8290,10 +8290,10 @@ msgstr "Inget"
 
 #: templates/pages/setup/general/dbreplica_setup.html.twig
 msgid ""
-"This indicates the delay between the source and the replica for GLPI history"
+"This indicates the delay between the source and the replica for Parto history"
 " (table: glpi_logs, column: date_mod)."
 msgstr ""
-"Detta anger fördröjningen mellan källan och replikan för GLPI-historik "
+"Detta anger fördröjningen mellan källan och replikan för Parto-historik "
 "(tabell: glpi_logs, kolumn: date_mod)."
 
 #: templates/pages/setup/general/dbreplica_setup.html.twig
@@ -9215,8 +9215,8 @@ msgstr "Notiser"
 
 #: templates/pages/oauth/authorize.html.twig
 #, php-format
-msgid "%s wants to access your GLPI account"
-msgstr "%s begär åtkomst till ditt GLPI-konto"
+msgid "%s wants to access your Parto account"
+msgstr "%s begär åtkomst till ditt Parto-konto"
 
 #: templates/pages/oauth/authorize.html.twig
 msgid ""
@@ -9679,10 +9679,10 @@ msgstr "Skyddat område"
 
 #: templates/pages/reauth/prompt.html.twig
 msgid ""
-"The action you requested may change GLPI behavior or display confidential "
+"The action you requested may change Parto behavior or display confidential "
 "data."
 msgstr ""
-"Åtgärden du begärde kan ändra hur GLPI fungerar eller visa konfidentiella "
+"Åtgärden du begärde kan ändra hur Parto fungerar eller visa konfidentiella "
 "uppgifter."
 
 #: templates/pages/form_renderer.html.twig
@@ -9878,8 +9878,8 @@ msgid "Debug"
 msgstr "Felsökning"
 
 #: templates/pages/admin/user/user.html.twig
-msgid "Use GLPI in mode"
-msgstr "GLPI-läge"
+msgid "Use Parto in mode"
+msgstr "Parto-läge"
 
 #: templates/pages/admin/user/user.html.twig
 msgid "Contact information"
@@ -10856,9 +10856,9 @@ msgstr ""
 #: templates/pages/admin/customobjects/main.html.twig
 msgid ""
 "It can be personalized, but some words are reserved such as classes from "
-"GLPI like Computer, Monitor, etc."
+"Parto like Computer, Monitor, etc."
 msgstr ""
-"Det kan anpassas, men vissa ord är reserverade, såsom klassnamn i GLPI som "
+"Det kan anpassas, men vissa ord är reserverade, såsom klassnamn i Parto som "
 "t.ex. 'Dator', 'Bildskärm' osv."
 
 #: templates/pages/admin/customobjects/main.html.twig
@@ -11537,8 +11537,8 @@ msgid "Alter asset fields based on their data"
 msgstr "Justera fältvärden för tillgångar baserat på dess data"
 
 #: templates/pages/admin/rules/index.html.twig
-msgid "The asset is created or updated in GLPI"
-msgstr "Tillgången skapas eller uppdateras i GLPI"
+msgid "The asset is created or updated in Parto"
+msgstr "Tillgången skapas eller uppdateras i Parto"
 
 #: templates/pages/admin/rules/index.html.twig
 msgid "You do not have the required permissions"
@@ -12445,10 +12445,10 @@ msgstr "Vänligen välj den typ som bäst representerar tillgången."
 #: templates/pages/admin/assetdefinition/capacity/is_inventoriable_capacity_configuration_form.html.twig
 msgid ""
 "We need this information to send the inventory file in the correct inventory"
-" engine of the GLPI framework."
+" engine of the Parto framework."
 msgstr ""
 "Vi behöver denna information för att kunna skicka inventeringsfilen till "
-"rätt inventeringsmotor i GLPI-ramverket."
+"rätt inventeringsmotor i Parto-ramverket."
 
 #: templates/pages/admin/assetdefinition/fields_display.html.twig
 #: js/src/vue/CustomObject/FieldPreview/Sidebar.vue:58
@@ -14081,8 +14081,8 @@ msgid "PHP OPcache reset successful"
 msgstr "PHP-opcodecachen återställdes"
 
 #: front/config.form.php:78
-msgid "GLPI cache reset successful"
-msgstr "GLPI-cachen återställdes."
+msgid "Parto cache reset successful"
+msgstr "Parto-cachen återställdes."
 
 #: front/config.form.php:86
 msgid "Translation cache reset successful"
@@ -18874,8 +18874,8 @@ msgstr "Kör om ordlisteregler för tillverkare"
 
 #: src/RuleDictionnarySoftwareCollection.php:309
 #: src/RuleDictionnarySoftwareCollection.php:439
-msgid "Software deleted by GLPI dictionary rules"
-msgstr "Mjukvara borttagen av ordlisteregler i GLPI"
+msgid "Software deleted by Parto dictionary rules"
+msgstr "Mjukvara borttagen av ordlisteregler i Parto"
 
 #: src/DevicePciModel.php:44
 msgid "Other component model"
@@ -19331,8 +19331,8 @@ msgid "Synchronize"
 msgstr "Synkronisera"
 
 #: src/AuthLDAP.php:1678
-msgid "Last update in GLPI"
-msgstr "Senaste GLPI-uppdateringen"
+msgid "Last update in Parto"
+msgstr "Senaste Parto-uppdateringen"
 
 #: src/AuthLDAP.php:1678
 msgid "Last update in the LDAP directory"
@@ -19815,8 +19815,8 @@ msgstr "Detta tillägg kräver PHP-parametern %1$s"
 
 #: src/Plugin.php:2282
 #, php-format
-msgid "This plugin requires GLPI parameter %1$s"
-msgstr "Detta tillägg kräver GLPI-parametern %1$s"
+msgid "This plugin requires Parto parameter %1$s"
+msgstr "Detta tillägg kräver Parto-parametern %1$s"
 
 #: src/Plugin.php:2613
 msgctxt "plugin"
@@ -20196,8 +20196,8 @@ msgstr "Uppgradering till version %s slutfördes."
 
 #: src/Migration.php:820
 #, php-format
-msgid "Automatically generated by GLPI %s"
-msgstr "Genererat automatiskt av GLPI %s"
+msgid "Automatically generated by Parto %s"
+msgstr "Genererat automatiskt av Parto %s"
 
 #. TRANS: %s is the table or item to migrate
 #: src/Migration.php:876 install/migrations/update_9.1.x_to_9.2.0.php:1211
@@ -21183,8 +21183,8 @@ msgid "Unsupported mail server type:%s."
 msgstr "E-postservertypen stöds ej: %s."
 
 #: src/Auth.php:355 src/Auth.php:1057 src/Auth.php:1079 src/Auth.php:1107
-msgid "User not authorized to connect in GLPI"
-msgstr "Användaren är ej auktoriserad att ansluta till GLPI"
+msgid "User not authorized to connect in Parto"
+msgstr "Användaren är ej auktoriserad att ansluta till Parto"
 
 #: src/Auth.php:486
 msgid ""
@@ -21238,8 +21238,8 @@ msgid "Failed login for %1$s from IP %2$s"
 msgstr "%1$s misslyckades att logga in från IP %2$s"
 
 #: src/Auth.php:1241
-msgid "Authentication on GLPI database"
-msgstr "Inloggning mot GLPIs databas"
+msgid "Authentication on Parto database"
+msgstr "Inloggning mot Partos databas"
 
 #: src/Auth.php:1255 src/Auth.php:1270
 msgid "Authentication on a LDAP directory"
@@ -21267,8 +21267,8 @@ msgid "CAS"
 msgstr "CAS"
 
 #: src/Auth.php:1333 src/Auth.php:1767
-msgid "GLPI internal database"
-msgstr "GLPIs interna databas"
+msgid "Parto internal database"
+msgstr "Partos interna databas"
 
 #: src/Auth.php:1345 src/Auth.php:1350 src/Auth.php:1355
 #, php-format
@@ -24593,11 +24593,11 @@ msgstr "Lyckad återställning av lösenord."
 
 #: src/User.php:5891 src/Glpi/Api/API.php:2286
 msgid ""
-"If the given email address corresponds to one and only one GLPI user, you "
+"If the given email address corresponds to one and only one Parto user, you "
 "will receive an email containing the information required to reset your "
 "password. Please contact your administrator if you do not receive an email."
 msgstr ""
-"Om den angivna e-postadressen motsvarar exakt en GLPI-användare kommer du "
+"Om den angivna e-postadressen motsvarar exakt en Parto-användare kommer du "
 "att få ett e-postmeddelande med informationen som krävs för att återställa "
 "ditt lösenord. Kontakta din administratör om du inte får något "
 "e-postmeddelande."
@@ -24796,8 +24796,8 @@ msgid "Running"
 msgstr "Körs"
 
 #: src/CronTask.php:956
-msgid "A minimum of 64 Mio is commonly required for GLPI."
-msgstr "Ett minimum av 64 Mb krävs vanligtvis för GLPI."
+msgid "A minimum of 64 Mio is commonly required for Parto."
+msgstr "Ett minimum av 64 Mb krävs vanligtvis för Parto."
 
 #: src/CronTask.php:962
 msgid "No task with Run mode = CLI, fix your tasks configuration"
@@ -24940,10 +24940,10 @@ msgstr "Antal dagar som arkiverad logg ska sparas"
 
 #: src/CronTask.php:2079
 msgid ""
-"You have at least one automatic action configured in GLPI mode, we advise "
+"You have at least one automatic action configured in Parto mode, we advise "
 "you to switch to CLI mode."
 msgstr ""
-"Det finns minst en automatisk åtgärd som körs i GLPI-läge. Vi rekommenderar "
+"Det finns minst en automatisk åtgärd som körs i Parto-läge. Vi rekommenderar "
 "att du byter till CLI-läge."
 
 #: src/CronTask.php:2088
@@ -25284,10 +25284,10 @@ msgstr ""
 
 #: src/DisplayPreference.php:168
 msgid ""
-"This will only work for types from GLPI itself or enabled plugins that "
+"This will only work for types from Parto itself or enabled plugins that "
 "support this action."
 msgstr ""
-"Detta fungerar endast för typer från GLPI självt eller för aktiverade "
+"Detta fungerar endast för typer från Parto självt eller för aktiverade "
 "tillägg som stöder denna åtgärd."
 
 #: src/DisplayPreference.php:713
@@ -26222,28 +26222,28 @@ msgstr "Giltig registreringsnyckel."
 #: src/GLPINetwork.php:248
 #, php-format
 msgid ""
-"You need help to integrate GLPI in your IT, have a bug fixed or benefit from pre-configured rules or dictionaries?\n"
+"You need help to integrate Parto in your IT, have a bug fixed or benefit from pre-configured rules or dictionaries?\n"
 "\n"
 "We provide the %s space for you.\n"
 "GLPI-Network is a commercial service that includes a subscription for tier 3 support, ensuring the correction of bugs encountered with a commitment time.\n"
 "\n"
-"In this same space, you will be able to contact an official partner to help you with your GLPI integration."
+"In this same space, you will be able to contact an official partner to help you with your Parto integration."
 msgstr ""
-"Behöver du hjälp med att integrera GLPI i din IT-miljö, få en bugg åtgärdad eller dra nytta av förkonfigurerade regler eller ordlistor?\n"
+"Behöver du hjälp med att integrera Parto i din IT-miljö, få en bugg åtgärdad eller dra nytta av förkonfigurerade regler eller ordlistor?\n"
 "\n"
 "Vi tillhandahåller utrymmet %s åt dig.\n"
 "\n"
 "GLPI-Network är en kommersiell tjänst som inkluderar en prenumeration med support på nivå 3 vilket garanterar åtgärdande av buggar inom en garanterad tid.\n"
 "\n"
-"I detta utrymme kan du även kontakta en officiell partner som hjälper dig med din GLPI-integrering."
+"I detta utrymme kan du även kontakta en officiell partner som hjälper dig med din Parto-integrering."
 
 #: src/GLPINetwork.php:263
 #, php-format
 msgid ""
-"Having troubles setting up an advanced GLPI module?\n"
+"Having troubles setting up an advanced Parto module?\n"
 "We can help you solve them. Sign up for support on %s."
 msgstr ""
-"Har du problem med att installera en avancerad GLPI-modul? Vi kan hjälpa dig"
+"Har du problem med att installera en avancerad Parto-modul? Vi kan hjälpa dig"
 " att lösa dem. Registrera dig för support på %s."
 
 #: src/Knowbase.php:67
@@ -26277,8 +26277,8 @@ msgstr[0] "Uppdateras via"
 msgstr[1] "Uppdateras via"
 
 #: src/AutoUpdateSystem.php:49
-msgid "GLPI Native Inventory"
-msgstr "GLPI-inventariet"
+msgid "Parto Native Inventory"
+msgstr "Parto-inventariet"
 
 #: src/VirtualMachineType.php:44
 msgid "Virtualization system"
@@ -27670,8 +27670,8 @@ msgstr ""
 "versioner av GLPI och dess tillägg!"
 
 #: src/Telemetry.php:487
-msgid "Reference your GLPI"
-msgstr "Hänvisa till din GLPI-instans"
+msgid "Reference your Parto"
+msgstr "Hänvisa till din Parto-instans"
 
 #: src/Telemetry.php:489
 #, php-format
@@ -28100,10 +28100,10 @@ msgstr[1] "Uttag"
 
 #: src/Glpi/Console/Build/GenerateCodeManifestCommand.php:58
 msgid ""
-"Generate GLPI source code manifest that could be used to validate source "
+"Generate Parto source code manifest that could be used to validate source "
 "code integrity."
 msgstr ""
-"Generera ett GLPI‑källkodmanifest som kan användas för att verifiera "
+"Generera ett Parto‑källkodmanifest som kan användas för att verifiera "
 "källkodens integritet."
 
 #: src/Glpi/Console/Build/GenerateCodeManifestCommand.php:63
@@ -28211,10 +28211,10 @@ msgstr "Konfigurationskatalog att använda. Föråldrat alternativ."
 
 #: src/Glpi/Console/Application.php:203
 msgid ""
-"Output language (default value is existing GLPI \"language\" configuration "
+"Output language (default value is existing Parto \"language\" configuration "
 "or \"en_GB\")"
 msgstr ""
-"Utmatningsspråk (standardvärdet är befintlig GLPI-konfiguration för "
+"Utmatningsspråk (standardvärdet är befintlig Parto-konfiguration för "
 "”language” eller ”en_GB”)"
 
 #: src/Glpi/Console/Application.php:214
@@ -28253,8 +28253,8 @@ msgid "Run the \"%1$s\" command for more details."
 msgstr "Kör \"%1$s\"-kommandot för ytterligare detaljer."
 
 #: src/Glpi/Console/User/DisableCommand.php:48
-msgid "Disable a GLPI user"
-msgstr "Inaktivera en GLPI-användare"
+msgid "Disable a Parto user"
+msgstr "Inaktivera en Parto-användare"
 
 #: src/Glpi/Console/User/DisableCommand.php:60
 msgid "User disabled"
@@ -28269,16 +28269,16 @@ msgid "User not found"
 msgstr "Hittade inte användaren"
 
 #: src/Glpi/Console/User/DeleteCommand.php:48
-msgid "Delete a GLPI user"
-msgstr "Ta bort en GLPI-användare"
+msgid "Delete a Parto user"
+msgstr "Ta bort en Parto-användare"
 
 #: src/Glpi/Console/User/DeleteCommand.php:59
 msgid "User deleted"
 msgstr "Användare borttagen"
 
 #: src/Glpi/Console/User/EnableCommand.php:48
-msgid "Enable a GLPI user"
-msgstr "Aktivera en GLPI-användare"
+msgid "Enable a Parto user"
+msgstr "Aktivera en Parto-användare"
 
 #: src/Glpi/Console/User/EnableCommand.php:60
 msgid "User enabled"
@@ -28309,8 +28309,8 @@ msgid "Passwords do not match"
 msgstr "Lösenorden överensstämmer inte"
 
 #: src/Glpi/Console/User/CreateCommand.php:49
-msgid "Create a new local GLPI user"
-msgstr "Skapa en ny lokal GLPI-användare"
+msgid "Create a new local Parto user"
+msgstr "Skapa en ny lokal Parto-användare"
 
 #: src/Glpi/Console/User/CreateCommand.php:60
 msgid "User already exists"
@@ -28325,8 +28325,8 @@ msgid "Failed to create user"
 msgstr "Kunde inte skapa användare"
 
 #: src/Glpi/Console/User/ResetPasswordCommand.php:50
-msgid "Reset the password of a local GLPI user"
-msgstr "Återställ lösenordet för en lokal GLPI-användare"
+msgid "Reset the password of a local Parto user"
+msgstr "Återställ lösenordet för en lokal Parto-användare"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:120
 msgid "Update database schema to new version"
@@ -28345,19 +28345,19 @@ msgstr ""
 
 #: src/Glpi/Console/Database/UpdateCommand.php:140
 msgid ""
-"Force execution of update from v-1 version of GLPI even if schema did not "
+"Force execution of update from v-1 version of Parto even if schema did not "
 "changed"
 msgstr ""
-"Tvinga körning av uppdatering från v1-versionen av GLPI även om schemat inte"
+"Tvinga körning av uppdatering från v1-versionen av Parto även om schemat inte"
 " har ändrats"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:182 install/install.php:449
 #, php-format
 msgid ""
-"Current GLPI version not found for database named \"%s\". Update cannot be "
+"Current Parto version not found for database named \"%s\". Update cannot be "
 "done."
 msgstr ""
-"Ingen GLPI-version hittades för aktuell databas ”%s”. Uppdatering kan inte "
+"Ingen Parto-version hittades för aktuell databas ”%s”. Uppdatering kan inte "
 "göras."
 
 #: src/Glpi/Console/Database/UpdateCommand.php:190
@@ -28383,12 +28383,12 @@ msgid "Database user"
 msgstr "Databasanvändare"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:194
-msgid "GLPI version"
-msgstr "GLPI-version"
+msgid "Parto version"
+msgstr "Parto-version"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:196
-msgid "GLPI database version"
-msgstr "GLPI-databasversion"
+msgid "Parto database version"
+msgstr "Parto-databasversion"
 
 #: src/Glpi/Console/Database/UpdateCommand.php:203
 #: src/Glpi/Console/Migration/MyIsamToInnoDbCommand.php:86
@@ -28436,10 +28436,10 @@ msgstr "Kontrollen av databasens schemaintegritet har hoppats över."
 #, php-format
 msgid ""
 "It is recommended to run the \"%s\" command to validate that the database "
-"schema is consistent with the current GLPI version."
+"schema is consistent with the current Parto version."
 msgstr ""
 "Det är rekommenderat att köra kommandot ”%s” för att validera att "
-"databasschemat är konsekvent med den aktuella GLPI-versionen."
+"databasschemat är konsekvent med den aktuella Parto-versionen."
 
 #: src/Glpi/Console/Database/UpdateCommand.php:313
 msgid "Checking database schema integrity..."
@@ -28457,9 +28457,9 @@ msgstr ""
 #: src/Glpi/Console/Database/UpdateCommand.php:331
 #, php-format
 msgid ""
-"The database schema is not consistent with the installed GLPI version (%s)."
+"The database schema is not consistent with the installed Parto version (%s)."
 msgstr ""
-"Databasschemat överensstämmer inte med den installerade GLPI-versionen (%s)."
+"Databasschemat överensstämmer inte med den installerade Parto-versionen (%s)."
 
 #: src/Glpi/Console/Database/UpdateCommand.php:333
 #, php-format
@@ -28651,10 +28651,10 @@ msgstr "Åtgärda dem och kör kommandot ”%1$s” för att aktivera tidszoner.
 
 #: src/Glpi/Console/Database/IsUpToDateCommand.php:53
 msgid ""
-"Check if the database schema version matches the installed GLPI version."
+"Check if the database schema version matches the installed Parto version."
 msgstr ""
 "Kontrollera om databasschemats version stämmer överens med den installerade "
-"GLPI-versionen."
+"Parto-versionen."
 
 #: src/Glpi/Console/Database/IsUpToDateCommand.php:62
 msgid "The database is not up to date."
@@ -28707,11 +28707,11 @@ msgstr ""
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:163
 msgid ""
-"Plugin to check. If option is not used, checks will be done on GLPI core "
+"Plugin to check. If option is not used, checks will be done on Parto core "
 "database tables."
 msgstr ""
 "Tillägg att kontrollera. Om alternativet inte används kommer kontroller att "
-"göras på GLPI:s kärndatabastabeller."
+"göras på Parto:s kärndatabastabeller."
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:171
 #: src/Glpi/Console/AbstractCommand.php:113
@@ -28719,12 +28719,12 @@ msgid "Unable to connect to database."
 msgstr "Kunde inte ansluta till databasen."
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:204
-msgid "Unable to fetch GLPI version."
-msgstr "Kunde inte hämta GLPI-version."
+msgid "Unable to fetch Parto version."
+msgstr "Kunde inte hämta Parto-version."
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:216
-msgid "The database contains no GLPI tables."
-msgstr "Det finns inga GLPI-tabeller i databasen,"
+msgid "The database contains no Parto tables."
+msgstr "Det finns inga Parto-tabeller i databasen,"
 
 #: src/Glpi/Console/Database/CheckSchemaIntegrityCommand.php:217
 #, php-format
@@ -28757,8 +28757,8 @@ msgid "Unknown table \"%s\" has been found in database."
 msgstr "En okänd tabell \"%s\" hittades i databasen."
 
 #: src/Glpi/Console/Database/InstallCommand.php:112
-msgid "Default language of GLPI"
-msgstr "Standardspråk för GLPI"
+msgid "Default language of Parto"
+msgstr "Standardspråk för Parto"
 
 #: src/Glpi/Console/Database/InstallCommand.php:120
 msgid "Force execution of installation, overriding existing database"
@@ -28963,10 +28963,10 @@ msgstr "%s DSN-format: %s"
 #: src/Glpi/Console/Cache/ConfigureCommand.php:126
 msgid ""
 "Cache namespace can be use to ensure either separation or sharing of "
-"multiple GLPI instances data on same cache system."
+"multiple Parto instances data on same cache system."
 msgstr ""
 "Cachenamnutrymme kan användas för att säkerställa antingen separation eller "
-"delning av flera GLPI-instansers data på samma cachesystem."
+"delning av flera Parto-instansers data på samma cachesystem."
 
 #: src/Glpi/Console/Cache/ConfigureCommand.php:146
 msgid "Either --dsn or --use-default options have to be used."
@@ -29628,10 +29628,10 @@ msgstr ""
 #: src/Glpi/Console/Marketplace/InfoCommand.php:59
 #: src/Glpi/Console/Marketplace/SearchCommand.php:62
 msgid ""
-"Access to the marketplace CLI commands is disallowed by the GLPI "
+"Access to the marketplace CLI commands is disallowed by the Parto "
 "configuration"
 msgstr ""
-"Åtkomst till CLI-kommandon för marknadsplatsen är inte tillåten enligt GLPI-"
+"Åtkomst till CLI-kommandon för marknadsplatsen är inte tillåten enligt Parto-"
 "konfigurationen."
 
 #: src/Glpi/Console/Marketplace/UpgradeCommand.php:72
@@ -29657,8 +29657,8 @@ msgstr "Tillägget \"%s\" finns inte på marknadsplatsen."
 
 #: src/Glpi/Console/Marketplace/UpgradeCommand.php:123
 #, php-format
-msgid "Plugin \"%s\" is not available for your GLPI version."
-msgstr "Tillägget \"%s\" är inte tillgängligt för din GLPI-version."
+msgid "Plugin \"%s\" is not available for your Parto version."
+msgstr "Tillägget \"%s\" är inte tillgängligt för din Parto-version."
 
 #: src/Glpi/Console/Marketplace/UpgradeCommand.php:132
 #, php-format
@@ -29803,8 +29803,8 @@ msgstr "Simulera migreringen"
 #: src/Glpi/Console/Migration/FormCreatorPluginToCoreCommand.php:54
 #: src/Glpi/Console/Migration/DatabasesPluginToCoreCommand.php:62
 #, php-format
-msgid "Migrate %s plugin data into GLPI core tables"
-msgstr "Migrera %s-tilläggsdata till GLPI:s kärntabeller"
+msgid "Migrate %s plugin data into Parto core tables"
+msgstr "Migrera %s-tilläggsdata till Parto:s kärntabeller"
 
 #: src/Glpi/Console/Migration/DomainsPluginToCoreCommand.php:114
 #: src/Glpi/Console/Migration/DomainsPluginToCoreCommand.php:175
@@ -29918,11 +29918,11 @@ msgstr "Stoppa inte vid importfel"
 
 #: src/Glpi/Console/Migration/AppliancesPluginToCoreCommand.php:159
 msgid ""
-"You are about to launch migration of Appliances plugin data into GLPI core "
+"You are about to launch migration of Appliances plugin data into Parto core "
 "tables."
 msgstr ""
 "Du håller på att påbörja migreringen av data från Apparat-tillägget till "
-"GLPI:s kärntabeller."
+"Parto:s kärntabeller."
 
 #: src/Glpi/Console/Migration/AppliancesPluginToCoreCommand.php:160
 msgid "Any previous appliance created in core will be lost."
@@ -29969,8 +29969,8 @@ msgid "Associable items to a ticket"
 msgstr "Objekt som går att knyta till ett ärende"
 
 #: src/Glpi/Console/Migration/AppliancesPluginToCoreCommand.php:321
-msgid "Updating GLPI itemtypes..."
-msgstr "Uppdaterar GLPI-objekttyper..."
+msgid "Updating Parto itemtypes..."
+msgstr "Uppdaterar Parto-objekttyper..."
 
 #: src/Glpi/Console/Migration/AppliancesPluginToCoreCommand.php:369
 msgid "Creating Appliance Items..."
@@ -30068,8 +30068,8 @@ msgstr ""
 "Hittade %s tabell(er) som kräver en migrering till \"ROW_FORMAT=DYNAMIC\"."
 
 #: src/Glpi/Console/Migration/GenericobjectPluginToCoreCommand.php:53
-msgid "Migrate plugin data into GLPI core tables"
-msgstr "Migrera data för tilläggsmoduler till GLPI:s kärntabeller"
+msgid "Migrate plugin data into Parto core tables"
+msgstr "Migrera data för tilläggsmoduler till Parto:s kärntabeller"
 
 #: src/Glpi/Console/Migration/ComputeDocumentsSizeCommand.php:56
 msgid "Computes the missing file sizes in the database."
@@ -30126,10 +30126,10 @@ msgstr ""
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:214
 msgid ""
-"You are about to launch migration of Racks plugin data into GLPI core "
+"You are about to launch migration of Racks plugin data into Parto core "
 "tables."
 msgstr ""
-"Du är på väg att starta migreringen av data från Racks-tillägget till GLPI:s"
+"Du är på väg att starta migreringen av data från Racks-tillägget till Parto:s"
 " kärntabeller."
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:253
@@ -30138,10 +30138,10 @@ msgstr "Kontrollerar version för tillägg..."
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:261
 msgid ""
-"Racks plugin is not part of GLPI plugin list. It has never been installed or"
+"Racks plugin is not part of Parto plugin list. It has never been installed or"
 " has been cleaned."
 msgstr ""
-"Racks-tillägget finns inte i GLPI:s tilläggslista. Det har aldrig "
+"Racks-tillägget finns inte i Parto:s tilläggslista. Det har aldrig "
 "installerats eller har rensats bort."
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:264
@@ -30197,8 +30197,8 @@ msgid "Importing other models..."
 msgstr "Importera andra modeller..."
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:514
-msgid "Other items do not exist in GLPI core."
-msgstr "Övriga objekt finns inte i GLPI-kärnan."
+msgid "Other items do not exist in Parto core."
+msgstr "Övriga objekt finns inte i Parto-kärnan."
 
 #: src/Glpi/Console/Migration/RacksPluginToCoreCommand.php:516
 #, php-format
@@ -30378,11 +30378,11 @@ msgstr "Kunde inte skapa standardrummet."
 #: src/Glpi/Console/Migration/AbstractPluginToCoreCommand.php:106
 #, php-format
 msgid ""
-"You are about to launch migration of \"%s\" plugin data into GLPI core "
+"You are about to launch migration of \"%s\" plugin data into Parto core "
 "tables."
 msgstr ""
 "Du är på väg att starta migreringen av data från tillägget \"%s\" till "
-"GLPI:s kärntabeller."
+"Parto:s kärntabeller."
 
 #: src/Glpi/Console/Migration/AbstractPluginToCoreCommand.php:135
 #, php-format
@@ -30533,8 +30533,8 @@ msgid "Error migrating table \"%s\"."
 msgstr "Fel vid migrering av tabell \"%s\"."
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:75
-msgid "Check GLPI source code file integrity."
-msgstr "Kontrollera integriteten hos GLPI:s källkodsfiler."
+msgid "Check Parto source code file integrity."
+msgstr "Kontrollera integriteten hos Parto:s källkodsfiler."
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:80
 msgid "Show diff of altered files"
@@ -30546,16 +30546,16 @@ msgstr "Tillåt nedladdning av GLPI-versionen vid behov"
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:99
 #, php-format
-msgid "Failed to validate GLPI source code integrity. Error was: %s"
-msgstr "Det gick inte att validera GLPI:s källkodsintegritet. Felet var: %s"
+msgid "Failed to validate Parto source code integrity. Error was: %s"
+msgstr "Det gick inte att validera Parto:s källkodsintegritet. Felet var: %s"
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:114
-msgid "GLPI source code integrity is validated."
-msgstr "GLPI:s källkodsintegritet har validerats."
+msgid "Parto source code integrity is validated."
+msgstr "Parto:s källkodsintegritet har validerats."
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:118
-msgid "GLPI source code integrity is not validated."
-msgstr "GLPI:s källkodsintegritet har inte validerats."
+msgid "Parto source code integrity is not validated."
+msgstr "Parto:s källkodsintegritet har inte validerats."
 
 #: src/Glpi/Console/Diagnostic/CheckSourceCodeIntegrityCommand.php:140
 msgid "Cannot generate a diff on a development version."
@@ -30574,8 +30574,8 @@ msgstr ""
 "Vill du tillåta denna åtgärd?"
 
 #: src/Glpi/Console/Diagnostic/CheckDocumentsIntegrityCommand.php:57
-msgid "Validate files integrity for GLPI's documents."
-msgstr "Kontrollera integriteten hos GLPI:s dokumentfiler."
+msgid "Validate files integrity for Parto's documents."
+msgstr "Kontrollera integriteten hos Parto:s dokumentfiler."
 
 #: src/Glpi/Console/Diagnostic/CheckDocumentsIntegrityCommand.php:70
 #, php-format
@@ -31669,10 +31669,10 @@ msgid "Allow multiple items"
 msgstr "Tillåt flera objekt"
 
 #: src/Glpi/Form/QuestionType/QuestionTypeItem.php:595
-msgid "GLPI Object"
-msgid_plural "GLPI Objects"
-msgstr[0] "GLPI-objekt"
-msgstr[1] "GLPI-objekt"
+msgid "Parto Object"
+msgid_plural "Parto Objects"
+msgstr[0] "Parto-objekt"
+msgstr[1] "Parto-objekt"
 
 #: src/Glpi/Form/QuestionType/QuestionTypeEmail.php:88
 msgid "Unexpected value"
@@ -32621,11 +32621,11 @@ msgstr "Åtgärden du begärde är inte tillåten."
 #: src/Glpi/Kernel/Listener/RequestListener/SessionCheckCookieListener.php:74
 msgid ""
 "The web server is configured to allow session cookies only on secured "
-"context (https). Therefore, you must access GLPI on a secured context to be "
+"context (https). Therefore, you must access Parto on a secured context to be "
 "able to use it."
 msgstr ""
 "Webbservern är inställd så att sessionscookies endast tillåts över en säker "
-"anslutning (https). Du måste därför använda GLPI via en säker anslutning för"
+"anslutning (https). Du måste därför använda Parto via en säker anslutning för"
 " att kunna använda systemet."
 
 #: src/Glpi/Kernel/Listener/RequestListener/CheckDatabaseStatusListener.php:103
@@ -32636,8 +32636,8 @@ msgstr ""
 "Det gick inte att ansluta till SQL-servern. Kontrollera inställningarna."
 
 #: src/Glpi/Kernel/Listener/RequestListener/CheckDatabaseStatusListener.php:113
-msgid "Unable to load the GLPI configuration from the database."
-msgstr "Kunde inte läsa in GLPI-konfigurationen från databasen."
+msgid "Unable to load the Parto configuration from the database."
+msgstr "Kunde inte läsa in Parto-konfigurationen från databasen."
 
 #: src/Glpi/Kernel/Listener/ExceptionListener/AccessErrorListener.php:86
 #: src/Glpi/Controller/IndexController.php:92
@@ -33314,8 +33314,8 @@ msgid "Download again"
 msgstr "Ladda ner igen"
 
 #: src/Glpi/Marketplace/View.php:674
-msgid "This plugin is not available for your GLPI version."
-msgstr "Detta tillägg är inte tillgängligt för din GLPI-version."
+msgid "This plugin is not available for your Parto version."
+msgstr "Detta tillägg är inte tillgängligt för din Parto-version."
 
 #: src/Glpi/Marketplace/View.php:690
 msgid "The plugin has an available update but its directory is not writable."
@@ -33372,9 +33372,9 @@ msgid "Switch to marketplace"
 msgstr "Byt till marknadsplatsen"
 
 #: src/Glpi/Marketplace/View.php:1059
-msgid "GLPI provides a new marketplace to download and install plugins."
+msgid "Parto provides a new marketplace to download and install plugins."
 msgstr ""
-"GLPI tillhandahåller en ny marknadsplats för att ladda ner och installera "
+"Parto tillhandahåller en ny marknadsplats för att ladda ner och installera "
 "tillägg."
 
 #: src/Glpi/Marketplace/View.php:1061
@@ -33565,9 +33565,9 @@ msgstr "Det gick inte att skapa en ny delningslänk"
 #: src/Glpi/Migration/GenericobjectPluginMigration.php:285
 msgid ""
 "The object types families have not been imported as they are not handled by "
-"GLPI."
+"Parto."
 msgstr ""
-"Objekttypsfamiljerna har inte importerats eftersom de inte hanteras av GLPI."
+"Objekttypsfamiljerna har inte importerats eftersom de inte hanteras av Parto."
 
 #: src/Glpi/Migration/GenericobjectPluginMigration.php:297
 msgid "Importing dropdowns definitions..."
@@ -33586,8 +33586,8 @@ msgstr "Importerar anpassade tillgångar..."
 #: src/Glpi/Migration/GenericobjectPluginMigration.php:683
 #: src/Glpi/Migration/AbstractPluginMigration.php:285
 #, php-format
-msgid "%s \"%s\" (%d) is most recent on GLPI side, its update has been skipped."
-msgstr "%s \"%s\" (%d) är den senaste i GLPI. Uppdateringen hoppades över."
+msgid "%s \"%s\" (%d) is most recent on Parto side, its update has been skipped."
+msgstr "%s \"%s\" (%d) är den senaste i Parto. Uppdateringen hoppades över."
 
 #: src/Glpi/Migration/GenericobjectPluginMigration.php:613
 #, php-format
@@ -33712,8 +33712,8 @@ msgid "External page"
 msgstr "Extern sida"
 
 #: src/Glpi/Helpdesk/Tile/GlpiPageTile.php:76
-msgid "GLPI page"
-msgstr "GLPI-sida"
+msgid "Parto page"
+msgstr "Parto-sida"
 
 #: src/Glpi/Helpdesk/DefaultDataManager.php:104
 msgid "Browse help articles"
@@ -33866,10 +33866,10 @@ msgstr "Sodium ChaCha20-Poly1305-konstantvärde för storlek"
 
 #: src/Glpi/System/RequirementsManager.php:134
 msgid ""
-"Enable usage of ChaCha20-Poly1305 encryption required by GLPI. This is "
+"Enable usage of ChaCha20-Poly1305 encryption required by Parto. This is "
 "provided by libsodium 1.0.12 and newer."
 msgstr ""
-"Aktivera användning av ChaCha20-Poly1305-kryptering som krävs av GLPI. Detta"
+"Aktivera användning av ChaCha20-Poly1305-kryptering som krävs av Parto. Detta"
 " tillhandahålls av libsodium 1.0.12 och nyare."
 
 #: src/Glpi/System/RequirementsManager.php:139
@@ -33881,8 +33881,8 @@ msgstr ""
 "kommunikation med inventarieagenter samt för autentisering med OAuth 2.0."
 
 #: src/Glpi/System/RequirementsManager.php:149
-msgid "Permissions for GLPI data directories"
-msgstr "Åtkomsträttigheter för GLPI-datakataloger"
+msgid "Permissions for Parto data directories"
+msgstr "Åtkomsträttigheter för Parto-datakataloger"
 
 #: src/Glpi/System/RequirementsManager.php:170
 msgid "Enhance security on images validation."
@@ -33944,8 +33944,8 @@ msgstr "Tilldelat minne är obegränsat."
 
 #: src/Glpi/System/Requirement/MemoryLimit.php:80
 #, php-format
-msgid "A minimum of %s is commonly required for GLPI."
-msgstr "Ett minimum av %s krävs vanligtvis av GLPI."
+msgid "A minimum of %s is commonly required for Parto."
+msgstr "Ett minimum av %s krävs vanligtvis av Parto."
 
 #: src/Glpi/System/Requirement/MemoryLimit.php:81
 msgid "Try increasing the memory_limit parameter in the php.ini file."
@@ -34091,11 +34091,11 @@ msgstr "Följ nedanstående rekommendationer för att konfigurera webbservern."
 
 #: src/Glpi/System/Requirement/SessionsSecurityConfiguration.php:71
 msgid ""
-"PHP directive \"session.cookie_secure\" should be set to \"on\" when GLPI "
+"PHP directive \"session.cookie_secure\" should be set to \"on\" when Parto "
 "can be accessed on HTTPS protocol."
 msgstr ""
 "PHP-direktivet \"session.cookie_secure\" bör vara inställt på \"on\" när "
-"GLPI kan nås via HTTPS-protokollet."
+"Parto kan nås via HTTPS-protokollet."
 
 #: src/Glpi/System/Requirement/SessionsSecurityConfiguration.php:86
 msgid ""
@@ -34246,10 +34246,10 @@ msgstr "PHP %s stöds inte längre av sitt community."
 
 #: src/Glpi/System/Requirement/PhpSupportedVersion.php:73
 msgid ""
-"Even if GLPI still supports this PHP version, an upgrade to a more recent "
+"Even if Parto still supports this PHP version, an upgrade to a more recent "
 "PHP version is recommended."
 msgstr ""
-"Även om GLPI fortfarande har stöd för denna PHP-version, rekommenderas du "
+"Även om Parto fortfarande har stöd för denna PHP-version, rekommenderas du "
 "att uppgradera till en senare PHP-version."
 
 #: src/Glpi/System/Requirement/PhpSupportedVersion.php:74
@@ -34747,8 +34747,8 @@ msgid "An internal error occurred while trying to fetch the data."
 msgstr "Ett internt fel uppstod vid försök att hämta data."
 
 #: src/Glpi/Api/HL/Search.php:166
-msgid "For more information, check the GLPI logs."
-msgstr "Mer information finns i GLPI-loggarna."
+msgid "For more information, check the Parto logs."
+msgstr "Mer information finns i Parto-loggarna."
 
 #: src/Glpi/Api/HL/RSQL/Parser.php:73
 #, php-format
@@ -36381,13 +36381,13 @@ msgid "Impossible to accomplish an update by this way!"
 msgstr "Det går ej att uppdatera!"
 
 #: install/update.php:127
-msgid "Go back to GLPI"
-msgstr "Återvänd till GLPI"
+msgid "Go back to Parto"
+msgstr "Återvänd till Parto"
 
 #: install/update.php:133
 #, php-format
-msgid "Caution! You will update the GLPI database named: %s"
-msgstr "VARNING! Du kommer att uppdatera GLPI-databasen som heter: %s"
+msgid "Caution! You will update the Parto database named: %s"
+msgstr "VARNING! Du kommer att uppdatera Parto-databasen som heter: %s"
 
 #: install/update.php:163
 msgid "Updating the database..."
@@ -37313,8 +37313,8 @@ msgid "Item NOT unlocked!"
 msgstr "Objekt EJ upplåst!"
 
 #: js/modules/ObjectLock.js:137
-msgid "Contact your GLPI admin!"
-msgstr "Kontakta din GLPI-administratör!"
+msgid "Contact your Parto admin!"
+msgstr "Kontakta din Parto-administratör!"
 
 #: js/modules/Helpdesk/HelpdeskConfigController.js:187
 #: js/modules/Helpdesk/HelpdeskConfigController.js:266

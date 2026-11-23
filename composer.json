@@ -1,6 +1,6 @@
 {
-    "name": "glpi/glpi",
-    "description": "GLPI dependencies",
+    "name": "parto/parto",
+    "description": "Parto asset management and service desk",
     "license": "GPL-3.0-or-later",
     "type": "project",
     "homepage": "https://www.glpi-project.org/",
@@ -141,6 +141,7 @@
         "ext-sodium": "*"
     },
     "replace": {
+        "glpi/glpi": "self.version",
         "paragonie/random_compat": "*",
         "symfony/polyfill-intl-grapheme": "*",
         "symfony/polyfill-intl-idn": "*",

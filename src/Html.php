@@ -5504,7 +5504,7 @@ JS);
     public static function getCopyrightMessage($withVersion = true)
     {
         $message = "<a href=\"https://glpi-project.org/\" title=\"Powered by Teclib and contributors\" class=\"copyright\">";
-        $message .= "GLPI ";
+        $message .= __s('Parto') . " ";
         // if required, add GLPI version (eg not for login page)
         if ($withVersion) {
             $message .= htmlescape(GLPI_VERSION) . " ";
